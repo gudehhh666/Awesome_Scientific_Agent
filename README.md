@@ -8,7 +8,7 @@ The advancement of LLM-based agents heralds a new perspective for AI for Science
 * We systematically taxonomizing existing scientific research agents into three levels, with show strong hierarchical characteristics in terms of construction strategy and capability scope.
 * We provides substantial and detailed answers to the questions of "how to construct a scientific agent from scratch" and "how to enhance the capabilities of existing scientific agents".
 
-![overall](../trans/Awesome_Scientific_Agent/figures/overall_short.drawio.svg)
+![overall](./figures/overall_short.drawio.svg)
 
 ## 📖 Framework
 
@@ -21,7 +21,7 @@ The advancement of LLM-based agents heralds a new perspective for AI for Science
 
 # 💡Taxonomy
 
-![overall](../trans/Awesome_Scientific_Agent/figures/level.png)
+![overall](./figures/level.png)
 
 
 
