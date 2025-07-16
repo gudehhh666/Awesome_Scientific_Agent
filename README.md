@@ -22,14 +22,6 @@ The advancement of LLM-based agents heralds a new perspective for AI for Science
 ![overall](./figures/level.png)
 
 ### Level 1: Agent As Assistant
-# 💡Taxonomy
-
-![overall](./figures/level.png)
-
-
-
-## Level 1: Agent As Assistant
->>>>>>> 05f494b8d9b967dc7d41adb00036ebea5360063d
 
 - **AstroLLaMA‑Chat: Scaling AstroLLaMA with Conversational and Diverse Datasets** — [![](https://img.shields.io/badge/arXiv-2024.01-red)](https://arxiv.org/abs/2401.01916)
 - **BioGPT: Generative Pre‑trained Transformer for Biomedical Text Generation and Mining** — [![img](https://img.shields.io/badge/arXiv-2022.10-red)](https://arxiv.org/abs/2210.10341)
@@ -109,7 +101,6 @@ The advancement of LLM-based agents heralds a new perspective for AI for Science
 - **AlphaEvolve: A Coding Agent for Scientific and Algorithmic Discovery** — [![img](https://img.shields.io/badge/arXiv-2025.06-red)](https://arxiv.org/abs/2506.13131)
 - **Robin: A Multi‑Agent System for Automating Scientific Discovery** — [![img](https://img.shields.io/badge/arXiv-2025.05-red)](https://arxiv.org/abs/2505.13400)
 
-<<<<<<< HEAD
 ## ✈️ Scientific Agent Construction
 
 ![overall](./figures/section3.drawio.svg)
