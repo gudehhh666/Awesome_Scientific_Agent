@@ -21,9 +21,7 @@ The advancement of LLM-based agents heralds a new perspective for AI for Science
 
 ![overall](./figures/level.png)
 
-<<<<<<< HEAD
 ### Level 1: Agent As Assistant
-=======
 # 💡Taxonomy
 
 ![overall](./figures/level.png)
@@ -125,6 +123,3 @@ The advancement of LLM-based agents heralds a new perspective for AI for Science
 ## ⚖️ Benchmark For Scientific Agent
 
 ## 🌞 Citation
-=======
-## 🌞 Citation
->>>>>>> 05f494b8d9b967dc7d41adb00036ebea5360063d
