@@ -105,8 +105,7 @@ The advancement of LLM-based agents heralds a new perspective for AI for Science
 
 ![overall](./figures/section3.drawio.svg)
 - **PromptAgent: Strategic Planning with Language Models Enables Expert-level Prompt Optimization** — [![img](https://img.shields.io/badge/arXiv-2023.10-red)](https://arxiv.org/abs/2310.16427) 
-- **Context Engineering: A Practical Handbook for Context Design, Orchestration, and Optimization** — [![img](https://img.shields.io/badge/GitHub-Context--Engineering-green)](https://github.com/davidkimai/Context-Engineering)  
-
+- **Context Engineering: A Practical Handbook for Context Design, Orchestration, and Optimization** — [![img](https://img.shields.io/badge/GitHub-Context--Engineering-green)](https://github.com/davidkimai/Context-Engineering) 
 - **Verl: Volcano Engine Reinforcement Learning for Large Language Models** — [![img](https://img.shields.io/badge/GitHub-Verl-green)](https://github.com/zjunlp/Verl)  
 - **GraphRAG: A Modular Graph-Based Retrieval-Augmented Generation (RAG) System** — [![img](https://img.shields.io/badge/arXiv-2023.11-red)](https://arxiv.org/abs/2311.06753)  
 - **ChemCrow: Augmenting Large‑Language Models with Chemistry Tools** — [![img](https://img.shields.io/badge/arXiv-2023.04-red)](https://arxiv.org/abs/2304.05376)  
@@ -119,13 +118,9 @@ The advancement of LLM-based agents heralds a new perspective for AI for Science
 - **LangChain: Building Applications with LLMs through Composability** — [![img](https://img.shields.io/badge/GitHub-LangChain-green)](https://github.com/langchain-ai/langchain)  
 - **LightRAG: Simple and Fast Retrieval‑Augmented Generation** — [![img](https://img.shields.io/badge/arXiv-2024.10-red)](https://arxiv.org/abs/2410.05779)  
 - **SciTUNE: Aligning Large Language Models with Scientific Multimodal Instructions** — [![img](https://img.shields.io/badge/arXiv-2023.07-red)](https://arxiv.org/abs/2307.01139)
-
 - **ClimateGPT: Towards AI Synthesizing Interdisciplinary Research on Climate Change** — [![img](https://img.shields.io/badge/arXiv-2024.01-red)](https://arxiv.org/abs/2401.09646)
-
 - **SciMON: Scientific Inspiration Machines Optimized for Novelty** — [![img](https://img.shields.io/badge/arXiv-2023.05-red)](https://arxiv.org/abs/2305.14259)
-
 - **TAIS: Gene Expression Agent with LLMs** — [![img](https://img.shields.io/badge/arXiv-2025.03-red)](https://arxiv.org/abs/2503.02973)
-
 - **StarWhisper Telescope: Agent‑Based Observation Assistant System to Approach an AI Astrophysicist** — [![img](https://img.shields.io/badge/arXiv-2024.12-red)](https://arxiv.org/abs/2412.06412)
 
 ## 🚀 Scientific Agent Enhancement
@@ -143,9 +138,7 @@ The advancement of LLM-based agents heralds a new perspective for AI for Science
 - **ReAct: Synergizing Reasoning and Acting in Language Models** — [![img](https://img.shields.io/badge/arXiv-2022.10-red)](https://arxiv.org/abs/2210.03629)  
 - **Reflexion: Language Agents with Verbal Reinforcement Learning** — [![img](https://img.shields.io/badge/NeurIPS-2023-red)](https://arxiv.org/abs/2303.11366)  
 - **Self‑Refine: Iterative Self‑Improvement with Self‑Feedback** — [![img](https://img.shields.io/badge/arXiv-2023.06-red)](https://arxiv.org/abs/2306.11382)  
-
 - **Self‑Consistency: Reliable Decoding for Complex Reasoning** — [![img](https://img.shields.io/badge/ICLR-2023-red)](https://arxiv.org/abs/2203.11171)  
-
 - **AquilaChat: Agent with Long-Context Scratchpad Memory** — [![img](https://img.shields.io/badge/arXiv-2024.03-red)](https://arxiv.org/abs/2403.00220)
 
 ![overall](./figures/section4.drawio.svg)
