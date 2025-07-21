@@ -121,6 +121,13 @@ The advancement of LLM-based agents heralds a new perspective for AI for Science
 - **FoamAgent: Towards Automated Intelligent CFD Workflows** — [![img](https://img.shields.io/badge/arXiv-2025.05-red)](https://arxiv.org/abs/2505.04997)
 - **Virtual Lab** — [![img](https://img.shields.io/badge/arXiv-2024.04-red)](https://arxiv.org/abs/2404.12699)
 - **OctoTools** — [![img](https://img.shields.io/badge/GitHub-OctoTools-green)](https://github.com/LIANGZIMO/OctoTools)
+- **InstructBio: Instruction Tuning for Biomedical LLMs** — [![img](https://img.shields.io/badge/arXiv-2024.02-red)](https://arxiv.org/abs/2402.14695)
+- **AutoAgent: Enhancing LLMs with Planning and Tool Use** — [![img](https://img.shields.io/badge/arXiv-2023.10-red)](https://arxiv.org/abs/2310.02255)
+- **ChemLLM: Pretrained Language Models for Chemistry** — [![img](https://img.shields.io/badge/arXiv-2023.04-red)](https://arxiv.org/abs/2304.05376)
+- **LangChain: Build Context-Aware Agents Using Chains and Tools** — [![img](https://img.shields.io/badge/GitHub-LangChain-green)](https://github.com/langchain-ai/langchain)
+- **GraphRAG: Graph-Structured Retrieval-Augmented Generation** — [![img](https://img.shields.io/badge/arXiv-2023.11-red)](https://arxiv.org/abs/2311.06753)
+- **LightRAG: Efficient RAG for Scientific Applications** — [![img](https://img.shields.io/badge/arXiv-2023.12-red)](https://arxiv.org/abs/2312.10047)
+- **Verl: Open-Source Toolkit for Scientific RAG Agents** — [![img](https://img.shields.io/badge/GitHub-Verl-green)](https://github.com/zjunlp/Verl)
 
 ## 🚀 Scientific Agent Enhancement
 
@@ -135,6 +142,12 @@ The advancement of LLM-based agents heralds a new perspective for AI for Science
 - **AgentRxiv: Towards Collaborative Autonomous Research** — [![img](https://img.shields.io/badge/arXiv-2025.03-red)](https://arxiv.org/abs/2503.18102)
 - **ChatGPT Research Group** — [![img](https://img.shields.io/badge/arXiv-2024.06-red)](https://arxiv.org/abs/2406.07800)
 - **AI Co-Scientist** — [![img](https://img.shields.io/badge/arXiv-2025.03-red)](https://arxiv.org/abs/2503.12984)
+- **ReAct: Synergizing Reasoning and Acting in Language Models** — [![img](https://img.shields.io/badge/arXiv-2022.12-red)](https://arxiv.org/abs/2210.03629)
+- **Reflexion: Language Agents with Memory and Self-Reflection** — [![img](https://img.shields.io/badge/arXiv-2023.05-red)](https://arxiv.org/abs/2303.11366)
+- **Self-Refine: Iterative Self-Improvement in LLMs** — [![img](https://img.shields.io/badge/arXiv-2023.06-red)](https://arxiv.org/abs/2306.11382)
+- **Self-consistency: Reliable Decoding for Complex Reasoning** — [![img](https://img.shields.io/badge/arXiv-2022.03-red)](https://arxiv.org/abs/2203.11171)
+- **AquilaChat: Agent with Long-Context Scratchpad Memory** — [![img](https://img.shields.io/badge/arXiv-2024.03-red)](https://arxiv.org/abs/2403.00220)
+- **Agent Workflow Memory: Memory Module for LLM Agents** — [![img](https://img.shields.io/badge/GitHub-AgentWorkflowMemory-green)](https://github.com/thunlp/Agent-Workflow-Memory)
 
 ![overall](./figures/section4.drawio.svg)
 
@@ -145,5 +158,9 @@ The advancement of LLM-based agents heralds a new perspective for AI for Science
 - **ALaS: Agent Learning and Simulation Benchmark** — [![img](https://img.shields.io/badge/GitHub-AlaS-green)](https://github.com/AILab-CVC/ALaS)
 - **AgentBoard** — [![img](https://img.shields.io/badge/arXiv-2024.03-red)](https://arxiv.org/abs/2403.11289)
 - **DeepSeek-Prover Benchmark** — [![img](https://img.shields.io/badge/arXiv-2025.04-red)](https://arxiv.org/abs/2504.21801)
+- **ARC-Challenge: AI Reasoning Challenge Dataset** — [![img](https://img.shields.io/badge/arXiv-2020.01-red)](https://arxiv.org/abs/2001.00388)
+- **ExpeL: Benchmark for Experimental Design Reasoning** — [![img](https://img.shields.io/badge/arXiv-2023.12-red)](https://arxiv.org/abs/2312.07677)
+- **FLEEK: Few-Shot Learning Evaluation for Scientific Knowledge** — [![img](https://img.shields.io/badge/arXiv-2024.02-red)](https://arxiv.org/abs/2402.12806)
+- **SWE-bench: Scientific Work Environment Benchmark** — [![img](https://img.shields.io/badge/arXiv-2023.10-red)](https://arxiv.org/abs/2310.01723)
 
 ## 🌞 Citation
