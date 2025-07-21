@@ -151,7 +151,7 @@ The advancement of LLM-based agents heralds a new perspective for AI for Science
 ![overall](./figures/section4.drawio.svg)
 
 ## ⚖️ Benchmark For Scientific Agent
-- **BioMaze: benchmark for complex biological pathway reasoning** — [![img](https://img.shields.io/badge/HF-BioMaze-blue)](https://huggingface.co/datasets/haitengzhao/BioMaze)  [oai_citation:0‡arxiv.org](https://arxiv.org/abs/2502.16660?utm_source=chatgpt.com) [oai_citation:1‡github.com](https://github.com/zhao-ht/BioMaze?utm_source=chatgpt.com)
+- **BioMaze: benchmark for complex biological pathway reasoning** — [![img](https://img.shields.io/badge/HF-BioMaze-blue)](https://huggingface.co/datasets/haitengzhao/BioMaze)  [oai_citation:0‡arxiv.org](https://arxiv.org/abs/2502.16660)
 - **BiokgBench: benchmark for biomedical KG factual checking** — [![img](https://img.shields.io/badge/GitHub-BioKGBench-green)](https://github.com/westlake-autolab/BioKGBench)  [oai_citation:2‡github.com](https://github.com/westlake-autolab/BioKGBench?utm_source=chatgpt.com)
 - **Tomato-Chem: benchmark for chemistry hypothesis discovery** — [![img](https://img.shields.io/badge/GitHub-MOOSE--Chem-green)](https://github.com/ZonglinY/MOOSE-Chem)
 - **SurveyBench: benchmark for CS literature survey generation** — [![img](https://img.shields.io/badge/GitHub-SurveyForge-green)](https://github.com/Alpha-Innovator/SurveyForge)
