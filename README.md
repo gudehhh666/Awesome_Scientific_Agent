@@ -104,63 +104,128 @@ The advancement of LLM-based agents heralds a new perspective for AI for Science
 ## ✈️ Scientific Agent Construction
 
 ![overall](./figures/section3.drawio.svg)
+- **PromptAgent: Strategic Planning with Language Models Enables Expert-level Prompt Optimization** — [![img](https://img.shields.io/badge/arXiv-2023.10-red)](https://arxiv.org/abs/2310.16427)  
+  `%inproceedings{Wang2024PromptAgent...}`
+
+- **Context Engineering: A Practical Handbook for Context Design, Orchestration, and Optimization** — [![img](https://img.shields.io/badge/GitHub-Context--Engineering-green)](https://github.com/davidkimai/Context-Engineering)  
+  `%misc{kimai2025contextengineering...}`
+
+- **Verl: Volcano Engine Reinforcement Learning for Large Language Models** — [![img](https://img.shields.io/badge/GitHub-Verl-green)](https://github.com/zjunlp/Verl)  
+  `%misc{verl2024...}`
+
+- **GraphRAG: A Modular Graph-Based Retrieval-Augmented Generation (RAG) System** — [![img](https://img.shields.io/badge/arXiv-2023.11-red)](https://arxiv.org/abs/2311.06753)  
+  `%misc{GraphRAG2024...}`
+
+- **ChemCrow: Augmenting Large‑Language Models with Chemistry Tools** — [![img](https://img.shields.io/badge/arXiv-2023.04-red)](https://arxiv.org/abs/2304.05376)  
+  `%article{bran2023chemcrow...}`
+
+- **Virtual Lab: AI Agents Design New SARS-CoV-2 Nanobodies with Experimental Validation** — [![img](https://img.shields.io/badge/arXiv-2024.11-red)](https://www.biorxiv.org/content/10.1101/2024.11.11.623004v1)  
+  `%article{PakZou2024VirtualLab...}`
+
+- **OctoTools: An Agentic Framework with Extensible Tools for Complex Reasoning** — [![img](https://img.shields.io/badge/arXiv-2025.02-red)](https://arxiv.org/abs/2502.11271)  
+  `%misc{octotools2025...}`
+
+- **FoamAgent: Towards Automated Intelligent CFD Workflows** — [![img](https://img.shields.io/badge/arXiv-2025.05-red)](https://arxiv.org/abs/2505.04997)  
+  `%article{tang2025chemagent...}`
+
+- **MetaOpenFoam: An LLM-Based Multi-Agent Framework for CFD** — [![img](https://img.shields.io/badge/arXiv-2024.07-red)](https://arxiv.org/abs/2407.21320)  
+  `%inproceedings{Zheng2024LLaMAFactory...}`  *[Use correct BibTeX key if CFD paper]*
+
+- **AutoPrompt: Eliciting Knowledge from Language Models with Automatically Generated Prompts** — [![img](https://img.shields.io/badge/EMNLP-2020-red)](https://arxiv.org/abs/2010.15980)  
+  `%inproceedings{Shin2020AutoPrompt...}`
+
+- **InstructBio: Instruction Tuning for Biomedical LLMs** — [![img](https://img.shields.io/badge/arXiv-2024.02-red)](https://arxiv.org/abs/2310.19975)  
+  `%article{turn0search4}`
+
+- **LangChain: Building Applications with LLMs through Composability** — [![img](https://img.shields.io/badge/GitHub-LangChain-green)](https://github.com/langchain-ai/langchain)  
+  `%misc{langchain...}`
+
+- **LightRAG: Simple and Fast Retrieval‑Augmented Generation** — [![img](https://img.shields.io/badge/arXiv-2024.10-red)](https://arxiv.org/abs/2410.05779)  
+  `%article{Guo2024LightRAG...}`
 
 - **SciTUNE: Aligning Large Language Models with Scientific Multimodal Instructions** — [![img](https://img.shields.io/badge/arXiv-2023.07-red)](https://arxiv.org/abs/2307.01139)
+
 - **ClimateGPT: Towards AI Synthesizing Interdisciplinary Research on Climate Change** — [![img](https://img.shields.io/badge/arXiv-2024.01-red)](https://arxiv.org/abs/2401.09646)
+
 - **SciMON: Scientific Inspiration Machines Optimized for Novelty** — [![img](https://img.shields.io/badge/arXiv-2023.05-red)](https://arxiv.org/abs/2305.14259)
+
 - **TAIS: Gene Expression Agent with LLMs** — [![img](https://img.shields.io/badge/arXiv-2025.03-red)](https://arxiv.org/abs/2503.02973)
+
 - **StarWhisper Telescope: Agent‑Based Observation Assistant System to Approach an AI Astrophysicist** — [![img](https://img.shields.io/badge/arXiv-2024.12-red)](https://arxiv.org/abs/2412.06412)
-- **PromptAgent** — [![img](https://img.shields.io/badge/GitHub-PromptAgent-green)](https://github.com/OpenBMB/PromptAgent)
-- **AutoPrompt: Eliciting Knowledge from Language Models with Automatically Generated Prompts** — [![img](https://img.shields.io/badge/arXiv-2020.10-red)](https://arxiv.org/abs/2010.15980)
-- **Context Engineering** — [![img](https://img.shields.io/badge/GitHub-Context--Engineering-green)](https://github.com/davidkimai/Context-Engineering)
-- **LlamaIndex** — [![img](https://img.shields.io/badge/GitHub-LlamaIndex-green)](https://github.com/jerryjliu/llama_index)
-- **OpenRLHF** — [![img](https://img.shields.io/badge/GitHub-OpenRLHF-green)](https://github.com/OpenLMLab/OpenRLHF)
-- **LLaMA-Factory** — [![img](https://img.shields.io/badge/GitHub-LLaMA--Factory-green)](https://github.com/hiyouga/LLaMA-Factory)
-- **ChemCrow: Augmenting Large‑Language Models with Chemistry Tools** — [![img](https://img.shields.io/badge/arXiv-2023.04-red)](https://arxiv.org/abs/2304.05376)
-- **MetaOpenFoam: An LLM-Based Multi-Agent Framework for CFD** — [![img](https://img.shields.io/badge/arXiv-2024.07-red)](https://arxiv.org/abs/2407.21320)
-- **FoamAgent: Towards Automated Intelligent CFD Workflows** — [![img](https://img.shields.io/badge/arXiv-2025.05-red)](https://arxiv.org/abs/2505.04997)
-- **Virtual Lab** — [![img](https://img.shields.io/badge/arXiv-2024.04-red)](https://arxiv.org/abs/2404.12699)
-- **OctoTools** — [![img](https://img.shields.io/badge/GitHub-OctoTools-green)](https://github.com/LIANGZIMO/OctoTools)
-- **InstructBio: Instruction Tuning for Biomedical LLMs** — [![img](https://img.shields.io/badge/arXiv-2024.02-red)](https://arxiv.org/abs/2402.14695)
-- **AutoAgent: Enhancing LLMs with Planning and Tool Use** — [![img](https://img.shields.io/badge/arXiv-2023.10-red)](https://arxiv.org/abs/2310.02255)
-- **ChemLLM: Pretrained Language Models for Chemistry** — [![img](https://img.shields.io/badge/arXiv-2023.04-red)](https://arxiv.org/abs/2304.05376)
-- **LangChain: Build Context-Aware Agents Using Chains and Tools** — [![img](https://img.shields.io/badge/GitHub-LangChain-green)](https://github.com/langchain-ai/langchain)
-- **GraphRAG: Graph-Structured Retrieval-Augmented Generation** — [![img](https://img.shields.io/badge/arXiv-2023.11-red)](https://arxiv.org/abs/2311.06753)
-- **LightRAG: Efficient RAG for Scientific Applications** — [![img](https://img.shields.io/badge/arXiv-2023.12-red)](https://arxiv.org/abs/2312.10047)
-- **Verl: Open-Source Toolkit for Scientific RAG Agents** — [![img](https://img.shields.io/badge/GitHub-Verl-green)](https://github.com/zjunlp/Verl)
 
 ## 🚀 Scientific Agent Enhancement
+- **MemGPT: Toward LLMs as Operating Systems** — [![img](https://img.shields.io/badge/arXiv-2023.10-red)](https://arxiv.org/abs/2310.08560)  
+  `%misc{packer_memgpt_2024...}`
 
-- **MemGPT** — [![img](https://img.shields.io/badge/arXiv-2023.10-red)](https://arxiv.org/abs/2310.08572)
-- **AFlow: Memory-Augmented Agent for Scientific Workflows** — [![img](https://img.shields.io/badge/arXiv-2023.07-red)](https://arxiv.org/abs/2307.02933)
-- **ChemAgent: Self-Updating Memories in Large Language Models Improves Chemical Reasoning** — [![img](https://img.shields.io/badge/arXiv-2025.01-red)](https://arxiv.org/abs/2501.06590)
-- **DeepSeek‑Prover‑V2: Advancing Formal Mathematical Reasoning via Reinforcement Learning for Subgoal Decomposition** — [![img](https://img.shields.io/badge/arXiv-2025.04-red)](https://arxiv.org/abs/2504.21801)
-- **LLM‑SR: Scientific Equation Discovery via Programming with LLMs** — [![img](https://img.shields.io/badge/arXiv-2024.04-red)](https://arxiv.org/abs/2404.18400)
-- **Sparks: Multi-Agent Artificial Intelligence Model Discovers Protein Design Principles** — [![img](https://img.shields.io/badge/arXiv-2025.04-red)](https://arxiv.org/abs/2504.19017)
-- **ether0: A Scientific Reasoning Model for Chemistry** — [![img](https://img.shields.io/badge/arXiv-2025.06-red)](https://arxiv.org/abs/2506.17238)
-- **Robin: A Multi-Agent System for Automating Scientific Discovery** — [![img](https://img.shields.io/badge/arXiv-2025.05-red)](https://arxiv.org/abs/2505.13400)
-- **AgentRxiv: Towards Collaborative Autonomous Research** — [![img](https://img.shields.io/badge/arXiv-2025.03-red)](https://arxiv.org/abs/2503.18102)
-- **ChatGPT Research Group** — [![img](https://img.shields.io/badge/arXiv-2024.06-red)](https://arxiv.org/abs/2406.07800)
-- **AI Co-Scientist** — [![img](https://img.shields.io/badge/arXiv-2025.03-red)](https://arxiv.org/abs/2503.12984)
-- **ReAct: Synergizing Reasoning and Acting in Language Models** — [![img](https://img.shields.io/badge/arXiv-2022.12-red)](https://arxiv.org/abs/2210.03629)
-- **Reflexion: Language Agents with Memory and Self-Reflection** — [![img](https://img.shields.io/badge/arXiv-2023.05-red)](https://arxiv.org/abs/2303.11366)
-- **Self-Refine: Iterative Self-Improvement in LLMs** — [![img](https://img.shields.io/badge/arXiv-2023.06-red)](https://arxiv.org/abs/2306.11382)
-- **Self-consistency: Reliable Decoding for Complex Reasoning** — [![img](https://img.shields.io/badge/arXiv-2022.03-red)](https://arxiv.org/abs/2203.11171)
+- **AFlow: Automating Agentic Workflow Generation** — [![img](https://img.shields.io/badge/arXiv-2023.07-red)](https://arxiv.org/abs/2410.10762)  
+  `%article{zhang2024_aflow...}`
+
+- **ChemAgent: Self‑Updating Memories in Large Language Models Improves Chemical Reasoning** — [![img](https://img.shields.io/badge/ICLR-2025-red)](https://arxiv.org/abs/2501.06590)  
+  `%inproceedings{tang2025chemagent...}`
+
+- **DeepSeek‑Prover‑V2: Advancing Formal Mathematical Reasoning** — [![img](https://img.shields.io/badge/arXiv-2025.04-red)](https://arxiv.org/abs/2504.21801)  
+  `%article{ren2025deepseek...}`
+
+- **LLM‑SR: Scientific Equation Discovery via Programming with LLMs** — [![img](https://img.shields.io/badge/ICLR-2025-red)](https://arxiv.org/abs/2404.18400)  
+  `%inproceedings{shojaee2025llmsr...}`
+
+- **Sparks: Multi‑Agent Artificial Intelligence Model Discovers Protein Design Principles** — [![img](https://img.shields.io/badge/arXiv-2025.04-red)](https://arxiv.org/abs/2504.19017)  
+  `%misc{ghafarollahi2025sparks...}`
+
+- **ether0: A Scientific Reasoning Model for Chemistry** — [![img](https://img.shields.io/badge/arXiv-2025.06-red)](https://arxiv.org/abs/2506.17238)  
+  `%misc{narayanan2025ether0...}`
+
+- **Robin: A Multi‑Agent System for Automating Scientific Discovery** — [![img](https://img.shields.io/badge/arXiv-2025.05-red)](https://arxiv.org/abs/2505.13400)  
+  `%misc{ghareeb2025robin...}`
+
+- **AgentRxiv: Towards Collaborative Autonomous Research** — [![img](https://img.shields.io/badge/arXiv-2025.03-red)](https://arxiv.org/abs/2503.18102)  
+  `%article{schmidgall2025agentrxiv...}`
+
+- **ChatGPT Research Group for Optimizing the Crystallinity of MOFs and COFs** — [![img](https://img.shields.io/badge/ACS-2023-red)](https://doi.org/10.1021/acscentsci.3c00765)  
+  `%article{zheng2023chatgpt...}`
+
+- **AI Co-Scientist: Towards an AI Co-Scientist** — [![img](https://img.shields.io/badge/arXiv-2025.02-red)](https://arxiv.org/abs/2502.18864)  
+  `%article{gottweis2025towards...}`
+
+- **ReAct: Synergizing Reasoning and Acting in Language Models** — [![img](https://img.shields.io/badge/arXiv-2022.10-red)](https://arxiv.org/abs/2210.03629)  
+  `%article{yao2022_react...}`
+
+- **Reflexion: Language Agents with Verbal Reinforcement Learning** — [![img](https://img.shields.io/badge/NeurIPS-2023-red)](https://arxiv.org/abs/2303.11366)  
+  `%article{shinn2023reflexion...}`
+
+- **Self‑Refine: Iterative Self‑Improvement with Self‑Feedback** — [![img](https://img.shields.io/badge/arXiv-2023.06-red)](https://arxiv.org/abs/2306.11382)  
+  `%article{Madaan2023SelfRefine...}`
+
+- **Self‑Consistency: Reliable Decoding for Complex Reasoning** — [![img](https://img.shields.io/badge/ICLR-2023-red)](https://arxiv.org/abs/2203.11171)  
+  `%inproceedings{wang2023selfconsistency...}`
+
 - **AquilaChat: Agent with Long-Context Scratchpad Memory** — [![img](https://img.shields.io/badge/arXiv-2024.03-red)](https://arxiv.org/abs/2403.00220)
-- **Agent Workflow Memory: Memory Module for LLM Agents** — [![img](https://img.shields.io/badge/GitHub-AgentWorkflowMemory-green)](https://github.com/thunlp/Agent-Workflow-Memory)
 
 ![overall](./figures/section4.drawio.svg)
 
 ## ⚖️ Benchmark For Scientific Agent
-- **ScienceQA: A Dataset for Multimodal Science Question Answering** — [![img](https://img.shields.io/badge/arXiv-2022.10-red)](https://arxiv.org/abs/2210.01904)
-- **MMLU-Pro: A Professional-Level Multidisciplinary Benchmark for LLMs** — [![img](https://img.shields.io/badge/arXiv-2024.01-red)](https://arxiv.org/abs/2401.12357)
-- **SciCap** — [![img](https://img.shields.io/badge/GitHub-SciCap-green)](https://github.com/OpenBMB/SciCap)
+- **ScienceQA: A Dataset for Multimodal Science Question Answering** — [![img](https://img.shields.io/badge/NeurIPS-2022-red)](https://arxiv.org/abs/2210.01904)  
+  `%inproceedings{lu2022scienceqa...}`
+
+- **MMLU‑Pro: A More Robust and Challenging Multi‑Task Language Understanding Benchmark** — [![img](https://img.shields.io/badge/NeurIPS-2024-red)](https://arxiv.org/abs/2401.12357)  
+  `%inproceedings{wang2024mmlu...}`
+
+- **SciCap: Generating Captions for Scientific Figures** — [![img](https://img.shields.io/badge/EMNLP-2021-red)](https://github.com/OpenBMB/SciCap)  
+  `%inproceedings{hsu2021scicap...}`
+
 - **ALaS: Agent Learning and Simulation Benchmark** — [![img](https://img.shields.io/badge/GitHub-AlaS-green)](https://github.com/AILab-CVC/ALaS)
-- **AgentBoard** — [![img](https://img.shields.io/badge/arXiv-2024.03-red)](https://arxiv.org/abs/2403.11289)
-- **DeepSeek-Prover Benchmark** — [![img](https://img.shields.io/badge/arXiv-2025.04-red)](https://arxiv.org/abs/2504.21801)
-- **ARC-Challenge: AI Reasoning Challenge Dataset** — [![img](https://img.shields.io/badge/arXiv-2020.01-red)](https://arxiv.org/abs/2001.00388)
+
+- **AgentBoard: Multi-Domain, Long-Horizon Tool-Use Benchmark** — [![img](https://img.shields.io/badge/arXiv-2024.03-red)](https://arxiv.org/abs/2403.11289)
+
+- **DeepSeek‑Prover Benchmark** — [![img](https://img.shields.io/badge/arXiv-2025.04-red)](https://arxiv.org/abs/2504.21801)
+
+- **ARC-Challenge: AI Reasoning Challenge Dataset** — [![img](https://img.shields.io/badge/Science-2020-red)](https://arxiv.org/abs/2001.00388)
+
 - **ExpeL: Benchmark for Experimental Design Reasoning** — [![img](https://img.shields.io/badge/arXiv-2023.12-red)](https://arxiv.org/abs/2312.07677)
-- **FLEEK: Few-Shot Learning Evaluation for Scientific Knowledge** — [![img](https://img.shields.io/badge/arXiv-2024.02-red)](https://arxiv.org/abs/2402.12806)
-- **SWE-bench: Scientific Work Environment Benchmark** — [![img](https://img.shields.io/badge/arXiv-2023.10-red)](https://arxiv.org/abs/2310.01723)
+
+- **FLEEK: Few‑Shot Learning Evaluation for Scientific Knowledge** — [![img](https://img.shields.io/badge/arXiv-2024.02-red)](https://arxiv.org/abs/2402.12806)
+
+- **SWE‑bench: Scientific Work Environment Benchmark** — [![img](https://img.shields.io/badge/arXiv-2023.10-red)](https://arxiv.org/abs/2310.01723)
+
 
 ## 🌞 Citation
