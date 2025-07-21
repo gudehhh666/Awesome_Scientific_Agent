@@ -105,12 +105,133 @@ The advancement of LLM-based agents heralds a new perspective for AI for Science
 
 ![overall](./figures/section3.drawio.svg)
 
+### Knowledge Organization
 
+- **SciTUNE: Aligning Large Language Models with Scientific Multimodal Instructions** — [![img](https://img.shields.io/badge/arXiv-2023.07-red)](https://arxiv.org/abs/2307.01139)  
+  Builds instruction datasets from ScienceQA and SciCap for LLM tuning.
+
+- **ClimateGPT: Towards AI Synthesizing Interdisciplinary Research on Climate Change** — [![img](https://img.shields.io/badge/arXiv-2024.01-red)](https://arxiv.org/abs/2401.09646)  
+  Constructs instruction dataset with the help of climate science experts.
+
+- **SciMON: Scientific Inspiration Machines Optimized for Novelty** — [![img](https://img.shields.io/badge/arXiv-2023.05-red)](https://arxiv.org/abs/2305.14259)  
+  Unifies semantic graphs, citation graphs, and KGs to organize scientific concepts.
+
+- **TAIS: Gene Expression Agent with LLMs** — [![img](https://img.shields.io/badge/arXiv-2025.03-red)](https://arxiv.org/abs/2503.02973)  
+  Utilizes structured gene expression data for agent construction.
+
+- **StarWhisper Telescope: Agent‑Based Observation Assistant System to Approach an AI Astrophysicist** — [![img](https://img.shields.io/badge/arXiv-2024.12-red)](https://arxiv.org/abs/2412.06412)  
+  Organizes observation data such as telescope logs and weather into structured context.
+
+---
+
+### Knowledge Injection
+
+- **PromptAgent** — [![img](https://img.shields.io/badge/GitHub-PromptAgent-green)](https://github.com/OpenBMB/PromptAgent)  
+  Uses Monte Carlo Tree Search to optimize prompts during task planning.
+
+- **AutoPrompt: Eliciting Knowledge from Language Models with Automatically Generated Prompts** — [![img](https://img.shields.io/badge/arXiv-2020.10-red)](https://arxiv.org/abs/2010.15980)  
+  Learns discrete prompt tokens using gradient-based search.
+
+- **Context Engineering** — [![img](https://img.shields.io/badge/GitHub-Context--Engineering-green)](https://github.com/davidkimai/Context-Engineering)  
+  Combines heuristic rules and structured retrieval to build scientific prompts.
+
+- **LlamaIndex** — [![img](https://img.shields.io/badge/GitHub-LlamaIndex-green)](https://github.com/jerryjliu/llama_index)  
+  Implements document retrieval pipelines for RAG-style scientific agents.
+
+- **OpenRLHF** — [![img](https://img.shields.io/badge/GitHub-OpenRLHF-green)](https://github.com/OpenLMLab/OpenRLHF)  
+  Fine-tunes agents using reinforcement learning on domain-specific knowledge.
+
+- **LLaMA-Factory** — [![img](https://img.shields.io/badge/GitHub-LLaMA--Factory-green)](https://github.com/hiyouga/LLaMA-Factory)  
+  Supports full/fine-tuning with PEFT, LoRA, and other methods on scientific data.
+
+---
+
+### Tool Integration
+
+- **ChemCrow: Augmenting Large‑Language Models with Chemistry Tools** — [![img](https://img.shields.io/badge/arXiv-2023.04-red)](https://arxiv.org/abs/2304.05376)  
+  Integrates RDKit, search tools, and predictors for autonomous chemistry tasks.
+
+- **MetaOpenFoam: An LLM-Based Multi-Agent Framework for CFD** — [![img](https://img.shields.io/badge/arXiv-2024.07-red)](https://arxiv.org/abs/2407.21320)  
+  Integrates tools for computational fluid dynamics experiments.
+
+- **FoamAgent: Towards Automated Intelligent CFD Workflows** — [![img](https://img.shields.io/badge/arXiv-2025.05-red)](https://arxiv.org/abs/2505.04997)  
+  Builds complete toolchain from input parsing to result verification in CFD.
+
+- **Virtual Lab** — [![img](https://img.shields.io/badge/arXiv-2024.04-red)](https://arxiv.org/abs/2404.12699)  
+  Coordinates AlphaFold, Opentrons, and ChimeraX in robotic experiments.
+
+- **OctoTools** — [![img](https://img.shields.io/badge/GitHub-OctoTools-green)](https://github.com/LIANGZIMO/OctoTools)  
+  Toolkit for multi-step medical decision workflows.
 
 ## 🚀 Scientific Agent Enhancement
+
+### Memory Enhancement
+
+- **MemGPT** — [![img](https://img.shields.io/badge/arXiv-2023.10-red)](https://arxiv.org/abs/2310.08572)  
+  Introduces an OS-style memory manager for long scientific conversations.
+
+- **AFlow: Memory-Augmented Agent for Scientific Workflows** — [![img](https://img.shields.io/badge/arXiv-2023.07-red)](https://arxiv.org/abs/2307.02933)  
+  Reuses historical workflows for long-horizon memory planning.
+
+- **ChemAgent: Self-Updating Memories in Large Language Models Improves Chemical Reasoning** — [![img](https://img.shields.io/badge/arXiv-2025.01-red)](https://arxiv.org/abs/2501.06590)  
+  Employs memory-planning-execution feedback loop to update chemical knowledge.
+
+---
+
+### Reasoning Enhancement
+
+- **DeepSeek-Prover-V2** — [![img](https://img.shields.io/badge/arXiv-2025.04-red)](https://arxiv.org/abs/2504.21801)  
+  Applies RL to train formal proof generation capabilities.
+
+- **LLM‑SR: Scientific Equation Discovery via Programming with LLMs** — [![img](https://img.shields.io/badge/arXiv-2024.04-red)](https://arxiv.org/abs/2404.18400)  
+  Derives scientific laws from experiment logs through LLM coding.
+
+- **Sparks: Multi-Agent Artificial Intelligence Model Discovers Protein Design Principles** — [![img](https://img.shields.io/badge/arXiv-2025.04-red)](https://arxiv.org/abs/2504.19017)  
+  Uses iterative hypothesis-reasoning with multi-agent collaboration.
+
+- **ether0: A Scientific Reasoning Model for Chemistry** — [![img](https://img.shields.io/badge/arXiv-2025.06-red)](https://arxiv.org/abs/2506.17238)  
+  Trained on reasoning chains and RL-based feedback loops.
+
+---
+
+### Collaboration Enhancement
+
+- **Robin: A Multi-Agent System for Automating Scientific Discovery** — [![img](https://img.shields.io/badge/arXiv-2025.05-red)](https://arxiv.org/abs/2505.13400)  
+  Each agent specializes in a domain; discovers new molecules via team collaboration.
+
+- **AgentRxiv: Towards Collaborative Autonomous Research** — [![img](https://img.shields.io/badge/arXiv-2025.03-red)](https://arxiv.org/abs/2503.18102)  
+  Agents share intermediate results, debate, and review literature collaboratively.
+
+- **ChatGPT Research Group** — [![img](https://img.shields.io/badge/arXiv-2024.06-red)](https://arxiv.org/abs/2406.07800)  
+  Simulates a full virtual research team with role-specific agents.
+
+- **AI Co-Scientist** — [![img](https://img.shields.io/badge/arXiv-2025.03-red)](https://arxiv.org/abs/2503.12984)  
+  Iteratively generates, debates, and evolves scientific hypotheses.
 
 ![overall](./figures/section4.drawio.svg)
 
 ## ⚖️ Benchmark For Scientific Agent
+### Knowledge-Centric Benchmarks
 
+- **ScienceQA** — [![img](https://img.shields.io/badge/arXiv-2022.10-red)](https://arxiv.org/abs/2210.01904)  
+  A multimodal dataset designed to test scientific knowledge and reasoning.
+
+- **MMLU-Pro** — [![img](https://img.shields.io/badge/arXiv-2024.01-red)](https://arxiv.org/abs/2401.12357)  
+  Enhances the MMLU benchmark with professional-level scientific questions.
+
+- **SciCap** — [![img](https://img.shields.io/badge/GitHub-SciCap-green)](https://github.com/OpenBMB/SciCap)  
+  Measures alignment of LLMs with science instruction and explanation.
+
+---
+
+### Experiment-Driven Benchmarks
+
+- **ALaS: Agent Learning and Simulation Benchmark** — [![img](https://img.shields.io/badge/GitHub-AlaS-green)](https://github.com/AILab-CVC/ALaS)  
+  Benchmarks agent performance in tasks such as synthesis planning and parameter search.
+
+- **AgentBoard** — [![img](https://img.shields.io/badge/arXiv-2024.03-red)](https://arxiv.org/abs/2403.11289)  
+  Tests LLM agents on multi-domain, long-horizon and tool-use tasks.
+
+- **DeepSeek-Prover Benchmark** — [![img](https://img.shields.io/badge/arXiv-2025.04-red)](https://arxiv.org/abs/2504.21801)  
+  Designed to evaluate formal reasoning and proof synthesis.
 ## 🌞 Citation
