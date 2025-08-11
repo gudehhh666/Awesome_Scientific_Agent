@@ -13,9 +13,9 @@ The advancement of LLM-based agents heralds a new perspective for AI for Science
 ## 📖 Framework
 
   * [Taxonomy](#Taxonomy)
-  * [Scientific Agent Construction](#scientific-agent-construction)
-  * [Scientific Agent Enhancement](#scientific-agent-enhancement)
-  * [Benchmarks For Scientific Agent](#benchmark-for-scientific-agent)
+  * [Scientific Agents Construction](#Scientific-Agents-Construction)
+  * [Scientific Agents Enhancement](#Scientific-Agents-Enhancement)
+  * [Benchmarks For Scientific Agents](#Benchmark-For-Scientific-Agents)
 
 ## 💡Taxonomy
 
@@ -101,7 +101,7 @@ The advancement of LLM-based agents heralds a new perspective for AI for Science
 - **AlphaEvolve: A Coding Agent for Scientific and Algorithmic Discovery** — [![img](https://img.shields.io/badge/arXiv-2025.06-red)](https://arxiv.org/abs/2506.13131)
 - **Robin: A Multi‑Agent System for Automating Scientific Discovery** — [![img](https://img.shields.io/badge/arXiv-2025.05-red)](https://arxiv.org/abs/2505.13400)
 
-## ✈️ Scientific Agent Construction
+## ✈️ Scientific Agents Construction
 
 ![overall](./figures/section3.drawio.svg)
 - **PromptAgent: Strategic Planning with Language Models Enables Expert-level Prompt Optimization** — [![img](https://img.shields.io/badge/arXiv-2023.10-red)](https://arxiv.org/abs/2310.16427) 
@@ -123,7 +123,7 @@ The advancement of LLM-based agents heralds a new perspective for AI for Science
 - **TAIS: Gene Expression Agent with LLMs** — [![img](https://img.shields.io/badge/arXiv-2025.03-red)](https://arxiv.org/abs/2503.02973)
 - **StarWhisper Telescope: Agent‑Based Observation Assistant System to Approach an AI Astrophysicist** — [![img](https://img.shields.io/badge/arXiv-2024.12-red)](https://arxiv.org/abs/2412.06412)
 
-## 🚀 Scientific Agent Enhancement
+## 🚀 Scientific Agents Enhancement
 - **MemGPT: Toward LLMs as Operating Systems** — [![img](https://img.shields.io/badge/arXiv-2023.10-red)](https://arxiv.org/abs/2310.08560) 
 - **AFlow: Automating Agentic Workflow Generation** — [![img](https://img.shields.io/badge/arXiv-2023.07-red)](https://arxiv.org/abs/2410.10762)  
 - **ChemAgent: Self‑Updating Memories in Large Language Models Improves Chemical Reasoning** — [![img](https://img.shields.io/badge/ICLR-2025-red)](https://arxiv.org/abs/2501.06590)  
@@ -143,7 +143,7 @@ The advancement of LLM-based agents heralds a new perspective for AI for Science
 
 ![overall](./figures/section4.drawio.svg)
 
-## ⚖️ Benchmark For Scientific Agent
+## ⚖️ Benchmark For Scientific Agents
 - **BioMaze: Benchmarking and Enhancing Large Language Models for Biological Pathway Reasoning** — [![img](https://img.shields.io/badge/arXiv-2502.16660-red)](https://arxiv.org/abs/2502.16660) [![img](https://img.shields.io/badge/Hugging%20Face-BioMaze-yellow)](https://huggingface.co/datasets/haitengzhao/BioMaze)
 - **BioKGBench: A Knowledge Graph Checking Benchmark of AI Agent for Biomedical Science** — [![img](https://img.shields.io/badge/GitHub-BioKGBench-green)](https://github.com/westlake-autolab/BioKGBench) [![img](https://img.shields.io/badge/GitHub-BioKGBench-green)](https://github.com/westlake-autolab/BioKGBench)
 - **SurveyForge: On the Outline Heuristics, Memory-Driven Generation, and Multi-Dimensional Evaluation for Automated Survey Writing** — [![img](https://img.shields.io/badge/arXiv-2503.04629-red)](https://arxiv.org/abs/2503.04629) [![img](https://img.shields.io/badge/GitHub-SurveyForge-green)](https://github.com/Alpha-Innovator/SurveyForge)
@@ -171,3 +171,13 @@ The advancement of LLM-based agents heralds a new perspective for AI for Science
 
 
 ## 🌞 Citation
+
+```
+@article{wang2025hitchhiker,
+  title={The Hitchhiker's Guide to Autonomous Research: A Survey of Scientific Agents},
+  author={Xinming, Wang and Jian, Xu and Aslan H., Feng and Yi, Chen and Haiyang, Guo and Fei, Zhu and Yuanqi, Shao and Minsi, Ren and Hongzhu, Yi and Sheng, Lian and Hongming, Yang and Tailin, Wu and Han, Hu and Shiming, Xiang and Xu-Yao, Zhang and Cheng-Lin Liu},
+  journal={Authorea Preprints},
+  publisher={Authorea}
+}
+```
+
