@@ -168,7 +168,7 @@ The advancement of LLM-based agents heralds a new perspective for AI for Science
 - **SciCode: A Scientist-Curated Benchmark for Scientific Code Generation** — [![img](https://img.shields.io/badge/arXiv-2407.13168-red)](https://arxiv.org/abs/2407.13168) [![img](https://img.shields.io/badge/GitHub-SciCode-green)](https://github.com/scicode-bench/SciCode)
 - **AgentClinic: A Multimodal Agent Benchmark to Evaluate AI in Simulated Clinical Environments** — [![img](https://img.shields.io/badge/GitHub-AgentClinic-green)](https://github.com/SamuelSchmidgall/AgentClinic) [![img](https://img.shields.io/badge/arXiv-2402.10003-red)](https://arxiv.org/abs/)
 - **SDRBench: Scientific Data Reduction Benchmark for Lossy Compressors** — [![img](https://img.shields.io/badge/Web-SDRBench-blue)](https://sdrbench.github.io/) [![img](https://img.shields.io/badge/Workshop-2021-555555)](https://www.r-ccs.riken.jp/en/)
-
+- **DSBench: How Far Are Data Science Agents from Becoming Data Science Experts? — **  [![img](https://img.shields.io/badge/GitHub-DSBench-green)](https://github.com/LiqiangJing/DSBench) [![img](https://img.shields.io/badge/ICLR-2025-red)](https://arxiv.org/abs/2409.07703)
 
 ## 🌞 Citation
 
