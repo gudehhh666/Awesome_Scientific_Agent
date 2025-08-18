@@ -175,9 +175,8 @@ The advancement of LLM-based agents heralds a new perspective for AI for Science
 ```
 @article{wang2025hitchhiker,
   title={The Hitchhiker's Guide to Autonomous Research: A Survey of Scientific Agents},
-  author={Xinming, Wang and Jian, Xu and Aslan H., Feng and Yi, Chen and Haiyang, Guo and Fei, Zhu and Yuanqi, Shao and Minsi, Ren and Hongzhu, Yi and Sheng, Lian and Hongming, Yang and Tailin, Wu and Han, Hu and Shiming, Xiang and Xu-Yao, Zhang and Cheng-Lin Liu},
-  journal={Authorea Preprints},
-  publisher={Authorea}
+  author={Wang, Xinming and Xu, Jian and Feng, Aslan H and Chen, Yi and Guo, Haiyang and Zhu, Fei and Shao, Yuanqi and Ren, Minsi and Yi, Hongzhu and Lian, Sheng and others},
+  year={2025}
 }
 ```
 
