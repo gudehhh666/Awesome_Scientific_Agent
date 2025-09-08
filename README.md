@@ -100,6 +100,7 @@ The advancement of LLM-based agents heralds a new perspective for AI for Science
 - **Sparks: Multi‑Agent Artificial Intelligence Model Discovers Protein Design Principles** — [![img](https://img.shields.io/badge/arXiv-2025.04-red)](https://arxiv.org/abs/2504.19017)
 - **AlphaEvolve: A Coding Agent for Scientific and Algorithmic Discovery** — [![img](https://img.shields.io/badge/arXiv-2025.06-red)](https://arxiv.org/abs/2506.13131)
 - **Robin: A Multi‑Agent System for Automating Scientific Discovery** — [![img](https://img.shields.io/badge/arXiv-2025.05-red)](https://arxiv.org/abs/2505.13400)
+- **ScienceOne** —  [![img](https://img.shields.io/badge/URL-2025.08-green)](https://scienceone.ia.ac.cn/)
 
 ## ✈️ Scientific Agents Construction
 
