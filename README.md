@@ -117,6 +117,7 @@ The advancement of LLM-based agents heralds a new perspective for AI for Science
 - **AutoPrompt: Eliciting Knowledge from Language Models with Automatically Generated Prompts** — [![img](https://img.shields.io/badge/EMNLP-2020-red)](https://arxiv.org/abs/2010.15980)  
 - **InstructBio: Instruction Tuning for Biomedical LLMs** — [![img](https://img.shields.io/badge/arXiv-2024.02-red)](https://arxiv.org/abs/2310.19975)  
 - **LangChain: Building Applications with LLMs through Composability** — [![img](https://img.shields.io/badge/GitHub-LangChain-green)](https://github.com/langchain-ai/langchain)  
+- **BGPT MCP: Hosted MCP Server for Scientific Paper Search with Full‑Text Data Extraction** — [![img](https://img.shields.io/badge/GitHub-BGPT--MCP-green)](https://github.com/connerlambden/bgpt-mcp)  
 - **LightRAG: Simple and Fast Retrieval‑Augmented Generation** — [![img](https://img.shields.io/badge/arXiv-2024.10-red)](https://arxiv.org/abs/2410.05779)  
 - **SciTUNE: Aligning Large Language Models with Scientific Multimodal Instructions** — [![img](https://img.shields.io/badge/arXiv-2023.07-red)](https://arxiv.org/abs/2307.01139)
 - **ClimateGPT: Towards AI Synthesizing Interdisciplinary Research on Climate Change** — [![img](https://img.shields.io/badge/arXiv-2024.01-red)](https://arxiv.org/abs/2401.09646)
