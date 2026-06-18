@@ -7,10 +7,10 @@
 [![Survey](https://img.shields.io/badge/Survey-Scientific%20Agents-2f6fed)](#overview)
 [![Taxonomy](https://img.shields.io/badge/Taxonomy-65%20Agents-16a34a)](#taxonomy)
 [![Benchmarks](https://img.shields.io/badge/Benchmarks-Scientific%20Agent%20Evaluation-f97316)](#benchmarks)
-[![Watchlist](https://img.shields.io/badge/Watchlist-Auto--Research%20Repos-8b5cf6)](#auto-research-watchlist)
+[![Watchlist](https://img.shields.io/badge/Watchlist-Agentic%20Repos-8b5cf6)](#auto-research-watchlist)
 [![License](https://img.shields.io/badge/License-Apache--2.0-64748b)](./LICENSE)
 
-[Overview](#overview) • [Taxonomy](#taxonomy) • [Construction](#construction) • [Enhancement](#enhancement) • [Benchmarks](#benchmarks) • [Auto-Research Watchlist](#auto-research-watchlist) • [Citation](#citation)
+[Overview](#overview) • [Taxonomy](#taxonomy) • [Agentic Repos](#auto-research-watchlist) • [Construction](#construction) • [Enhancement](#enhancement) • [Benchmarks](#benchmarks) • [Citation](#citation)
 
 </div>
 
@@ -39,7 +39,7 @@ Large language model agents are becoming a practical interface for AI for Scienc
 | [✈️ Scientific Agents Construction](#construction) | Find papers and systems about building agent workflows, prompts, tools, context, and domain interfaces. |
 | [🚀 Scientific Agents Enhancement](#enhancement) | Explore reasoning, memory, workflow, and self-improvement techniques for stronger agents. |
 | [⚖️ Benchmark For Scientific Agents](#benchmarks) | Locate benchmarks for scientific reasoning, code generation, data analysis, citation, and domain evaluation. |
-| [🧭 Recent Auto-Research Repositories](#auto-research-watchlist) | Track recent open-source systems that push toward automated research workflows. |
+| [🧭 Broader Agentic & Auto-Research Repositories](#auto-research-watchlist) | Track influential repositories beyond scientific agents, including Karpathy-style training stacks, coding agents, browser agents, and orchestration frameworks. |
 
 <a id="taxonomy"></a>
 
@@ -235,6 +235,30 @@ Capability envelope is abbreviated as `E`, capability maturity as `M`, reasoning
 
 </details>
 
+<a id="auto-research-watchlist"></a>
+
+## 🧭 Broader Agentic & Auto-Research Repositories
+
+Beyond scientific-agent papers, the broader agent ecosystem is moving quickly across model training, software engineering, web automation, and multi-agent orchestration. This watchlist keeps a lightweight bridge from the survey taxonomy to practical repositories that shape how autonomous research and agentic systems are built.
+
+| Repository | Scope | Why follow it |
+| --- | --- | --- |
+| [karpathy/nanochat](https://github.com/karpathy/nanochat) | Minimal end-to-end LLM training and chat stack | Tracks Karpathy's compact, hackable path from tokenizer and pretraining to finetuning, evaluation, inference, and chat UI. |
+| [karpathy/llm.c](https://github.com/karpathy/llm.c) | LLM training in C/CUDA | Useful for understanding low-level training kernels, performance constraints, and reproducible GPT-style training. |
+| [SakanaAI/AI-Scientist](https://github.com/SakanaAI/AI-Scientist) | Automated idea-to-paper research loop | A reference point for autonomous ideation, coding, experimentation, paper writing, and automated review. |
+| [SakanaAI/AI-Scientist-v2](https://github.com/SakanaAI/AI-Scientist-v2) | Agentic tree search for automated discovery | Follows the next iteration of AI Scientist with broader exploration and stronger end-to-end workflow design. |
+| [SamuelSchmidgall/AgentLaboratory](https://github.com/SamuelSchmidgall/AgentLaboratory) | Human-guided autonomous research assistant | Shows how literature review, experimentation, and report writing can be composed into a full research workflow. |
+| [NoviScl/AI-Researcher](https://github.com/NoviScl/AI-Researcher) | Research ideation and execution studies | Provides agent pipelines and human-study data for comparing LLM-generated ideas with expert research ideas. |
+| [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) | AI software development agents | A generalist coding-agent platform for editing repositories, using terminals, browsing, and operating in sandboxed environments. |
+| [SWE-agent/SWE-agent](https://github.com/SWE-agent/SWE-agent) | GitHub issue fixing and SWE-bench agents | A practical baseline for agentic software engineering, debugging, and repository-level task execution. |
+| [huggingface/smolagents](https://github.com/huggingface/smolagents) | Lightweight code-agent framework | Good for studying minimal abstractions, code-as-action agents, sandboxed execution, and open-model agent workflows. |
+| [microsoft/autogen](https://github.com/microsoft/autogen) | Agentic AI programming framework | Useful for multi-agent conversations, orchestration patterns, and prototyping collaborative agent systems. |
+| [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | Multi-agent orchestration | Focuses on role-based agents, task delegation, crews, flows, and production-style automation workflows. |
+| [langchain-ai/langgraph](https://github.com/langchain-ai/langgraph) | Graph-based agent workflows | Useful for durable, stateful, controllable agent graphs and long-running workflow orchestration. |
+| [FoundationAgents/MetaGPT](https://github.com/FoundationAgents/MetaGPT) | Multi-agent software company metaphor | A representative multi-agent framework for decomposing product/software work into role-specialized agents. |
+| [browser-use/browser-use](https://github.com/browser-use/browser-use) | Browser automation for agents | Tracks web interaction patterns, browser control, and task automation over ordinary websites. |
+| [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | Early autonomous agent platform | Still useful as historical context for goal-directed agents, autonomous task decomposition, and agent productization. |
+
 <a id="construction"></a>
 
 ## ✈️ Scientific Agents Construction
@@ -336,21 +360,6 @@ Use this section as an evaluation map rather than a flat benchmark list. The res
 - **DSBench: How Far Are Data Science Agents from Becoming Data Science Experts?** — [![img](https://img.shields.io/badge/GitHub-DSBench-green)](https://github.com/LiqiangJing/DSBench) [![img](https://img.shields.io/badge/ICLR-2025-red)](https://arxiv.org/abs/2409.07703)
 
 </details>
-
-<a id="auto-research-watchlist"></a>
-
-## 🧭 Recent Auto-Research Repositories
-
-The taxonomy above captures representative scientific-agent methods, while the repository list below is a lighter-weight watchlist for fast-moving auto-research systems. These projects are useful for tracking implementation patterns, experiment orchestration, safety notes, and emerging benchmarks as the field moves.
-
-| Repository | Focus | Why follow it |
-| --- | --- | --- |
-| [SakanaAI/AI-Scientist](https://github.com/SakanaAI/AI-Scientist) | Fully automated open-ended scientific discovery | Generates ideas, writes code, runs experiments, drafts papers, and includes an automated review loop. |
-| [SakanaAI/AI-Scientist-v2](https://github.com/SakanaAI/AI-Scientist-v2) | Workshop-level automated scientific discovery | Extends the original AI Scientist with broader exploration and agentic tree search for hypothesis-to-paper workflows. |
-| [SamuelSchmidgall/AgentLaboratory](https://github.com/SamuelSchmidgall/AgentLaboratory) | End-to-end autonomous research assistant | Structures the workflow into literature review, experimentation, and report writing, with human guidance hooks. |
-| [NoviScl/AI-Researcher](https://github.com/NoviScl/AI-Researcher) | Research ideation and execution studies | Provides an ideation agent plus human-study data about novelty, execution, and review outcomes. |
-| [Future-House/aviary](https://github.com/Future-House/aviary) | Language-agent gym for scientific tasks | Offers a testbed for challenging scientific tasks and agent training/evaluation workflows. |
-| [IMMS-Ewha/MIND](https://github.com/IMMS-Ewha/MIND) | AI co-scientist for materials research | A 2026 materials-focused workflow that turns open-ended requests into experiment specifications and SevenNet-based runs. |
 
 <a id="citation"></a>
 
