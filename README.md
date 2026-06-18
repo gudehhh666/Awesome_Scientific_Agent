@@ -2,11 +2,11 @@
 
 ## ✨ Introduction
 
-The advancement of LLM-based agents heralds a new perspective for AI for Science (AI4S), automation science research. Prominent large language models have exhibited expertise across multiple domains, prompting researchers to develop agents for the natural sciences and investigate the frontiers of scientific knowledge. Nevertheless, the divergences between the natural sciences and AI have hindered the development and advancement of scientific agents across various fields. This survey is grounded in the standardized scientific research process and elucidates the construction and evaluation of scientific agents.
+The advancement of LLM-based agents heralds a new perspective for AI for Science (AI4S): automated scientific research. Prominent large language models have exhibited expertise across multiple domains, prompting researchers to develop agents for the natural sciences and investigate the frontiers of scientific knowledge. Nevertheless, the divergences between the natural sciences and AI have hindered the development and advancement of scientific agents across various fields. This survey is grounded in the standardized scientific research process and elucidates the construction and evaluation of scientific agents.
 
-* We elucidate the objective orientation of scientific research agents, which directly guides the construction for scientific agents.
-* We systematically taxonomizing existing scientific research agents into three levels, with show strong hierarchical characteristics in terms of construction strategy and capability scope.
-* We provides substantial and detailed answers to the questions of "how to construct a scientific agent from scratch" and "how to enhance the capabilities of existing scientific agents".
+* We elucidate the objective orientation of scientific research agents, which directly guides the construction of scientific agents.
+* We systematically taxonomize existing scientific research agents into three levels, which show strong hierarchical characteristics in terms of construction strategy and capability scope.
+* We provide substantial and detailed answers to the questions of "how to construct a scientific agent from scratch" and "how to enhance the capabilities of existing scientific agents".
 
 ![overall](./figures/overall_short.drawio.svg)
 
@@ -20,6 +20,80 @@ The advancement of LLM-based agents heralds a new perspective for AI for Science
 ## 💡Taxonomy
 
 ![overall](./figures/level.png)
+
+<!-- taxonomy-table:start -->
+### Taxonomy Table
+
+Capability envelope is abbreviated as `E`, capability maturity as `M`, reasoning enhancement as `R`, memory enhancement as `Mem.`, and collaboration enhancement as `C`. Application stages follow the scientific research workflow: Literature, Hypothesis, Design, Verification, Analysis, and Evaluation.
+
+| Level | Method | Domain | LLM Backbone | E | M | R | Mem. | C | Application Stages | Task Description |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Assistant | LitLLM | General | General-purpose | E1 | M1 | No | No | No | Literature, Analysis | Literature review synthesis |
+| Assistant | otto-SR | Medical | General-purpose | E1 | M1 | Yes | No | No | Literature, Analysis | Systematic review synthesis |
+| Assistant | SciMON | General | General-purpose | E1 | M1 | Yes | No | No | Literature, Hypothesis | Novel hypothesis generation |
+| Assistant | KG-FM | Materials | General-purpose | E1 | M1 | Yes | No | No | Literature, Hypothesis, Analysis | Knowledge-grounded materials QA |
+| Assistant | HypoGen | General | General-purpose | E1 | M1 | Yes | No | No | Hypothesis | Research hypothesis generation |
+| Assistant | LLM-SR | Physics | General-purpose | E1 | M1 | Yes | Yes | No | Hypothesis, Analysis | Symbolic equation discovery |
+| Assistant | InstructMol | Chemistry | Domain-specialized | E1 | M1 | No | No | No | Verification, Analysis | Molecular instruction following |
+| Assistant | GeneGPT | Medical | General-purpose | E1 | M1 | Yes | No | No | Analysis | Genomic question answering |
+| Assistant | TAIS | Medical | General-purpose | E1 | M1 | Yes | No | Yes | Verification, Analysis | Gene expression analysis |
+| Assistant | DrugAgent | Medical | General-purpose | E1 | M1 | Yes | No | Yes | Analysis | ML-driven drug discovery |
+| Assistant | DrugGen | Medical | General-purpose | E1 | M1 | No | No | No | Design, Verification | Targeted molecular generation |
+| Assistant | ChemAgent | Chemistry | General-purpose | E1 | M1 | Yes | Yes | No | Design, Verification, Analysis | Multi-step chemical reasoning |
+| Assistant | ChatChemTS | Chemistry | Domain-specialized | E1 | M1 | No | No | No | Design, Verification | Conversational molecule generation |
+| Assistant | PaperQA | General | General-purpose | E1 | M2 | Yes | Yes | No | Literature, Analysis | Scientific document QA |
+| Assistant | ChatCite | General | General-purpose | E1 | M2 | Yes | Yes | No | Literature, Analysis | Evidence-aware literature synthesis |
+| Assistant | CoI-Agent | General | General-purpose | E1 | M2 | Yes | Yes | No | Literature, Hypothesis | Chain-structured ideation |
+| Assistant | Deep Ideation | General | General-purpose | E1 | M2 | Yes | Yes | No | Hypothesis, Analysis | Concept-network ideation |
+| Assistant | IRIS | General | General-purpose | E1 | M2 | Yes | No | Yes | Hypothesis, Analysis | Interactive hypothesis search |
+| Assistant | LlaSMol | Chemistry | Domain-specialized | E1 | M2 | Yes | No | No | Verification | Molecular design assistance |
+| Assistant | Ether0 | Chemistry | Domain-specialized | E1 | M2 | Yes | No | No | Design, Verification | Complex molecular design |
+| Assistant | ChemCrow | Chemistry | General-purpose | E1 | M2 | Yes | No | No | Literature, Design, Verification | Tool-augmented chemistry assistance |
+| Assistant | HoneyComb | Materials | General-purpose | E1 | M2 | Yes | No | Yes | Literature, Design, Verification | Materials design assistance |
+| Assistant | PaperCoder | Computer Science | General-purpose | E1 | M2 | Yes | No | Yes | Literature, Design, Verification | Paper-to-code generation |
+| Assistant | BioResearcher | Biomedical | General-purpose | E2 | M1 | Yes | No | No | Literature, Hypothesis, Design, Verification, Analysis | Biological workflow assistance |
+| Assistant | ProtAgents | Biology | General-purpose | E2 | M1 | Yes | No | Yes | Hypothesis, Design, Verification | Protein design loop |
+| Assistant | MOOSE-Chem | Chemistry | General-purpose | E2 | M1 | No | Yes | No | Hypothesis, Verification | Chemical hypothesis generation |
+| Assistant | Meta-OpenFoam | Physics | General-purpose | E2 | M1 | Yes | No | Yes | Design, Verification, Analysis | CFD workflow orchestration |
+| Assistant | FoamAgent | Physics | General-purpose | E2 | M1 | Yes | No | Yes | Design, Verification, Analysis | Natural-language CFD execution |
+| Assistant | PiFlow | General | General-purpose | E2 | M1 | Yes | No | Yes | Hypothesis, Design, Verification, Analysis | Principle-guided experiment loops |
+| Assistant | DrBioRight 2.0 | Biology | General-purpose | E2 | M1 | Yes | No | No | Verification, Analysis | Bioinformatics workflow analysis |
+| Assistant | OriGene | Medical | General-purpose | E2 | M1 | Yes | Yes | Yes | Hypothesis, Verification, Analysis | Target discovery and validation |
+| Assistant | CellVoyager | Biology | General-purpose | E2 | M1 | Yes | No | No | Hypothesis, Design, Verification, Analysis | Autonomous scRNA-seq analysis |
+| Assistant | VASPilot | Materials | General-purpose | E2 | M1 | Yes | No | Yes | Design, Verification | Autonomous DFT execution |
+| Partner | DARWIN 1.5 | Biology/Chemistry | General-purpose | E2 | M2 | No | No | No | Literature, Verification, Analysis | Domain reasoning and analysis |
+| Partner | Crispr-GPT | Biology | General-purpose | E2 | M2 | Yes | Yes | No | Hypothesis, Design, Evaluation | CRISPR design assistance |
+| Partner | Chemma | Chemistry | General-purpose | E2 | M2 | Yes | No | No | Literature, Hypothesis, Design | Property-guided synthesis planning |
+| Partner | MRAgent | Medical | General-purpose | E2 | M2 | Yes | No | No | Literature, Design, Verification, Analysis | MR-based medical inference |
+| Partner | Aviary | Hybrid | General-purpose | E2 | M2 | Yes | No | No | Literature, Hypothesis, Design, Verification, Analysis | General scientific assistance |
+| Partner | Virtual Lab | General | General-purpose | E2 | M2 | Yes | No | Yes | Literature, Hypothesis, Design, Verification, Analysis, Evaluation | PI-guided virtual experimentation |
+| Partner | DeepRare | Medicine | General-purpose | E2 | M2 | Yes | Yes | Yes | Literature, Hypothesis, Analysis, Evaluation | Rare-disease differential diagnosis |
+| Partner | MatPilot | Materials | General-purpose | E2 | M2 | Yes | No | Yes | Literature, Hypothesis, Design, Verification, Analysis | Language-driven materials design |
+| Partner | SciToolAgent | General | General-purpose | E2 | M2 | Yes | No | Yes | Literature, Hypothesis, Design, Verification, Analysis | Tool-grounded scientific reasoning |
+| Partner | Organa | Chemistry | General-purpose | E2 | M2 | No | No | No | Design, Verification | Human-guided robotic chemistry |
+| Partner | FunSearch | Mathematics | General-purpose | E2 | M2 | Yes | Yes | No | Hypothesis, Design, Analysis | Evolutionary mathematical discovery |
+| Partner | StarWhisper | Astronomy | General-purpose | E2 | M2 | Yes | Yes | Yes | Design, Verification | Autonomous telescope operations |
+| Partner | CycleResearcher | Computer Science | General-purpose | E2 | M2 | Yes | No | Yes | Literature, Hypothesis, Evaluation | Iterative paper improvement |
+| Partner | Biomni | Biology | General-purpose | E2 | M2 | Yes | Yes | Yes | Literature, Hypothesis, Design, Verification, Analysis | Broad biological automation |
+| Partner | SciAgents | General | General-purpose | E2 | M2 | Yes | Yes | Yes | Literature, Hypothesis, Analysis | KG-guided scientific discovery |
+| Partner | AI Scientist | Computer Science | General-purpose | E3 | M1 | No | No | No | Hypothesis, Design, Verification, Analysis, Evaluation | End-to-end CS research |
+| Partner | AI-Researcher | Computer Science | General-purpose | E3 | M1 | Yes | No | Yes | Literature, Hypothesis, Analysis, Evaluation | End-to-end research assistance |
+| Partner | Agentrxiv | Computer Science | General-purpose | E3 | M1 | Yes | Yes | Yes | Literature, Hypothesis, Verification, Analysis | Preprint-grounded agent research |
+| Partner | Agent Laboratory | Computer Science | General-purpose | E3 | M1 | Yes | Yes | Yes | Literature, Hypothesis, Design, Analysis, Evaluation | End-to-end CS experimentation |
+| Avatar | A-Lab | Materials | General-purpose | E2 | M3 | No | Yes | No | Literature, Hypothesis, Design, Verification, Analysis | Autonomous materials synthesis |
+| Avatar | AlphaEvolve | General | General-purpose | E2 | M3 | Yes | Yes | No | Hypothesis, Design, Verification | Evolutionary scientific optimization |
+| Avatar | OpenEvidence | Medicine | Domain-specialized | E2 | M3 | Yes | No | No | Literature, Analysis, Evaluation | Point-of-care clinical decision |
+| Avatar | AILA | Materials | General-purpose | E2 | M3 | Yes | No | Yes | Design, Verification, Analysis | Autonomous instrument operation |
+| Avatar | MOSAIC-chemistry | Chemistry | General-purpose | E2 | M3 | Yes | No | Yes | Design, Verification, Analysis | Collective synthesis planning |
+| Avatar | MARS | Materials | General-purpose | E2 | M3 | Yes | No | Yes | Literature, Hypothesis, Design, Verification, Analysis | Robotic materials discovery |
+| Avatar | ScienceOne | Biology | Domain-specialized | E3 | M2 | Yes | Yes | Yes | Literature, Hypothesis, Design, Verification, Analysis, Evaluation | End-to-end scientific automation |
+| Avatar | AI co-scientist | General | General-purpose | E3 | M2 | Yes | Yes | Yes | Literature, Hypothesis, Design, Verification, Analysis | Multi-agent scientific co-discovery |
+| Avatar | AI Scientist-v2 | Computer Science | General-purpose | E3 | M2 | Yes | No | No | Hypothesis, Design, Verification, Analysis, Evaluation | Workshop-level CS research |
+| Avatar | Coscientist | Chemistry | General-purpose | E3 | M2 | Yes | No | No | Literature, Hypothesis, Design, Verification, Analysis | Autonomous chemistry execution |
+| Avatar | Robin | Biology | General-purpose | E3 | M2 | Yes | Yes | Yes | Literature, Hypothesis, Design, Verification, Analysis, Evaluation | Multi-agent biological discovery |
+| Avatar | Sparks | Biology | General-purpose | E3 | M2 | Yes | Yes | Yes | Hypothesis, Design, Verification, Analysis, Evaluation | Multi-agent protein design |
+| Avatar | InternAgent-1.5 | General | Domain-specialized | E3 | M2 | Yes | Yes | Yes | Literature, Hypothesis, Design, Verification, Analysis | Long-horizon scientific discovery |
+<!-- taxonomy-table:end -->
 
 ### Level 1: Agent As Assistant
 
