@@ -7,9 +7,10 @@
 [![Survey](https://img.shields.io/badge/Survey-Scientific%20Agents-2f6fed)](#overview)
 [![Taxonomy](https://img.shields.io/badge/Taxonomy-65%20Agents-16a34a)](#taxonomy)
 [![Benchmarks](https://img.shields.io/badge/Benchmarks-Scientific%20Agent%20Evaluation-f97316)](#benchmarks)
+[![Watchlist](https://img.shields.io/badge/Watchlist-Auto--Research%20Repos-8b5cf6)](#auto-research-watchlist)
 [![License](https://img.shields.io/badge/License-Apache--2.0-64748b)](./LICENSE)
 
-[Overview](#overview) • [Taxonomy](#taxonomy) • [Construction](#construction) • [Enhancement](#enhancement) • [Benchmarks](#benchmarks) • [Citation](#citation)
+[Overview](#overview) • [Taxonomy](#taxonomy) • [Construction](#construction) • [Enhancement](#enhancement) • [Benchmarks](#benchmarks) • [Auto-Research Watchlist](#auto-research-watchlist) • [Citation](#citation)
 
 </div>
 
@@ -38,6 +39,7 @@ Large language model agents are becoming a practical interface for AI for Scienc
 | [✈️ Scientific Agents Construction](#construction) | Find papers and systems about building agent workflows, prompts, tools, context, and domain interfaces. |
 | [🚀 Scientific Agents Enhancement](#enhancement) | Explore reasoning, memory, workflow, and self-improvement techniques for stronger agents. |
 | [⚖️ Benchmark For Scientific Agents](#benchmarks) | Locate benchmarks for scientific reasoning, code generation, data analysis, citation, and domain evaluation. |
+| [🧭 Recent Auto-Research Repositories](#auto-research-watchlist) | Track recent open-source systems that push toward automated research workflows. |
 
 <a id="taxonomy"></a>
 
@@ -61,7 +63,7 @@ Large language model agents are becoming a practical interface for AI for Scienc
 | **R / Mem. / C** | Reasoning enhancement, memory enhancement, and collaboration enhancement. |
 | **Stages** | Literature, Hypothesis, Design, Verification, Analysis, and Evaluation. |
 
-<details>
+<details open>
 <summary><b>Full taxonomy table</b> - 65 scientific agents across levels, domains, capabilities, components, and research stages</summary>
 
 Capability envelope is abbreviated as `E`, capability maturity as `M`, reasoning enhancement as `R`, memory enhancement as `Mem.`, and collaboration enhancement as `C`. Application stages follow the scientific research workflow: Literature, Hypothesis, Design, Verification, Analysis, and Evaluation.
@@ -139,7 +141,7 @@ Capability envelope is abbreviated as `E`, capability maturity as `M`, reasoning
 
 ### Level 1: Agent As Assistant
 
-<details>
+<details open>
 <summary><b>Level 1: Agent as Assistant - bounded task support and domain-specific assistance</b></summary>
 
 - **AstroLLaMA‑Chat: Scaling AstroLLaMA with Conversational and Diverse Datasets** — [![](https://img.shields.io/badge/arXiv-2024.01-red)](https://arxiv.org/abs/2401.01916)
@@ -172,7 +174,7 @@ Capability envelope is abbreviated as `E`, capability maturity as `M`, reasoning
 
 ### Level 2: Agent As Partner
 
-<details>
+<details open>
 <summary><b>Level 2: Agent as Partner - multi-step collaboration and workflow orchestration</b></summary>
 
 - **StarWhisper Telescope: Agent‑Based Observation Assistant System to Approach an AI Astrophysicist** — [![img](https://img.shields.io/badge/arXiv-2024.12-red)](https://arxiv.org/abs/2412.06412)
@@ -216,7 +218,7 @@ Capability envelope is abbreviated as `E`, capability maturity as `M`, reasoning
 
 ### Level 3: Agent As Avatar
 
-<details>
+<details open>
 <summary><b>Level 3: Agent as Avatar - autonomous research execution and long-horizon discovery</b></summary>
 
 - **CycleResearcher: Improving Automated Research via Automated Review** — [![img](https://img.shields.io/badge/arXiv-2024.11-red)](https://arxiv.org/abs/2411.00816)
@@ -239,7 +241,7 @@ Capability envelope is abbreviated as `E`, capability maturity as `M`, reasoning
 
 ![overall](./figures/section3.drawio.svg)
 
-<details>
+<details open>
 <summary><b>Construction resources - prompts, context, tools, workflows, and domain interfaces</b></summary>
 
 - **PromptAgent: Strategic Planning with Language Models Enables Expert-level Prompt Optimization** — [![img](https://img.shields.io/badge/arXiv-2023.10-red)](https://arxiv.org/abs/2310.16427) 
@@ -269,7 +271,7 @@ Capability envelope is abbreviated as `E`, capability maturity as `M`, reasoning
 
 ![overall](./figures/section4.drawio.svg)
 
-<details>
+<details open>
 <summary><b>Enhancement resources - reasoning, memory, workflow search, reflection, and collaboration</b></summary>
 
 - **MemGPT: Toward LLMs as Operating Systems** — [![img](https://img.shields.io/badge/arXiv-2023.10-red)](https://arxiv.org/abs/2310.08560) 
@@ -295,7 +297,16 @@ Capability envelope is abbreviated as `E`, capability maturity as `M`, reasoning
 
 ## ⚖️ Benchmark For Scientific Agents
 
-<details>
+Use this section as an evaluation map rather than a flat benchmark list. The resources below cover different failure modes of scientific agents: domain knowledge, executable experiments, citation grounding, data analysis, and long-horizon discovery.
+
+| Evaluation angle | Representative focus | Useful when you need to test... |
+| --- | --- | --- |
+| **Scientific knowledge and reasoning** | BioMaze, SuperGPQA, Humanity's Last Exam, MR-Ben | Whether an agent can reason over expert-level scientific concepts. |
+| **Citation and literature grounding** | CiteBench, ALCE, SurveyForge | Whether outputs are traceable, evidence-aware, and literature-faithful. |
+| **Code, data, and experiment execution** | MLAgentBench, DSBench, SciCode, PaperBench | Whether an agent can implement, run, debug, and reproduce research workflows. |
+| **Domain and embodied environments** | DiscoveryWorld, AgentClinic, GenoTEX, LLM-SRBench | Whether an agent performs in domain-specific or simulated scientific settings. |
+
+<details open>
 <summary><b>Benchmark resources - evaluation suites for scientific reasoning, data analysis, citation, coding, and agentic discovery</b></summary>
 
 - **BioMaze: Benchmarking and Enhancing Large Language Models for Biological Pathway Reasoning** — [![img](https://img.shields.io/badge/arXiv-2502.16660-red)](https://arxiv.org/abs/2502.16660) [![img](https://img.shields.io/badge/Hugging%20Face-BioMaze-yellow)](https://huggingface.co/datasets/haitengzhao/BioMaze)
@@ -325,6 +336,21 @@ Capability envelope is abbreviated as `E`, capability maturity as `M`, reasoning
 - **DSBench: How Far Are Data Science Agents from Becoming Data Science Experts?** — [![img](https://img.shields.io/badge/GitHub-DSBench-green)](https://github.com/LiqiangJing/DSBench) [![img](https://img.shields.io/badge/ICLR-2025-red)](https://arxiv.org/abs/2409.07703)
 
 </details>
+
+<a id="auto-research-watchlist"></a>
+
+## 🧭 Recent Auto-Research Repositories
+
+The taxonomy above captures representative scientific-agent methods, while the repository list below is a lighter-weight watchlist for fast-moving auto-research systems. These projects are useful for tracking implementation patterns, experiment orchestration, safety notes, and emerging benchmarks as the field moves.
+
+| Repository | Focus | Why follow it |
+| --- | --- | --- |
+| [SakanaAI/AI-Scientist](https://github.com/SakanaAI/AI-Scientist) | Fully automated open-ended scientific discovery | Generates ideas, writes code, runs experiments, drafts papers, and includes an automated review loop. |
+| [SakanaAI/AI-Scientist-v2](https://github.com/SakanaAI/AI-Scientist-v2) | Workshop-level automated scientific discovery | Extends the original AI Scientist with broader exploration and agentic tree search for hypothesis-to-paper workflows. |
+| [SamuelSchmidgall/AgentLaboratory](https://github.com/SamuelSchmidgall/AgentLaboratory) | End-to-end autonomous research assistant | Structures the workflow into literature review, experimentation, and report writing, with human guidance hooks. |
+| [NoviScl/AI-Researcher](https://github.com/NoviScl/AI-Researcher) | Research ideation and execution studies | Provides an ideation agent plus human-study data about novelty, execution, and review outcomes. |
+| [Future-House/aviary](https://github.com/Future-House/aviary) | Language-agent gym for scientific tasks | Offers a testbed for challenging scientific tasks and agent training/evaluation workflows. |
+| [IMMS-Ewha/MIND](https://github.com/IMMS-Ewha/MIND) | AI co-scientist for materials research | A 2026 materials-focused workflow that turns open-ended requests into experiment specifications and SevenNet-based runs. |
 
 <a id="citation"></a>
 
