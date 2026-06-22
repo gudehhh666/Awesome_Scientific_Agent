@@ -27,7 +27,7 @@ Large language model agents are becoming a practical interface for AI for Scienc
 | **Agent components** | Reasoning, memory, and collaboration enhancements highlight how systems are built beyond a base LLM. |
 | **Evaluation resources** | Benchmarks and datasets help compare scientific-agent capabilities across domains. |
 
-![overall](./figures/overall_short.drawio.svg)
+![Scientific agents across the research lifecycle](./figures/overall_short.png)
 
 <a id="reading-map"></a>
 
@@ -40,6 +40,26 @@ Large language model agents are becoming a practical interface for AI for Scienc
 | [🚀 Scientific Agents Enhancement](#enhancement) | Explore reasoning, memory, workflow, and self-improvement techniques for stronger agents. |
 | [⚖️ Benchmark For Scientific Agents](#benchmarks) | Locate benchmarks for scientific reasoning, code generation, data analysis, citation, and domain evaluation. |
 | [🧭 Broader Agentic & Auto-Research Repositories](#auto-research-watchlist) | Track influential repositories beyond scientific agents, including Karpathy-style training stacks, coding agents, browser agents, and orchestration frameworks. |
+
+<a id="survey-figures"></a>
+
+## 🖼️ Survey Figure Index
+
+The figures below are synchronized from the TPAMI survey materials so the repository mirrors the paper's structure rather than acting only as a paper list.
+
+| Figure | What it explains | Repository file |
+| --- | --- | --- |
+| Research lifecycle | How scientific agents support literature, hypothesis, design, verification, analysis, and evaluation. | [overall_short.png](./figures/overall_short.png) |
+| Survey organization | High-level organization of the survey and repository map. | [overall.png](./figures/overall.png) |
+| E/M role taxonomy | Capability envelope and capability maturity, inducing Assistant, Partner, and Avatar roles. | [level.png](./figures/level.png) |
+| Extended role view | Additional role-level view used by the survey materials. | [level_2.png](./figures/level_2.png) |
+| Construction overview | Agent construction methodology. | [construction_overview.png](./figures/construction_overview.png) |
+| Knowledge organization | How scientific agents organize domain knowledge. | [knowledge_organization.png](./figures/knowledge_organization.png) |
+| Orchestration | Coordination and workflow orchestration in scientific-agent construction. | [orchestration_flat.png](./figures/orchestration_flat.png) |
+| Enhancement overview | Overview of scientific-agent capability enhancement. | [enhancement_overview.png](./figures/enhancement_overview.png) |
+| Memory systems | Memory structures for scientific agents. | [memory.png](./figures/memory.png) |
+| Reasoning enhancement | Reasoning enhancement patterns for scientific agents. | [reasoning.png](./figures/reasoning.png) |
+| Benchmark overview | Scientific-agent benchmark and evaluation metric landscape. | [benchmark_overview.png](./figures/benchmark_overview.png) |
 
 <a id="taxonomy"></a>
 
@@ -263,7 +283,14 @@ Beyond scientific-agent papers, the broader agent ecosystem is moving quickly ac
 
 ## ✈️ Scientific Agents Construction
 
-![overall](./figures/section3.drawio.svg)
+<p align="center">
+  <img src="./figures/construction_overview.png" alt="Agent construction methodology" width="95%">
+</p>
+
+<p align="center">
+  <img src="./figures/knowledge_organization.png" alt="Knowledge organization in scientific agents" width="47%">
+  <img src="./figures/orchestration_flat.png" alt="Orchestration and coordination in scientific-agent construction" width="47%">
+</p>
 
 <details open>
 <summary><b>Construction resources - prompts, context, tools, workflows, and domain interfaces</b></summary>
@@ -293,7 +320,14 @@ Beyond scientific-agent papers, the broader agent ecosystem is moving quickly ac
 
 ## 🚀 Scientific Agents Enhancement
 
-![overall](./figures/section4.drawio.svg)
+<p align="center">
+  <img src="./figures/enhancement_overview.png" alt="Scientific-agent ability enhancement" width="95%">
+</p>
+
+<p align="center">
+  <img src="./figures/memory.png" alt="Scientific agents' memory systems" width="47%">
+  <img src="./figures/reasoning.png" alt="Illustration of scientific agent reasoning enhancement" width="47%">
+</p>
 
 <details open>
 <summary><b>Enhancement resources - reasoning, memory, workflow search, reflection, and collaboration</b></summary>
@@ -322,6 +356,10 @@ Beyond scientific-agent papers, the broader agent ecosystem is moving quickly ac
 ## ⚖️ Benchmark For Scientific Agents
 
 Use this section as an evaluation map rather than a flat benchmark list. The resources below cover different failure modes of scientific agents: domain knowledge, executable experiments, citation grounding, data analysis, and long-horizon discovery.
+
+<p align="center">
+  <img src="./figures/benchmark_overview.png" alt="Scientific-agent benchmark and evaluation landscape" width="95%">
+</p>
 
 | Evaluation angle | Representative focus | Useful when you need to test... |
 | --- | --- | --- |
