@@ -10,7 +10,7 @@
 [![Watchlist](https://img.shields.io/badge/Watchlist-Agentic%20Repos-8b5cf6)](#auto-research-watchlist)
 [![License](https://img.shields.io/badge/License-Apache--2.0-64748b)](./LICENSE)
 
-[Overview](#overview) • [Taxonomy](#taxonomy) • [Agentic Repos](#auto-research-watchlist) • [Construction](#construction) • [Enhancement](#enhancement) • [Benchmarks](#benchmarks) • [Citation](#citation)
+[Overview](#overview) • [Taxonomy](#taxonomy) • [Methods](#method-guides) • [Agentic Repos](#auto-research-watchlist) • [Construction](#construction) • [Enhancement](#enhancement) • [Benchmarks](#benchmarks) • [Citation](#citation)
 
 </div>
 
@@ -36,6 +36,7 @@ Large language model agents are becoming a practical interface for AI for Scienc
 | Section | Use it for |
 | --- | --- |
 | [💡 Taxonomy](#taxonomy) | Compare representative scientific agents by level, domain, backbone, capability, components, and research stage. |
+| [🧩 Method Guides](#method-guides) | Read focused method notes for construction, enhancement, evaluation, and auto-research systems. |
 | [✈️ Scientific Agents Construction](#construction) | Find papers and systems about building agent workflows, prompts, tools, context, and domain interfaces. |
 | [🚀 Scientific Agents Enhancement](#enhancement) | Explore reasoning, memory, workflow, and self-improvement techniques for stronger agents. |
 | [⚖️ Benchmark For Scientific Agents](#benchmarks) | Locate benchmarks for scientific reasoning, code generation, data analysis, citation, and domain evaluation. |
@@ -254,6 +255,19 @@ Capability envelope is abbreviated as `E`, capability maturity as `M`, reasoning
 - **ScienceOne** —  [![img](https://img.shields.io/badge/URL-2025.08-green)](https://scienceone.ia.ac.cn/)
 
 </details>
+
+<a id="method-guides"></a>
+
+## 🧩 Method Guides
+
+The root README keeps the curated map compact; the method guides provide deeper explanations for readers who want to understand how scientific agents are built, improved, evaluated, and connected to broader auto-research systems.
+
+| Guide | What it covers |
+| --- | --- |
+| [Construction Methods](./methods/construction/README.md) | Knowledge organization, knowledge injection, tool integration, orchestration, and domain interfaces. |
+| [Enhancement Methods](./methods/enhancement/README.md) | Reasoning, memory, collaboration, workflow search, and self-review. |
+| [Evaluation Methods](./methods/evaluation/README.md) | Benchmark selection, executable evaluation, citation grounding, and long-horizon validation. |
+| [Auto-Research Systems](./methods/auto-research/README.md) | End-to-end research loops, coding/browser agents, training resources, and orchestration frameworks. |
 
 <a id="auto-research-watchlist"></a>
 

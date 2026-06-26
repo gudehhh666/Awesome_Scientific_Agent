@@ -1,0 +1,13 @@
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+
+test.txt
+*.log
+*.tmp
+*.bak
+
+tmp/
+temp/
+.cache/
