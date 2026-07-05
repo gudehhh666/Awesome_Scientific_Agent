@@ -5,7 +5,7 @@
 **A curated map of LLM-based agents for automated scientific research.**
 
 [![Survey](https://img.shields.io/badge/Survey-Scientific%20Agents-2f6fed)](#overview)
-[![Taxonomy](https://img.shields.io/badge/Taxonomy-65%20Agents-16a34a)](#taxonomy)
+[![Taxonomy](https://img.shields.io/badge/Taxonomy-66%20Agents-16a34a)](#taxonomy)
 [![Benchmarks](https://img.shields.io/badge/Benchmarks-Scientific%20Agent%20Evaluation-f97316)](#benchmarks)
 [![Watchlist](https://img.shields.io/badge/Watchlist-Agentic%20Repos-8b5cf6)](#auto-research-watchlist)
 [![License](https://img.shields.io/badge/License-Apache--2.0-64748b)](./LICENSE)
@@ -75,7 +75,7 @@ The figures below are synchronized from the TPAMI survey materials so the reposi
 | --- | --- | ---: | --- |
 | **Assistant** | Helps with bounded scientific tasks under direct human steering. | 33 | Literature synthesis, QA, molecule or protein design assistance, analysis support. |
 | **Partner** | Collaborates across multiple workflow steps with stronger tool use or feedback loops. | 19 | Multi-agent ideation, experiment planning, automation, review, and domain reasoning. |
-| **Avatar** | Acts as a higher-autonomy research executor in digital or physical environments. | 13 | Robotic labs, autonomous discovery loops, long-horizon experimentation, and end-to-end research. |
+| **Avatar** | Acts as a higher-autonomy research executor in digital or physical environments. | 14 | Robotic labs, autonomous discovery loops, long-horizon experimentation, and end-to-end research. |
 
 | Capability / component | Meaning |
 | --- | --- |
@@ -152,6 +152,7 @@ Capability envelope is abbreviated as `E`, capability maturity as `M`, reasoning
 | Avatar | ScienceOne | Biology | Domain-specialized | E3 | M2 | Yes | Yes | Yes | Literature, Hypothesis, Design, Verification, Analysis, Evaluation | End-to-end scientific automation |
 | Avatar | AI co-scientist | General | General-purpose | E3 | M2 | Yes | Yes | Yes | Literature, Hypothesis, Design, Verification, Analysis | Multi-agent scientific co-discovery |
 | Avatar | AI Scientist-v2 | Computer Science | General-purpose | E3 | M2 | Yes | No | No | Hypothesis, Design, Verification, Analysis, Evaluation | Workshop-level CS research |
+| Avatar | Agon | General | General-purpose | E3 | M2 | Yes | No | Yes | Literature, Hypothesis, Design, Verification, Analysis, Evaluation | Omnidisciplinary autonomous research loops |
 | Avatar | Coscientist | Chemistry | General-purpose | E3 | M2 | Yes | No | No | Literature, Hypothesis, Design, Verification, Analysis | Autonomous chemistry execution |
 | Avatar | Robin | Biology | General-purpose | E3 | M2 | Yes | Yes | Yes | Literature, Hypothesis, Design, Verification, Analysis, Evaluation | Multi-agent biological discovery |
 | Avatar | Sparks | Biology | General-purpose | E3 | M2 | Yes | Yes | Yes | Hypothesis, Design, Verification, Analysis, Evaluation | Multi-agent protein design |
@@ -244,6 +245,7 @@ Capability envelope is abbreviated as `E`, capability maturity as `M`, reasoning
 
 - **CycleResearcher: Improving Automated Research via Automated Review** — [![img](https://img.shields.io/badge/arXiv-2024.11-red)](https://arxiv.org/abs/2411.00816)
 - **The AI Scientist‑v2: Workshop‑Level Automated Scientific Discovery via Agentic Tree Search** — [![img](https://img.shields.io/badge/arXiv-2025.04-red)](https://arxiv.org/abs/2504.08066)
+- **Agon: An Autonomous Large-Scale Omnidisciplinary Research System Built on Prompt Economy** — [![img](https://img.shields.io/badge/arXiv-2026.06-red)](https://arxiv.org/abs/2606.24177) [![img](https://img.shields.io/badge/GitHub-Agon-green)](https://github.com/AutoResearch-Factory/Agon)
 - **AgentRxiv: Towards Collaborative Autonomous Research** — [![img](https://img.shields.io/badge/arXiv-2025.03-red)](https://arxiv.org/abs/2503.18102)
 - **Agent Laboratory: Using LLM Agents as Research Assistants** — [![img](https://img.shields.io/badge/arXiv-2025.01-red)](https://arxiv.org/abs/2501.04227)
 - **BiOMNI: A General‑Purpose Biomedical AI Agent** — [![img](https://img.shields.io/badge/bioRxiv-2025.05-blue)](https://www.biorxiv.org/content/10.1101/2025.05.30.656746v1)
@@ -282,6 +284,7 @@ Beyond scientific-agent papers, the broader agent ecosystem is moving quickly ac
 | [SakanaAI/AI-Scientist](https://github.com/SakanaAI/AI-Scientist) | Automated idea-to-paper research loop | A reference point for autonomous ideation, coding, experimentation, paper writing, and automated review. |
 | [SakanaAI/AI-Scientist-v2](https://github.com/SakanaAI/AI-Scientist-v2) | Agentic tree search for automated discovery | Follows the next iteration of AI Scientist with broader exploration and stronger end-to-end workflow design. |
 | [SamuelSchmidgall/AgentLaboratory](https://github.com/SamuelSchmidgall/AgentLaboratory) | Human-guided autonomous research assistant | Shows how literature review, experimentation, and report writing can be composed into a full research workflow. |
+| [AutoResearch-Factory/Agon](https://github.com/AutoResearch-Factory/Agon) | Omnidisciplinary autonomous research system | Tracks prompt-based scientist, coder, and auditor loops from topic to idea, proposal, experiment, and paper. |
 | [NoviScl/AI-Researcher](https://github.com/NoviScl/AI-Researcher) | Research ideation and execution studies | Provides agent pipelines and human-study data for comparing LLM-generated ideas with expert research ideas. |
 | [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) | AI software development agents | A generalist coding-agent platform for editing repositories, using terminals, browsing, and operating in sandboxed environments. |
 | [SWE-agent/SWE-agent](https://github.com/SWE-agent/SWE-agent) | GitHub issue fixing and SWE-bench agents | A practical baseline for agentic software engineering, debugging, and repository-level task execution. |
