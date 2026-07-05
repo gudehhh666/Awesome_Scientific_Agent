@@ -6,7 +6,7 @@ Auto-research systems connect multiple scientific stages: idea generation, liter
 
 | Family | What it contributes | Repositories to watch |
 | --- | --- | --- |
-| Automated research loops | End-to-end idea, experiment, writing, and review workflows. | SakanaAI/AI-Scientist, SakanaAI/AI-Scientist-v2, AgentLaboratory, CycleResearcher. |
+| Automated research loops | End-to-end idea, experiment, writing, and review workflows. | SakanaAI/AI-Scientist, SakanaAI/AI-Scientist-v2, AgentLaboratory, CycleResearcher, Agon. |
 | Research ideation systems | Hypothesis generation, novelty checking, and research planning. | AI-Researcher, SciMON, CoI-Agent, Deep Ideation. |
 | Coding agents | Repository editing, debugging, testing, and benchmark-driven repair. | OpenHands, SWE-agent, MetaGPT, smolagents. |
 | Browser and tool agents | Web interaction, data collection, and external service control. | browser-use, AutoGPT, LangGraph-based browser workflows. |
