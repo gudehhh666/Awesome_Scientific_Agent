@@ -1186,6 +1186,65 @@
         "Analysis"
       ],
       "description": "Long-horizon scientific discovery"
+    },
+    {
+      "id": "agent-sr-scientist",
+      "name": "SR-Scientist",
+      "level": "Partner",
+      "domain": "Physics/Mathematics",
+      "backbone": "General-purpose",
+      "capability_envelope": "E2",
+      "capability_maturity": "M2",
+      "reasoning": "Yes",
+      "memory": "No",
+      "collaboration": "No",
+      "stages": [
+        "Hypothesis",
+        "Design",
+        "Verification",
+        "Analysis"
+      ],
+      "description": "Long-horizon agentic scientific equation discovery"
+    },
+    {
+      "id": "agent-evoscientist",
+      "name": "EvoScientist",
+      "level": "Avatar",
+      "domain": "Computer Science",
+      "backbone": "General-purpose",
+      "capability_envelope": "E3",
+      "capability_maturity": "M2",
+      "reasoning": "Yes",
+      "memory": "Yes",
+      "collaboration": "Yes",
+      "stages": [
+        "Literature",
+        "Hypothesis",
+        "Design",
+        "Verification",
+        "Analysis",
+        "Evaluation"
+      ],
+      "description": "Self-evolving multi-agent end-to-end discovery"
+    },
+    {
+      "id": "agent-self-evolving-fluid-control",
+      "name": "Self-Evolving Fluid Control Agent",
+      "level": "Avatar",
+      "domain": "Physics/Engineering",
+      "backbone": "General-purpose",
+      "capability_envelope": "E2",
+      "capability_maturity": "M3",
+      "reasoning": "Yes",
+      "memory": "No",
+      "collaboration": "No",
+      "stages": [
+        "Hypothesis",
+        "Design",
+        "Verification",
+        "Analysis"
+      ],
+      "description": "Autonomous physically reasoned controller discovery"
     }
   ],
   "reading_lists": {
@@ -1984,6 +2043,50 @@
             "url": "https://arxiv.org/abs/2304.09667"
           }
         ]
+      },
+      {
+        "id": "reading-partner-sr-scientist",
+        "title": "SR-Scientist: Scientific Equation Discovery With Agentic AI",
+        "venue": "ICLR",
+        "year": 2026,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2510.11661"
+          },
+          {
+            "kind": "code",
+            "label": "code",
+            "url": "https://github.com/GAIR-NLP/SR-Scientist"
+          }
+        ]
+      },
+      {
+        "id": "reading-partner-agentbuild-rietveld-refinement",
+        "title": "Fantastic Scientific Agents and How to Build Them: AgentBuild for Rietveld Refinement",
+        "venue": "arXiv",
+        "year": 2026,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2606.12834"
+          }
+        ]
+      },
+      {
+        "id": "reading-partner-sciorch",
+        "title": "SciOrch: Learning to Orchestrate Expert LLMs for Solving Frontier Multimodal Scientific Reasoning Tasks",
+        "venue": "arXiv",
+        "year": 2026,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2606.15872"
+          }
+        ]
       }
     ],
     "avatar": [
@@ -2127,6 +2230,37 @@
             "kind": "website",
             "label": "website",
             "url": "https://scienceone.ia.ac.cn/"
+          }
+        ]
+      },
+      {
+        "id": "reading-avatar-evoscientist",
+        "title": "EvoScientist: Towards Multi-Agent Evolving AI Scientists for End-to-End Scientific Discovery",
+        "venue": "arXiv",
+        "year": 2026,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2603.08127"
+          },
+          {
+            "kind": "code",
+            "label": "code",
+            "url": "https://github.com/EvoScientist/EvoScientist"
+          }
+        ]
+      },
+      {
+        "id": "reading-avatar-self-evolving-fluid-control",
+        "title": "Self-Evolving Scientific Agent Discovers Generalizable Physically-Reasoned Fluid Control",
+        "venue": "arXiv",
+        "year": 2026,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2606.08405"
           }
         ]
       }

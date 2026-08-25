@@ -195,6 +195,19 @@
           "url": "https://github.com/Significant-Gravitas/AutoGPT"
         }
       ]
+    },
+    {
+      "id": "watch-evoscientist",
+      "repository": "EvoScientist/EvoScientist",
+      "scope": "Self-evolving end-to-end AI scientist",
+      "rationale": "Tracks persistent research memory, multi-agent experimentation, and human-on-the-loop research workflows.",
+      "links": [
+        {
+          "kind": "project",
+          "label": "repository",
+          "url": "https://github.com/EvoScientist/EvoScientist"
+        }
+      ]
     }
   ],
   "construction": [
@@ -431,6 +444,19 @@
           "url": "https://arxiv.org/abs/2412.06412"
         }
       ]
+    },
+    {
+      "id": "construction-agentbuild-rietveld-refinement",
+      "title": "Fantastic Scientific Agents and How to Build Them: AgentBuild for Rietveld Refinement",
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2606.12834"
+        }
+      ]
     }
   ],
   "enhancement": [
@@ -639,6 +665,45 @@
           "kind": "paper",
           "label": "paper",
           "url": "https://arxiv.org/abs/2403.00220"
+        }
+      ]
+    },
+    {
+      "id": "enhancement-evoscientist-persistent-memory",
+      "title": "EvoScientist: Towards Multi-Agent Evolving AI Scientists for End-to-End Scientific Discovery",
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2603.08127"
+        }
+      ]
+    },
+    {
+      "id": "enhancement-sciorch-expert-orchestration",
+      "title": "SciOrch: Learning to Orchestrate Expert LLMs for Solving Frontier Multimodal Scientific Reasoning Tasks",
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2606.15872"
+        }
+      ]
+    },
+    {
+      "id": "enhancement-self-evolving-fluid-control",
+      "title": "Self-Evolving Scientific Agent Discovers Generalizable Physically-Reasoned Fluid Control",
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2606.08405"
         }
       ]
     }

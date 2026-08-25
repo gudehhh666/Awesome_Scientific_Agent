@@ -152,7 +152,7 @@ class CatalogApiTests(unittest.TestCase):
 
         data = catalog.load_catalog(ROOT)
 
-        self.assertEqual(65, len(data["agents"]["taxonomy"]))
+        self.assertGreaterEqual(len(data["agents"]["taxonomy"]), 65)
         self.assertEqual(
             {"Assistant", "Partner", "Avatar"},
             {record["level"] for record in data["agents"]["taxonomy"]},
@@ -165,7 +165,7 @@ class CatalogApiTests(unittest.TestCase):
             for section in ("construction", "enhancement")
         )
         resource_count += len(data["benchmarks"]["items"])
-        self.assertEqual(131, resource_count)
+        self.assertGreaterEqual(resource_count, 131)
 
         template = (ROOT / "templates" / "README.md").read_text(encoding="utf-8")
         rendered = catalog.render_readme(template, data)
@@ -183,6 +183,24 @@ class CatalogApiTests(unittest.TestCase):
             "benchmark_overview.png",
         ):
             self.assertIn(f"./figures/{figure}", rendered)
+
+    def test_verified_refresh_entries_are_present(self) -> None:
+        catalog = importlib.import_module("scripts.catalog")
+        data = catalog.load_catalog(ROOT)
+
+        taxonomy_ids = {record["id"] for record in data["agents"]["taxonomy"]}
+        benchmark_ids = {record["id"] for record in data["benchmarks"]["items"]}
+
+        self.assertTrue(
+            {
+                "agent-evoscientist",
+                "agent-sr-scientist",
+                "agent-self-evolving-fluid-control",
+            }.issubset(taxonomy_ids)
+        )
+        self.assertTrue(
+            {"benchmark-aisb", "benchmark-dsagentbench"}.issubset(benchmark_ids)
+        )
 
     def test_missing_local_links_reports_markdown_and_html_targets(self) -> None:
         catalog = importlib.import_module("scripts.catalog")

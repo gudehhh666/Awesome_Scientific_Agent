@@ -496,6 +496,39 @@
         }
       ],
       "evaluation_angle": "code-data-and-experiment-execution"
+    },
+    {
+      "id": "benchmark-aisb",
+      "title": "AISB: AI Scientist Benchmark",
+      "venue": "NLPCC",
+      "year": 2026,
+      "links": [
+        {
+          "kind": "code",
+          "label": "evaluation kit",
+          "url": "https://github.com/ResearAI/NLPCC-2026-Task9-AISB"
+        }
+      ],
+      "evaluation_angle": "code-data-and-experiment-execution"
+    },
+    {
+      "id": "benchmark-dsagentbench",
+      "title": "DSAgentBench: Can Agents Automate End-to-End Data-Science Workflows in Real Computer Environments?",
+      "venue": "arXiv",
+      "year": 2026,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2608.10366"
+        },
+        {
+          "kind": "code",
+          "label": "code",
+          "url": "https://github.com/vis-nlp/DSAgentBench"
+        }
+      ],
+      "evaluation_angle": "code-data-and-experiment-execution"
     }
   ]
 }

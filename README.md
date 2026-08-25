@@ -5,7 +5,7 @@
 **A curated map of LLM-based agents for automated scientific research.**
 
 [![Survey](https://img.shields.io/badge/Survey-Scientific%20Agents-2f6fed)](#overview)
-[![Taxonomy](https://img.shields.io/badge/Taxonomy-65%20Agents-16a34a)](#taxonomy)
+[![Taxonomy](https://img.shields.io/badge/Taxonomy-68%20Agents-16a34a)](#taxonomy)
 [![Benchmarks](https://img.shields.io/badge/Benchmarks-Scientific%20Agent%20Evaluation-f97316)](#benchmarks)
 [![Watchlist](https://img.shields.io/badge/Watchlist-Agentic%20Repos-8b5cf6)](#auto-research-watchlist)
 [![License](https://img.shields.io/badge/License-Apache--2.0-64748b)](./LICENSE)
@@ -76,8 +76,8 @@ The figures below are synchronized from the TPAMI survey materials so the reposi
 | Level | Role in scientific work | Count | Typical scope |
 | --- | --- | ---: | --- |
 | **Assistant** | Helps with bounded scientific tasks under direct human steering. | 33 | Literature synthesis, QA, design assistance, and analysis support. |
-| **Partner** | Collaborates across multiple workflow steps with stronger tool use or feedback loops. | 19 | Ideation, experiment planning, automation, review, and domain reasoning. |
-| **Avatar** | Acts as a higher-autonomy research executor in digital or physical environments. | 13 | Autonomous labs, discovery loops, and end-to-end research. |
+| **Partner** | Collaborates across multiple workflow steps with stronger tool use or feedback loops. | 20 | Ideation, experiment planning, automation, review, and domain reasoning. |
+| **Avatar** | Acts as a higher-autonomy research executor in digital or physical environments. | 15 | Autonomous labs, discovery loops, and end-to-end research. |
 
 | Capability / component | Meaning |
 | --- | --- |
@@ -87,7 +87,7 @@ The figures below are synchronized from the TPAMI survey materials so the reposi
 | **Stages** | Literature, Hypothesis, Design, Verification, Analysis, and Evaluation. |
 
 <details open>
-<summary><b>Full taxonomy table</b> — 65 scientific agents across levels, domains, capabilities, components, and research stages</summary>
+<summary><b>Full taxonomy table</b> — 68 scientific agents across levels, domains, capabilities, components, and research stages</summary>
 
 Capability envelope is abbreviated as `E`, capability maturity as `M`, reasoning enhancement as `R`, memory enhancement as `Mem.`, and collaboration enhancement as `C`.
 
@@ -158,6 +158,9 @@ Capability envelope is abbreviated as `E`, capability maturity as `M`, reasoning
 | Avatar | Robin | Biology | General-purpose | E3 | M2 | Yes | Yes | Yes | Literature, Hypothesis, Design, Verification, Analysis, Evaluation | Multi-agent biological discovery |
 | Avatar | Sparks | Biology | General-purpose | E3 | M2 | Yes | Yes | Yes | Hypothesis, Design, Verification, Analysis, Evaluation | Multi-agent protein design |
 | Avatar | InternAgent-1.5 | General | Domain-specialized | E3 | M2 | Yes | Yes | Yes | Literature, Hypothesis, Design, Verification, Analysis | Long-horizon scientific discovery |
+| Partner | SR-Scientist | Physics/Mathematics | General-purpose | E2 | M2 | Yes | No | No | Hypothesis, Design, Verification, Analysis | Long-horizon agentic scientific equation discovery |
+| Avatar | EvoScientist | Computer Science | General-purpose | E3 | M2 | Yes | Yes | Yes | Literature, Hypothesis, Design, Verification, Analysis, Evaluation | Self-evolving multi-agent end-to-end discovery |
+| Avatar | Self-Evolving Fluid Control Agent | Physics/Engineering | General-purpose | E2 | M3 | Yes | No | No | Hypothesis, Design, Verification, Analysis | Autonomous physically reasoned controller discovery |
 
 </details>
 <!-- taxonomy-table:end -->
@@ -236,6 +239,9 @@ Capability envelope is abbreviated as `E`, capability maturity as `M`, reasoning
 - **Automation of Systematic Reviews with Large Language Models** — medRxiv, 2025 · [paper](https://www.medrxiv.org/content/10.1101/2025.06.13.25329541v2)
 - **MRAgent: An LLM‑Based Automated Agent for Causal Knowledge Discovery in Disease via Mendelian Randomization** — BriefBioinf, 2025 · [website](https://academic.oup.com/bib/article/26/2/bbaf140/8107848)
 - **GeneGPT: Augmenting Large Language Models with Domain Tools for Improved Access to Biomedical Information** — arXiv, 2023 · [paper](https://arxiv.org/abs/2304.09667)
+- **SR-Scientist: Scientific Equation Discovery With Agentic AI** — ICLR, 2026 · [paper](https://arxiv.org/abs/2510.11661) · [code](https://github.com/GAIR-NLP/SR-Scientist)
+- **Fantastic Scientific Agents and How to Build Them: AgentBuild for Rietveld Refinement** — arXiv, 2026 · [paper](https://arxiv.org/abs/2606.12834)
+- **SciOrch: Learning to Orchestrate Expert LLMs for Solving Frontier Multimodal Scientific Reasoning Tasks** — arXiv, 2026 · [paper](https://arxiv.org/abs/2606.15872)
 
 </details>
 
@@ -255,6 +261,8 @@ Capability envelope is abbreviated as `E`, capability maturity as `M`, reasoning
 - **AlphaEvolve: A Coding Agent for Scientific and Algorithmic Discovery** — arXiv, 2025 · [paper](https://arxiv.org/abs/2506.13131)
 - **Robin: A Multi‑Agent System for Automating Scientific Discovery** — arXiv, 2025 · [paper](https://arxiv.org/abs/2505.13400)
 - **ScienceOne** — Project, 2025 · [website](https://scienceone.ia.ac.cn/)
+- **EvoScientist: Towards Multi-Agent Evolving AI Scientists for End-to-End Scientific Discovery** — arXiv, 2026 · [paper](https://arxiv.org/abs/2603.08127) · [code](https://github.com/EvoScientist/EvoScientist)
+- **Self-Evolving Scientific Agent Discovers Generalizable Physically-Reasoned Fluid Control** — arXiv, 2026 · [paper](https://arxiv.org/abs/2606.08405)
 
 </details>
 
@@ -294,6 +302,7 @@ Beyond scientific-agent papers, the broader agent ecosystem is moving quickly ac
 | [FoundationAgents/MetaGPT](https://github.com/FoundationAgents/MetaGPT) | Multi-agent software company metaphor | A representative multi-agent framework for decomposing product/software work into role-specialized agents. |
 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | Browser automation for agents | Tracks web interaction patterns, browser control, and task automation over ordinary websites. |
 | [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | Early autonomous agent platform | Still useful as historical context for goal-directed agents, autonomous task decomposition, and agent productization. |
+| [EvoScientist/EvoScientist](https://github.com/EvoScientist/EvoScientist) | Self-evolving end-to-end AI scientist | Tracks persistent research memory, multi-agent experimentation, and human-on-the-loop research workflows. |
 
 <a id="construction"></a>
 
@@ -329,6 +338,7 @@ Beyond scientific-agent papers, the broader agent ecosystem is moving quickly ac
 - **SciMON: Scientific Inspiration Machines Optimized for Novelty** — arXiv, 2023 · [paper](https://arxiv.org/abs/2305.14259)
 - **TAIS: Gene Expression Agent with LLMs** — arXiv, 2025 · [paper](https://arxiv.org/abs/2503.02973)
 - **StarWhisper Telescope: Agent‑Based Observation Assistant System to Approach an AI Astrophysicist** — arXiv, 2024 · [paper](https://arxiv.org/abs/2412.06412)
+- **Fantastic Scientific Agents and How to Build Them: AgentBuild for Rietveld Refinement** — arXiv, 2026 · [paper](https://arxiv.org/abs/2606.12834)
 
 </details>
 
@@ -364,6 +374,9 @@ Beyond scientific-agent papers, the broader agent ecosystem is moving quickly ac
 - **Self‑Refine: Iterative Self‑Improvement with Self‑Feedback** — arXiv, 2023 · [paper](https://arxiv.org/abs/2306.11382)
 - **Self‑Consistency: Reliable Decoding for Complex Reasoning** — ICLR, 2023 · [paper](https://arxiv.org/abs/2203.11171)
 - **AquilaChat: Agent with Long-Context Scratchpad Memory** — arXiv, 2024 · [paper](https://arxiv.org/abs/2403.00220)
+- **EvoScientist: Towards Multi-Agent Evolving AI Scientists for End-to-End Scientific Discovery** — arXiv, 2026 · [paper](https://arxiv.org/abs/2603.08127)
+- **SciOrch: Learning to Orchestrate Expert LLMs for Solving Frontier Multimodal Scientific Reasoning Tasks** — arXiv, 2026 · [paper](https://arxiv.org/abs/2606.15872)
+- **Self-Evolving Scientific Agent Discovers Generalizable Physically-Reasoned Fluid Control** — arXiv, 2026 · [paper](https://arxiv.org/abs/2606.08405)
 
 </details>
 
@@ -412,6 +425,8 @@ Use this section as an evaluation map rather than a flat benchmark list. The res
 - **AgentClinic: A Multimodal Agent Benchmark to Evaluate AI in Simulated Clinical Environments** — arXiv, 2024 · [code](https://github.com/SamuelSchmidgall/AgentClinic) · [paper](https://arxiv.org/abs/2405.07960)
 - **SDRBench: Scientific Data Reduction Benchmark for Lossy Compressors** — Website, 2021 · [website](https://sdrbench.github.io/) · [website](https://www.r-ccs.riken.jp/en/)
 - **DSBench: How Far Are Data Science Agents from Becoming Data Science Experts?** — GitHub, 2025 · [code](https://github.com/LiqiangJing/DSBench) · [paper](https://arxiv.org/abs/2409.07703)
+- **AISB: AI Scientist Benchmark** — NLPCC, 2026 · [evaluation kit](https://github.com/ResearAI/NLPCC-2026-Task9-AISB)
+- **DSAgentBench: Can Agents Automate End-to-End Data-Science Workflows in Real Computer Environments?** — arXiv, 2026 · [paper](https://arxiv.org/abs/2608.10366) · [code](https://github.com/vis-nlp/DSAgentBench)
 
 </details>
 
