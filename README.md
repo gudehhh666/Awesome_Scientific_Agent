@@ -367,7 +367,7 @@ Beyond scientific-agent papers, the broader agent ecosystem is moving quickly ac
 - **ether0: A Scientific Reasoning Model for Chemistry** — arXiv, 2025 · [paper](https://arxiv.org/abs/2506.17238)
 - **Robin: A Multi‑Agent System for Automating Scientific Discovery** — arXiv, 2025 · [paper](https://arxiv.org/abs/2505.13400)
 - **AgentRxiv: Towards Collaborative Autonomous Research** — arXiv, 2025 · [paper](https://arxiv.org/abs/2503.18102)
-- **ChatGPT Research Group for Optimizing the Crystallinity of MOFs and COFs** — ACS, 2023 · [paper](https://doi.org/10.1021/acscentsci.3c01087)
+- **ChatGPT Research Group for Optimizing the Crystallinity of MOFs and COFs** — ACS, 2023 · [paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC10683477/)
 - **AI Co-Scientist: Towards an AI Co-Scientist** — arXiv, 2025 · [paper](https://arxiv.org/abs/2502.18864)
 - **ReAct: Synergizing Reasoning and Acting in Language Models** — arXiv, 2022 · [paper](https://arxiv.org/abs/2210.03629)
 - **Reflexion: Language Agents with Verbal Reinforcement Learning** — NeurIPS, 2023 · [paper](https://arxiv.org/abs/2303.11366)

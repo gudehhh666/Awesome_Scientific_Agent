@@ -258,7 +258,7 @@ class CatalogApiTests(unittest.TestCase):
         for canonical_url in (
             "https://pmc.ncbi.nlm.nih.gov/articles/PMC11975362/",
             "https://github.com/verl-project/verl",
-            "https://doi.org/10.1021/acscentsci.3c01087",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC10683477/",
             "https://arxiv.org/abs/2308.13149",
         ):
             self.assertIn(canonical_url, catalog_text)
@@ -266,6 +266,7 @@ class CatalogApiTests(unittest.TestCase):
             "https://academic.oup.com/bib/article/26/2/bbaf140/8107848",
             "https://github.com/zjunlp/Verl",
             "https://doi.org/10.1021/acscentsci.3c00765",
+            "https://doi.org/10.1021/acscentsci.3c01087",
             "https://ojs.aaai.org/index.php/AAAI/article/view/30700",
             "https://openai.com/research/paperbench",
         ):
