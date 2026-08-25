@@ -1,0 +1,2135 @@
+{
+  "schema_version": 1,
+  "taxonomy": [
+    {
+      "id": "agent-litllm",
+      "name": "LitLLM",
+      "level": "Assistant",
+      "domain": "General",
+      "backbone": "General-purpose",
+      "capability_envelope": "E1",
+      "capability_maturity": "M1",
+      "reasoning": "No",
+      "memory": "No",
+      "collaboration": "No",
+      "stages": [
+        "Literature",
+        "Analysis"
+      ],
+      "description": "Literature review synthesis"
+    },
+    {
+      "id": "agent-otto-sr",
+      "name": "otto-SR",
+      "level": "Assistant",
+      "domain": "Medical",
+      "backbone": "General-purpose",
+      "capability_envelope": "E1",
+      "capability_maturity": "M1",
+      "reasoning": "Yes",
+      "memory": "No",
+      "collaboration": "No",
+      "stages": [
+        "Literature",
+        "Analysis"
+      ],
+      "description": "Systematic review synthesis"
+    },
+    {
+      "id": "agent-scimon",
+      "name": "SciMON",
+      "level": "Assistant",
+      "domain": "General",
+      "backbone": "General-purpose",
+      "capability_envelope": "E1",
+      "capability_maturity": "M1",
+      "reasoning": "Yes",
+      "memory": "No",
+      "collaboration": "No",
+      "stages": [
+        "Literature",
+        "Hypothesis"
+      ],
+      "description": "Novel hypothesis generation"
+    },
+    {
+      "id": "agent-kg-fm",
+      "name": "KG-FM",
+      "level": "Assistant",
+      "domain": "Materials",
+      "backbone": "General-purpose",
+      "capability_envelope": "E1",
+      "capability_maturity": "M1",
+      "reasoning": "Yes",
+      "memory": "No",
+      "collaboration": "No",
+      "stages": [
+        "Literature",
+        "Hypothesis",
+        "Analysis"
+      ],
+      "description": "Knowledge-grounded materials QA"
+    },
+    {
+      "id": "agent-hypogen",
+      "name": "HypoGen",
+      "level": "Assistant",
+      "domain": "General",
+      "backbone": "General-purpose",
+      "capability_envelope": "E1",
+      "capability_maturity": "M1",
+      "reasoning": "Yes",
+      "memory": "No",
+      "collaboration": "No",
+      "stages": [
+        "Hypothesis"
+      ],
+      "description": "Research hypothesis generation"
+    },
+    {
+      "id": "agent-llm-sr",
+      "name": "LLM-SR",
+      "level": "Assistant",
+      "domain": "Physics",
+      "backbone": "General-purpose",
+      "capability_envelope": "E1",
+      "capability_maturity": "M1",
+      "reasoning": "Yes",
+      "memory": "Yes",
+      "collaboration": "No",
+      "stages": [
+        "Hypothesis",
+        "Analysis"
+      ],
+      "description": "Symbolic equation discovery"
+    },
+    {
+      "id": "agent-instructmol",
+      "name": "InstructMol",
+      "level": "Assistant",
+      "domain": "Chemistry",
+      "backbone": "Domain-specialized",
+      "capability_envelope": "E1",
+      "capability_maturity": "M1",
+      "reasoning": "No",
+      "memory": "No",
+      "collaboration": "No",
+      "stages": [
+        "Verification",
+        "Analysis"
+      ],
+      "description": "Molecular instruction following"
+    },
+    {
+      "id": "agent-genegpt",
+      "name": "GeneGPT",
+      "level": "Assistant",
+      "domain": "Medical",
+      "backbone": "General-purpose",
+      "capability_envelope": "E1",
+      "capability_maturity": "M1",
+      "reasoning": "Yes",
+      "memory": "No",
+      "collaboration": "No",
+      "stages": [
+        "Analysis"
+      ],
+      "description": "Genomic question answering"
+    },
+    {
+      "id": "agent-tais",
+      "name": "TAIS",
+      "level": "Assistant",
+      "domain": "Medical",
+      "backbone": "General-purpose",
+      "capability_envelope": "E1",
+      "capability_maturity": "M1",
+      "reasoning": "Yes",
+      "memory": "No",
+      "collaboration": "Yes",
+      "stages": [
+        "Verification",
+        "Analysis"
+      ],
+      "description": "Gene expression analysis"
+    },
+    {
+      "id": "agent-drugagent",
+      "name": "DrugAgent",
+      "level": "Assistant",
+      "domain": "Medical",
+      "backbone": "General-purpose",
+      "capability_envelope": "E1",
+      "capability_maturity": "M1",
+      "reasoning": "Yes",
+      "memory": "No",
+      "collaboration": "Yes",
+      "stages": [
+        "Analysis"
+      ],
+      "description": "ML-driven drug discovery"
+    },
+    {
+      "id": "agent-druggen",
+      "name": "DrugGen",
+      "level": "Assistant",
+      "domain": "Medical",
+      "backbone": "General-purpose",
+      "capability_envelope": "E1",
+      "capability_maturity": "M1",
+      "reasoning": "No",
+      "memory": "No",
+      "collaboration": "No",
+      "stages": [
+        "Design",
+        "Verification"
+      ],
+      "description": "Targeted molecular generation"
+    },
+    {
+      "id": "agent-chemagent",
+      "name": "ChemAgent",
+      "level": "Assistant",
+      "domain": "Chemistry",
+      "backbone": "General-purpose",
+      "capability_envelope": "E1",
+      "capability_maturity": "M1",
+      "reasoning": "Yes",
+      "memory": "Yes",
+      "collaboration": "No",
+      "stages": [
+        "Design",
+        "Verification",
+        "Analysis"
+      ],
+      "description": "Multi-step chemical reasoning"
+    },
+    {
+      "id": "agent-chatchemts",
+      "name": "ChatChemTS",
+      "level": "Assistant",
+      "domain": "Chemistry",
+      "backbone": "Domain-specialized",
+      "capability_envelope": "E1",
+      "capability_maturity": "M1",
+      "reasoning": "No",
+      "memory": "No",
+      "collaboration": "No",
+      "stages": [
+        "Design",
+        "Verification"
+      ],
+      "description": "Conversational molecule generation"
+    },
+    {
+      "id": "agent-paperqa",
+      "name": "PaperQA",
+      "level": "Assistant",
+      "domain": "General",
+      "backbone": "General-purpose",
+      "capability_envelope": "E1",
+      "capability_maturity": "M2",
+      "reasoning": "Yes",
+      "memory": "Yes",
+      "collaboration": "No",
+      "stages": [
+        "Literature",
+        "Analysis"
+      ],
+      "description": "Scientific document QA"
+    },
+    {
+      "id": "agent-chatcite",
+      "name": "ChatCite",
+      "level": "Assistant",
+      "domain": "General",
+      "backbone": "General-purpose",
+      "capability_envelope": "E1",
+      "capability_maturity": "M2",
+      "reasoning": "Yes",
+      "memory": "Yes",
+      "collaboration": "No",
+      "stages": [
+        "Literature",
+        "Analysis"
+      ],
+      "description": "Evidence-aware literature synthesis"
+    },
+    {
+      "id": "agent-coi-agent",
+      "name": "CoI-Agent",
+      "level": "Assistant",
+      "domain": "General",
+      "backbone": "General-purpose",
+      "capability_envelope": "E1",
+      "capability_maturity": "M2",
+      "reasoning": "Yes",
+      "memory": "Yes",
+      "collaboration": "No",
+      "stages": [
+        "Literature",
+        "Hypothesis"
+      ],
+      "description": "Chain-structured ideation"
+    },
+    {
+      "id": "agent-deep-ideation",
+      "name": "Deep Ideation",
+      "level": "Assistant",
+      "domain": "General",
+      "backbone": "General-purpose",
+      "capability_envelope": "E1",
+      "capability_maturity": "M2",
+      "reasoning": "Yes",
+      "memory": "Yes",
+      "collaboration": "No",
+      "stages": [
+        "Hypothesis",
+        "Analysis"
+      ],
+      "description": "Concept-network ideation"
+    },
+    {
+      "id": "agent-iris",
+      "name": "IRIS",
+      "level": "Assistant",
+      "domain": "General",
+      "backbone": "General-purpose",
+      "capability_envelope": "E1",
+      "capability_maturity": "M2",
+      "reasoning": "Yes",
+      "memory": "No",
+      "collaboration": "Yes",
+      "stages": [
+        "Hypothesis",
+        "Analysis"
+      ],
+      "description": "Interactive hypothesis search"
+    },
+    {
+      "id": "agent-llasmol",
+      "name": "LlaSMol",
+      "level": "Assistant",
+      "domain": "Chemistry",
+      "backbone": "Domain-specialized",
+      "capability_envelope": "E1",
+      "capability_maturity": "M2",
+      "reasoning": "Yes",
+      "memory": "No",
+      "collaboration": "No",
+      "stages": [
+        "Verification"
+      ],
+      "description": "Molecular design assistance"
+    },
+    {
+      "id": "agent-ether0",
+      "name": "Ether0",
+      "level": "Assistant",
+      "domain": "Chemistry",
+      "backbone": "Domain-specialized",
+      "capability_envelope": "E1",
+      "capability_maturity": "M2",
+      "reasoning": "Yes",
+      "memory": "No",
+      "collaboration": "No",
+      "stages": [
+        "Design",
+        "Verification"
+      ],
+      "description": "Complex molecular design"
+    },
+    {
+      "id": "agent-chemcrow",
+      "name": "ChemCrow",
+      "level": "Assistant",
+      "domain": "Chemistry",
+      "backbone": "General-purpose",
+      "capability_envelope": "E1",
+      "capability_maturity": "M2",
+      "reasoning": "Yes",
+      "memory": "No",
+      "collaboration": "No",
+      "stages": [
+        "Literature",
+        "Design",
+        "Verification"
+      ],
+      "description": "Tool-augmented chemistry assistance"
+    },
+    {
+      "id": "agent-honeycomb",
+      "name": "HoneyComb",
+      "level": "Assistant",
+      "domain": "Materials",
+      "backbone": "General-purpose",
+      "capability_envelope": "E1",
+      "capability_maturity": "M2",
+      "reasoning": "Yes",
+      "memory": "No",
+      "collaboration": "Yes",
+      "stages": [
+        "Literature",
+        "Design",
+        "Verification"
+      ],
+      "description": "Materials design assistance"
+    },
+    {
+      "id": "agent-papercoder",
+      "name": "PaperCoder",
+      "level": "Assistant",
+      "domain": "Computer Science",
+      "backbone": "General-purpose",
+      "capability_envelope": "E1",
+      "capability_maturity": "M2",
+      "reasoning": "Yes",
+      "memory": "No",
+      "collaboration": "Yes",
+      "stages": [
+        "Literature",
+        "Design",
+        "Verification"
+      ],
+      "description": "Paper-to-code generation"
+    },
+    {
+      "id": "agent-bioresearcher",
+      "name": "BioResearcher",
+      "level": "Assistant",
+      "domain": "Biomedical",
+      "backbone": "General-purpose",
+      "capability_envelope": "E2",
+      "capability_maturity": "M1",
+      "reasoning": "Yes",
+      "memory": "No",
+      "collaboration": "No",
+      "stages": [
+        "Literature",
+        "Hypothesis",
+        "Design",
+        "Verification",
+        "Analysis"
+      ],
+      "description": "Biological workflow assistance"
+    },
+    {
+      "id": "agent-protagents",
+      "name": "ProtAgents",
+      "level": "Assistant",
+      "domain": "Biology",
+      "backbone": "General-purpose",
+      "capability_envelope": "E2",
+      "capability_maturity": "M1",
+      "reasoning": "Yes",
+      "memory": "No",
+      "collaboration": "Yes",
+      "stages": [
+        "Hypothesis",
+        "Design",
+        "Verification"
+      ],
+      "description": "Protein design loop"
+    },
+    {
+      "id": "agent-moose-chem",
+      "name": "MOOSE-Chem",
+      "level": "Assistant",
+      "domain": "Chemistry",
+      "backbone": "General-purpose",
+      "capability_envelope": "E2",
+      "capability_maturity": "M1",
+      "reasoning": "No",
+      "memory": "Yes",
+      "collaboration": "No",
+      "stages": [
+        "Hypothesis",
+        "Verification"
+      ],
+      "description": "Chemical hypothesis generation"
+    },
+    {
+      "id": "agent-meta-openfoam",
+      "name": "Meta-OpenFoam",
+      "level": "Assistant",
+      "domain": "Physics",
+      "backbone": "General-purpose",
+      "capability_envelope": "E2",
+      "capability_maturity": "M1",
+      "reasoning": "Yes",
+      "memory": "No",
+      "collaboration": "Yes",
+      "stages": [
+        "Design",
+        "Verification",
+        "Analysis"
+      ],
+      "description": "CFD workflow orchestration"
+    },
+    {
+      "id": "agent-foamagent",
+      "name": "FoamAgent",
+      "level": "Assistant",
+      "domain": "Physics",
+      "backbone": "General-purpose",
+      "capability_envelope": "E2",
+      "capability_maturity": "M1",
+      "reasoning": "Yes",
+      "memory": "No",
+      "collaboration": "Yes",
+      "stages": [
+        "Design",
+        "Verification",
+        "Analysis"
+      ],
+      "description": "Natural-language CFD execution"
+    },
+    {
+      "id": "agent-piflow",
+      "name": "PiFlow",
+      "level": "Assistant",
+      "domain": "General",
+      "backbone": "General-purpose",
+      "capability_envelope": "E2",
+      "capability_maturity": "M1",
+      "reasoning": "Yes",
+      "memory": "No",
+      "collaboration": "Yes",
+      "stages": [
+        "Hypothesis",
+        "Design",
+        "Verification",
+        "Analysis"
+      ],
+      "description": "Principle-guided experiment loops"
+    },
+    {
+      "id": "agent-drbioright-2-0",
+      "name": "DrBioRight 2.0",
+      "level": "Assistant",
+      "domain": "Biology",
+      "backbone": "General-purpose",
+      "capability_envelope": "E2",
+      "capability_maturity": "M1",
+      "reasoning": "Yes",
+      "memory": "No",
+      "collaboration": "No",
+      "stages": [
+        "Verification",
+        "Analysis"
+      ],
+      "description": "Bioinformatics workflow analysis"
+    },
+    {
+      "id": "agent-origene",
+      "name": "OriGene",
+      "level": "Assistant",
+      "domain": "Medical",
+      "backbone": "General-purpose",
+      "capability_envelope": "E2",
+      "capability_maturity": "M1",
+      "reasoning": "Yes",
+      "memory": "Yes",
+      "collaboration": "Yes",
+      "stages": [
+        "Hypothesis",
+        "Verification",
+        "Analysis"
+      ],
+      "description": "Target discovery and validation"
+    },
+    {
+      "id": "agent-cellvoyager",
+      "name": "CellVoyager",
+      "level": "Assistant",
+      "domain": "Biology",
+      "backbone": "General-purpose",
+      "capability_envelope": "E2",
+      "capability_maturity": "M1",
+      "reasoning": "Yes",
+      "memory": "No",
+      "collaboration": "No",
+      "stages": [
+        "Hypothesis",
+        "Design",
+        "Verification",
+        "Analysis"
+      ],
+      "description": "Autonomous scRNA-seq analysis"
+    },
+    {
+      "id": "agent-vaspilot",
+      "name": "VASPilot",
+      "level": "Assistant",
+      "domain": "Materials",
+      "backbone": "General-purpose",
+      "capability_envelope": "E2",
+      "capability_maturity": "M1",
+      "reasoning": "Yes",
+      "memory": "No",
+      "collaboration": "Yes",
+      "stages": [
+        "Design",
+        "Verification"
+      ],
+      "description": "Autonomous DFT execution"
+    },
+    {
+      "id": "agent-darwin-1-5",
+      "name": "DARWIN 1.5",
+      "level": "Partner",
+      "domain": "Biology/Chemistry",
+      "backbone": "General-purpose",
+      "capability_envelope": "E2",
+      "capability_maturity": "M2",
+      "reasoning": "No",
+      "memory": "No",
+      "collaboration": "No",
+      "stages": [
+        "Literature",
+        "Verification",
+        "Analysis"
+      ],
+      "description": "Domain reasoning and analysis"
+    },
+    {
+      "id": "agent-crispr-gpt",
+      "name": "Crispr-GPT",
+      "level": "Partner",
+      "domain": "Biology",
+      "backbone": "General-purpose",
+      "capability_envelope": "E2",
+      "capability_maturity": "M2",
+      "reasoning": "Yes",
+      "memory": "Yes",
+      "collaboration": "No",
+      "stages": [
+        "Hypothesis",
+        "Design",
+        "Evaluation"
+      ],
+      "description": "CRISPR design assistance"
+    },
+    {
+      "id": "agent-chemma",
+      "name": "Chemma",
+      "level": "Partner",
+      "domain": "Chemistry",
+      "backbone": "General-purpose",
+      "capability_envelope": "E2",
+      "capability_maturity": "M2",
+      "reasoning": "Yes",
+      "memory": "No",
+      "collaboration": "No",
+      "stages": [
+        "Literature",
+        "Hypothesis",
+        "Design"
+      ],
+      "description": "Property-guided synthesis planning"
+    },
+    {
+      "id": "agent-mragent",
+      "name": "MRAgent",
+      "level": "Partner",
+      "domain": "Medical",
+      "backbone": "General-purpose",
+      "capability_envelope": "E2",
+      "capability_maturity": "M2",
+      "reasoning": "Yes",
+      "memory": "No",
+      "collaboration": "No",
+      "stages": [
+        "Literature",
+        "Design",
+        "Verification",
+        "Analysis"
+      ],
+      "description": "MR-based medical inference"
+    },
+    {
+      "id": "agent-aviary",
+      "name": "Aviary",
+      "level": "Partner",
+      "domain": "Hybrid",
+      "backbone": "General-purpose",
+      "capability_envelope": "E2",
+      "capability_maturity": "M2",
+      "reasoning": "Yes",
+      "memory": "No",
+      "collaboration": "No",
+      "stages": [
+        "Literature",
+        "Hypothesis",
+        "Design",
+        "Verification",
+        "Analysis"
+      ],
+      "description": "General scientific assistance"
+    },
+    {
+      "id": "agent-virtual-lab",
+      "name": "Virtual Lab",
+      "level": "Partner",
+      "domain": "General",
+      "backbone": "General-purpose",
+      "capability_envelope": "E2",
+      "capability_maturity": "M2",
+      "reasoning": "Yes",
+      "memory": "No",
+      "collaboration": "Yes",
+      "stages": [
+        "Literature",
+        "Hypothesis",
+        "Design",
+        "Verification",
+        "Analysis",
+        "Evaluation"
+      ],
+      "description": "PI-guided virtual experimentation"
+    },
+    {
+      "id": "agent-deeprare",
+      "name": "DeepRare",
+      "level": "Partner",
+      "domain": "Medicine",
+      "backbone": "General-purpose",
+      "capability_envelope": "E2",
+      "capability_maturity": "M2",
+      "reasoning": "Yes",
+      "memory": "Yes",
+      "collaboration": "Yes",
+      "stages": [
+        "Literature",
+        "Hypothesis",
+        "Analysis",
+        "Evaluation"
+      ],
+      "description": "Rare-disease differential diagnosis"
+    },
+    {
+      "id": "agent-matpilot",
+      "name": "MatPilot",
+      "level": "Partner",
+      "domain": "Materials",
+      "backbone": "General-purpose",
+      "capability_envelope": "E2",
+      "capability_maturity": "M2",
+      "reasoning": "Yes",
+      "memory": "No",
+      "collaboration": "Yes",
+      "stages": [
+        "Literature",
+        "Hypothesis",
+        "Design",
+        "Verification",
+        "Analysis"
+      ],
+      "description": "Language-driven materials design"
+    },
+    {
+      "id": "agent-scitoolagent",
+      "name": "SciToolAgent",
+      "level": "Partner",
+      "domain": "General",
+      "backbone": "General-purpose",
+      "capability_envelope": "E2",
+      "capability_maturity": "M2",
+      "reasoning": "Yes",
+      "memory": "No",
+      "collaboration": "Yes",
+      "stages": [
+        "Literature",
+        "Hypothesis",
+        "Design",
+        "Verification",
+        "Analysis"
+      ],
+      "description": "Tool-grounded scientific reasoning"
+    },
+    {
+      "id": "agent-organa",
+      "name": "Organa",
+      "level": "Partner",
+      "domain": "Chemistry",
+      "backbone": "General-purpose",
+      "capability_envelope": "E2",
+      "capability_maturity": "M2",
+      "reasoning": "No",
+      "memory": "No",
+      "collaboration": "No",
+      "stages": [
+        "Design",
+        "Verification"
+      ],
+      "description": "Human-guided robotic chemistry"
+    },
+    {
+      "id": "agent-funsearch",
+      "name": "FunSearch",
+      "level": "Partner",
+      "domain": "Mathematics",
+      "backbone": "General-purpose",
+      "capability_envelope": "E2",
+      "capability_maturity": "M2",
+      "reasoning": "Yes",
+      "memory": "Yes",
+      "collaboration": "No",
+      "stages": [
+        "Hypothesis",
+        "Design",
+        "Analysis"
+      ],
+      "description": "Evolutionary mathematical discovery"
+    },
+    {
+      "id": "agent-starwhisper",
+      "name": "StarWhisper",
+      "level": "Partner",
+      "domain": "Astronomy",
+      "backbone": "General-purpose",
+      "capability_envelope": "E2",
+      "capability_maturity": "M2",
+      "reasoning": "Yes",
+      "memory": "Yes",
+      "collaboration": "Yes",
+      "stages": [
+        "Design",
+        "Verification"
+      ],
+      "description": "Autonomous telescope operations"
+    },
+    {
+      "id": "agent-cycleresearcher",
+      "name": "CycleResearcher",
+      "level": "Partner",
+      "domain": "Computer Science",
+      "backbone": "General-purpose",
+      "capability_envelope": "E2",
+      "capability_maturity": "M2",
+      "reasoning": "Yes",
+      "memory": "No",
+      "collaboration": "Yes",
+      "stages": [
+        "Literature",
+        "Hypothesis",
+        "Evaluation"
+      ],
+      "description": "Iterative paper improvement"
+    },
+    {
+      "id": "agent-biomni",
+      "name": "Biomni",
+      "level": "Partner",
+      "domain": "Biology",
+      "backbone": "General-purpose",
+      "capability_envelope": "E2",
+      "capability_maturity": "M2",
+      "reasoning": "Yes",
+      "memory": "Yes",
+      "collaboration": "Yes",
+      "stages": [
+        "Literature",
+        "Hypothesis",
+        "Design",
+        "Verification",
+        "Analysis"
+      ],
+      "description": "Broad biological automation"
+    },
+    {
+      "id": "agent-sciagents",
+      "name": "SciAgents",
+      "level": "Partner",
+      "domain": "General",
+      "backbone": "General-purpose",
+      "capability_envelope": "E2",
+      "capability_maturity": "M2",
+      "reasoning": "Yes",
+      "memory": "Yes",
+      "collaboration": "Yes",
+      "stages": [
+        "Literature",
+        "Hypothesis",
+        "Analysis"
+      ],
+      "description": "KG-guided scientific discovery"
+    },
+    {
+      "id": "agent-ai-scientist",
+      "name": "AI Scientist",
+      "level": "Partner",
+      "domain": "Computer Science",
+      "backbone": "General-purpose",
+      "capability_envelope": "E3",
+      "capability_maturity": "M1",
+      "reasoning": "No",
+      "memory": "No",
+      "collaboration": "No",
+      "stages": [
+        "Hypothesis",
+        "Design",
+        "Verification",
+        "Analysis",
+        "Evaluation"
+      ],
+      "description": "End-to-end CS research"
+    },
+    {
+      "id": "agent-ai-researcher",
+      "name": "AI-Researcher",
+      "level": "Partner",
+      "domain": "Computer Science",
+      "backbone": "General-purpose",
+      "capability_envelope": "E3",
+      "capability_maturity": "M1",
+      "reasoning": "Yes",
+      "memory": "No",
+      "collaboration": "Yes",
+      "stages": [
+        "Literature",
+        "Hypothesis",
+        "Analysis",
+        "Evaluation"
+      ],
+      "description": "End-to-end research assistance"
+    },
+    {
+      "id": "agent-agentrxiv",
+      "name": "Agentrxiv",
+      "level": "Partner",
+      "domain": "Computer Science",
+      "backbone": "General-purpose",
+      "capability_envelope": "E3",
+      "capability_maturity": "M1",
+      "reasoning": "Yes",
+      "memory": "Yes",
+      "collaboration": "Yes",
+      "stages": [
+        "Literature",
+        "Hypothesis",
+        "Verification",
+        "Analysis"
+      ],
+      "description": "Preprint-grounded agent research"
+    },
+    {
+      "id": "agent-agent-laboratory",
+      "name": "Agent Laboratory",
+      "level": "Partner",
+      "domain": "Computer Science",
+      "backbone": "General-purpose",
+      "capability_envelope": "E3",
+      "capability_maturity": "M1",
+      "reasoning": "Yes",
+      "memory": "Yes",
+      "collaboration": "Yes",
+      "stages": [
+        "Literature",
+        "Hypothesis",
+        "Design",
+        "Analysis",
+        "Evaluation"
+      ],
+      "description": "End-to-end CS experimentation"
+    },
+    {
+      "id": "agent-a-lab",
+      "name": "A-Lab",
+      "level": "Avatar",
+      "domain": "Materials",
+      "backbone": "General-purpose",
+      "capability_envelope": "E2",
+      "capability_maturity": "M3",
+      "reasoning": "No",
+      "memory": "Yes",
+      "collaboration": "No",
+      "stages": [
+        "Literature",
+        "Hypothesis",
+        "Design",
+        "Verification",
+        "Analysis"
+      ],
+      "description": "Autonomous materials synthesis"
+    },
+    {
+      "id": "agent-alphaevolve",
+      "name": "AlphaEvolve",
+      "level": "Avatar",
+      "domain": "General",
+      "backbone": "General-purpose",
+      "capability_envelope": "E2",
+      "capability_maturity": "M3",
+      "reasoning": "Yes",
+      "memory": "Yes",
+      "collaboration": "No",
+      "stages": [
+        "Hypothesis",
+        "Design",
+        "Verification"
+      ],
+      "description": "Evolutionary scientific optimization"
+    },
+    {
+      "id": "agent-openevidence",
+      "name": "OpenEvidence",
+      "level": "Avatar",
+      "domain": "Medicine",
+      "backbone": "Domain-specialized",
+      "capability_envelope": "E2",
+      "capability_maturity": "M3",
+      "reasoning": "Yes",
+      "memory": "No",
+      "collaboration": "No",
+      "stages": [
+        "Literature",
+        "Analysis",
+        "Evaluation"
+      ],
+      "description": "Point-of-care clinical decision"
+    },
+    {
+      "id": "agent-aila",
+      "name": "AILA",
+      "level": "Avatar",
+      "domain": "Materials",
+      "backbone": "General-purpose",
+      "capability_envelope": "E2",
+      "capability_maturity": "M3",
+      "reasoning": "Yes",
+      "memory": "No",
+      "collaboration": "Yes",
+      "stages": [
+        "Design",
+        "Verification",
+        "Analysis"
+      ],
+      "description": "Autonomous instrument operation"
+    },
+    {
+      "id": "agent-mosaic-chemistry",
+      "name": "MOSAIC-chemistry",
+      "level": "Avatar",
+      "domain": "Chemistry",
+      "backbone": "General-purpose",
+      "capability_envelope": "E2",
+      "capability_maturity": "M3",
+      "reasoning": "Yes",
+      "memory": "No",
+      "collaboration": "Yes",
+      "stages": [
+        "Design",
+        "Verification",
+        "Analysis"
+      ],
+      "description": "Collective synthesis planning"
+    },
+    {
+      "id": "agent-mars",
+      "name": "MARS",
+      "level": "Avatar",
+      "domain": "Materials",
+      "backbone": "General-purpose",
+      "capability_envelope": "E2",
+      "capability_maturity": "M3",
+      "reasoning": "Yes",
+      "memory": "No",
+      "collaboration": "Yes",
+      "stages": [
+        "Literature",
+        "Hypothesis",
+        "Design",
+        "Verification",
+        "Analysis"
+      ],
+      "description": "Robotic materials discovery"
+    },
+    {
+      "id": "agent-scienceone",
+      "name": "ScienceOne",
+      "level": "Avatar",
+      "domain": "Biology",
+      "backbone": "Domain-specialized",
+      "capability_envelope": "E3",
+      "capability_maturity": "M2",
+      "reasoning": "Yes",
+      "memory": "Yes",
+      "collaboration": "Yes",
+      "stages": [
+        "Literature",
+        "Hypothesis",
+        "Design",
+        "Verification",
+        "Analysis",
+        "Evaluation"
+      ],
+      "description": "End-to-end scientific automation"
+    },
+    {
+      "id": "agent-ai-co-scientist",
+      "name": "AI co-scientist",
+      "level": "Avatar",
+      "domain": "General",
+      "backbone": "General-purpose",
+      "capability_envelope": "E3",
+      "capability_maturity": "M2",
+      "reasoning": "Yes",
+      "memory": "Yes",
+      "collaboration": "Yes",
+      "stages": [
+        "Literature",
+        "Hypothesis",
+        "Design",
+        "Verification",
+        "Analysis"
+      ],
+      "description": "Multi-agent scientific co-discovery"
+    },
+    {
+      "id": "agent-ai-scientist-v2",
+      "name": "AI Scientist-v2",
+      "level": "Avatar",
+      "domain": "Computer Science",
+      "backbone": "General-purpose",
+      "capability_envelope": "E3",
+      "capability_maturity": "M2",
+      "reasoning": "Yes",
+      "memory": "No",
+      "collaboration": "No",
+      "stages": [
+        "Hypothesis",
+        "Design",
+        "Verification",
+        "Analysis",
+        "Evaluation"
+      ],
+      "description": "Workshop-level CS research"
+    },
+    {
+      "id": "agent-coscientist",
+      "name": "Coscientist",
+      "level": "Avatar",
+      "domain": "Chemistry",
+      "backbone": "General-purpose",
+      "capability_envelope": "E3",
+      "capability_maturity": "M2",
+      "reasoning": "Yes",
+      "memory": "No",
+      "collaboration": "No",
+      "stages": [
+        "Literature",
+        "Hypothesis",
+        "Design",
+        "Verification",
+        "Analysis"
+      ],
+      "description": "Autonomous chemistry execution"
+    },
+    {
+      "id": "agent-robin",
+      "name": "Robin",
+      "level": "Avatar",
+      "domain": "Biology",
+      "backbone": "General-purpose",
+      "capability_envelope": "E3",
+      "capability_maturity": "M2",
+      "reasoning": "Yes",
+      "memory": "Yes",
+      "collaboration": "Yes",
+      "stages": [
+        "Literature",
+        "Hypothesis",
+        "Design",
+        "Verification",
+        "Analysis",
+        "Evaluation"
+      ],
+      "description": "Multi-agent biological discovery"
+    },
+    {
+      "id": "agent-sparks",
+      "name": "Sparks",
+      "level": "Avatar",
+      "domain": "Biology",
+      "backbone": "General-purpose",
+      "capability_envelope": "E3",
+      "capability_maturity": "M2",
+      "reasoning": "Yes",
+      "memory": "Yes",
+      "collaboration": "Yes",
+      "stages": [
+        "Hypothesis",
+        "Design",
+        "Verification",
+        "Analysis",
+        "Evaluation"
+      ],
+      "description": "Multi-agent protein design"
+    },
+    {
+      "id": "agent-internagent-1-5",
+      "name": "InternAgent-1.5",
+      "level": "Avatar",
+      "domain": "General",
+      "backbone": "Domain-specialized",
+      "capability_envelope": "E3",
+      "capability_maturity": "M2",
+      "reasoning": "Yes",
+      "memory": "Yes",
+      "collaboration": "Yes",
+      "stages": [
+        "Literature",
+        "Hypothesis",
+        "Design",
+        "Verification",
+        "Analysis"
+      ],
+      "description": "Long-horizon scientific discovery"
+    }
+  ],
+  "reading_lists": {
+    "assistant": [
+      {
+        "id": "reading-assistant-astrollamachat-scaling-astrollama-with-conversational-and-diverse-datasets",
+        "title": "AstroLLaMA‑Chat: Scaling AstroLLaMA with Conversational and Diverse Datasets",
+        "venue": "arXiv",
+        "year": 2024,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2401.01916"
+          }
+        ]
+      },
+      {
+        "id": "reading-assistant-biogpt-generative-pretrained-transformer-for-biomedical-text-generation-and-mining",
+        "title": "BioGPT: Generative Pre‑trained Transformer for Biomedical Text Generation and Mining",
+        "venue": "arXiv",
+        "year": 2022,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2210.10341"
+          }
+        ]
+      },
+      {
+        "id": "reading-assistant-darwin-1-5-large-language-models-as-materialsscience-foundation-models",
+        "title": "DARWIN 1.5: Large Language Models as Materials‑Science Foundation Models",
+        "venue": "arXiv",
+        "year": 2024,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2412.11970"
+          }
+        ]
+      },
+      {
+        "id": "reading-assistant-chemberta-largescale-selfsupervised-pretraining-for-molecular-property-prediction",
+        "title": "ChemBERTa: Large‑Scale Self‑Supervised Pre‑training for Molecular Property Prediction",
+        "venue": "arXiv",
+        "year": 2020,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2010.09885"
+          }
+        ]
+      },
+      {
+        "id": "reading-assistant-chemau-harness-the-reasoning-of-llms-in-chemical-research-with-adaptive-uncertainty-estimation",
+        "title": "ChemAU: Harness the Reasoning of LLMs in Chemical Research with Adaptive Uncertainty Estimation",
+        "venue": "arXiv",
+        "year": 2025,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2506.01116"
+          }
+        ]
+      },
+      {
+        "id": "reading-assistant-chemdfm-a-large-language-foundation-model-for-chemistry",
+        "title": "ChemDFM: A Large Language Foundation Model for Chemistry",
+        "venue": "arXiv",
+        "year": 2024,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2401.14818"
+          }
+        ]
+      },
+      {
+        "id": "reading-assistant-llasmol-advancing-large-language-models-for-chemistry-with-a-largescale-comprehensive-highquality-instruction-tuning-dataset",
+        "title": "LlaSMol: Advancing Large Language Models for Chemistry with a Large‑Scale, Comprehensive, High‑Quality Instruction Tuning Dataset",
+        "venue": "arXiv",
+        "year": 2024,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2402.09391"
+          }
+        ]
+      },
+      {
+        "id": "reading-assistant-instructmol-multimodal-integration-for-building-a-versatile-and-reliable-molecular-assistant-in-drug-discovery",
+        "title": "InstructMol: Multi‑modal Integration for Building a Versatile and Reliable Molecular Assistant in Drug Discovery",
+        "venue": "arXiv",
+        "year": 2023,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2311.16208"
+          }
+        ]
+      },
+      {
+        "id": "reading-assistant-ether0-a-scientific-reasoning-model-for-chemistry",
+        "title": "ether0: A Scientific Reasoning Model for Chemistry",
+        "venue": "arXiv",
+        "year": 2025,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2506.17238"
+          }
+        ]
+      },
+      {
+        "id": "reading-assistant-leveraging-large-language-models-for-predictive-chemistry",
+        "title": "Leveraging Large Language Models for Predictive Chemistry",
+        "venue": "Nature",
+        "year": 2024,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://www.nature.com/articles/s42256-023-00788-1"
+          }
+        ]
+      },
+      {
+        "id": "reading-assistant-multimodal-molecule-structuretext-model-for-textbased-retrieval-and-editing",
+        "title": "Multi‑modal Molecule Structure–Text Model for Text‑based Retrieval and Editing",
+        "venue": "Nature",
+        "year": 2023,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://www.nature.com/articles/s42256-023-00759-6"
+          }
+        ]
+      },
+      {
+        "id": "reading-assistant-climategpt-towards-ai-synthesizing-interdisciplinary-research-on-climate-change",
+        "title": "ClimateGPT: Towards AI Synthesizing Interdisciplinary Research on Climate Change",
+        "venue": "arXiv",
+        "year": 2024,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2401.09646"
+          }
+        ]
+      },
+      {
+        "id": "reading-assistant-sparks-of-science-hypothesis-generation-using-structured-paper-data",
+        "title": "Sparks of Science: Hypothesis Generation Using Structured Paper Data",
+        "venue": "arXiv",
+        "year": 2025,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2504.12976"
+          }
+        ]
+      },
+      {
+        "id": "reading-assistant-deepseekproverv2-advancing-formal-mathematical-reasoning-via-reinforcement-learning-for-subgoal-decomposition",
+        "title": "DeepSeek‑Prover‑V2: Advancing Formal Mathematical Reasoning via Reinforcement Learning for Subgoal Decomposition",
+        "venue": "arXiv",
+        "year": 2025,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2504.21801"
+          }
+        ]
+      },
+      {
+        "id": "reading-assistant-bimedix-bilingual-medical-mixture-of-experts-llm",
+        "title": "BiMediX: Bilingual Medical Mixture of Experts LLM",
+        "venue": "arXiv",
+        "year": 2024,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2402.13253"
+          }
+        ]
+      },
+      {
+        "id": "reading-assistant-chatdoctor-a-medical-chat-model-finetuned-on-a-large-language-model-llama-using-medical-domain-knowledge",
+        "title": "ChatDoctor: A Medical Chat Model Fine‑tuned on a Large Language Model (LLAMA) Using Medical Domain Knowledge",
+        "venue": "arXiv",
+        "year": 2023,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2303.14070"
+          }
+        ]
+      },
+      {
+        "id": "reading-assistant-agentmd-empowering-language-agents-for-risk-prediction-with-largescale-clinical-tool-learning",
+        "title": "AgentMD: Empowering Language Agents for Risk Prediction with Large‑Scale Clinical Tool Learning",
+        "venue": "arXiv",
+        "year": 2024,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2402.13225"
+          }
+        ]
+      },
+      {
+        "id": "reading-assistant-medalpaca-an-opensource-collection-of-medical-conversational-ai-models-and-training-data",
+        "title": "MedAlpaca: An Open‑Source Collection of Medical Conversational AI Models and Training Data",
+        "venue": "arXiv",
+        "year": 2023,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2304.08247"
+          }
+        ]
+      },
+      {
+        "id": "reading-assistant-druggen-enhances-drug-discovery-with-large-language-models-and-reinforcement-learning",
+        "title": "DrugGen Enhances Drug Discovery with Large Language Models and Reinforcement Learning",
+        "venue": "Nature",
+        "year": 2025,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://www.nature.com/articles/s41598-025-98629-1"
+          }
+        ]
+      },
+      {
+        "id": "reading-assistant-llmsr-scientific-equation-discovery-via-programming-with-large-language-models",
+        "title": "LLM‑SR: Scientific Equation Discovery via Programming with Large Language Models",
+        "venue": "arXiv",
+        "year": 2024,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2404.18400"
+          }
+        ]
+      },
+      {
+        "id": "reading-assistant-litllm-a-toolkit-for-scientific-literature-review",
+        "title": "LitLLM: A Toolkit for Scientific Literature Review",
+        "venue": "arXiv",
+        "year": 2024,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2402.01788"
+          }
+        ]
+      },
+      {
+        "id": "reading-assistant-scibert-a-pretrained-language-model-for-scientific-text",
+        "title": "SciBERT: A Pretrained Language Model for Scientific Text",
+        "venue": "arXiv",
+        "year": 2019,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/1903.10676"
+          }
+        ]
+      },
+      {
+        "id": "reading-assistant-scimon-scientific-inspiration-machines-optimized-for-novelty",
+        "title": "SciMON: Scientific Inspiration Machines Optimized for Novelty",
+        "venue": "arXiv",
+        "year": 2023,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2305.14259"
+          }
+        ]
+      },
+      {
+        "id": "reading-assistant-scitune-aligning-large-language-models-with-scientific-multimodal-instructions",
+        "title": "SCITUNE: Aligning Large Language Models with Scientific Multimodal Instructions",
+        "venue": "arXiv",
+        "year": 2023,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2307.01139"
+          }
+        ]
+      },
+      {
+        "id": "reading-assistant-naturelm-deciphering-the-language-of-nature-for-scientific-discovery",
+        "title": "NatureLM: Deciphering the Language of Nature for Scientific Discovery",
+        "venue": "arXiv",
+        "year": 2025,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2502.07527"
+          }
+        ]
+      }
+    ],
+    "partner": [
+      {
+        "id": "reading-partner-starwhisper-telescope-agentbased-observation-assistant-system-to-approach-an-ai-astrophysicist",
+        "title": "StarWhisper Telescope: Agent‑Based Observation Assistant System to Approach an AI Astrophysicist",
+        "venue": "arXiv",
+        "year": 2024,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2412.06412"
+          }
+        ]
+      },
+      {
+        "id": "reading-partner-from-intention-to-implementation-automating-biomedical-research-via-llms",
+        "title": "From Intention to Implementation: Automating Biomedical Research via LLMs",
+        "venue": "arXiv",
+        "year": 2024,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2412.09429"
+          }
+        ]
+      },
+      {
+        "id": "reading-partner-crisprgpt-an-llm-agent-for-automated-design-of-geneediting-experiments",
+        "title": "CRISPR‑GPT: An LLM Agent for Automated Design of Gene‑Editing Experiments",
+        "venue": "arXiv",
+        "year": 2024,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2404.18021"
+          }
+        ]
+      },
+      {
+        "id": "reading-partner-towards-an-ai-coscientist",
+        "title": "Towards an AI Co‑Scientist",
+        "venue": "arXiv",
+        "year": 2025,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2502.18864"
+          }
+        ]
+      },
+      {
+        "id": "reading-partner-drbioright-2-0-an-llmpowered-bioinformatics-chatbot-for-largescale-cancer-functional-proteomics-analysis",
+        "title": "DrBioRight 2.0: An LLM‑Powered Bioinformatics Chatbot for Large‑Scale Cancer Functional Proteomics Analysis",
+        "venue": "Nature",
+        "year": 2025,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://www.nature.com/articles/s41467-025-57430-4"
+          }
+        ]
+      },
+      {
+        "id": "reading-partner-protagents-protein-discovery-via-large-language-model-multiagent-collaboration",
+        "title": "ProtAgents: Protein Discovery via Large Language Model Multi‑Agent Collaboration",
+        "venue": "arXiv",
+        "year": 2024,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2402.04268"
+          }
+        ]
+      },
+      {
+        "id": "reading-partner-moosechem-large-language-models-for-rediscovering-unseen-chemistry-scientific-hypotheses",
+        "title": "MOOSE‑Chem: Large Language Models for Rediscovering Unseen Chemistry Scientific Hypotheses",
+        "venue": "arXiv",
+        "year": 2024,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2410.07076"
+          }
+        ]
+      },
+      {
+        "id": "reading-partner-autonomous-chemical-research-with-large-language-models",
+        "title": "Autonomous Chemical Research with Large Language Models",
+        "venue": "Nature",
+        "year": 2023,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://www.nature.com/articles/s41586-023-06792-0"
+          }
+        ]
+      },
+      {
+        "id": "reading-partner-chemcrow-augmenting-largelanguage-models-with-chemistry-tools",
+        "title": "ChemCrow: Augmenting Large‑Language Models with Chemistry Tools",
+        "venue": "arXiv",
+        "year": 2023,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2304.05376"
+          }
+        ]
+      },
+      {
+        "id": "reading-partner-organa-a-robotic-assistant-for-automated-chemistry-experimentation-and-characterization",
+        "title": "ORGANA: A Robotic Assistant for Automated Chemistry Experimentation and Characterization",
+        "venue": "arXiv",
+        "year": 2024,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2401.06949"
+          }
+        ]
+      },
+      {
+        "id": "reading-partner-xchemagents-agentic-ai-for-explainable-quantum-chemistry",
+        "title": "xChemAgents: Agentic AI for Explainable Quantum Chemistry",
+        "venue": "arXiv",
+        "year": 2025,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2505.20574"
+          }
+        ]
+      },
+      {
+        "id": "reading-partner-chemagent-selfupdating-memories-in-large-language-models-improves-chemical-reasoning",
+        "title": "ChemAgent: Self‑Updating Memories in Large Language Models Improves Chemical Reasoning",
+        "venue": "arXiv",
+        "year": 2025,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2501.06590"
+          }
+        ]
+      },
+      {
+        "id": "reading-partner-large-language-models-to-accelerate-organic-chemistry-synthesis",
+        "title": "Large Language Models to Accelerate Organic Chemistry Synthesis",
+        "venue": "arXiv",
+        "year": 2025,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2504.18340"
+          }
+        ]
+      },
+      {
+        "id": "reading-partner-mycrunchgpt-a-chatgptassisted-framework-for-scientific-machine-learning",
+        "title": "MyCrunchGPT: A ChatGPT‑Assisted Framework for Scientific Machine Learning",
+        "venue": "arXiv",
+        "year": 2023,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2306.15551"
+          }
+        ]
+      },
+      {
+        "id": "reading-partner-metaopenfoam-an-llmbased-multiagent-framework-for-cfd",
+        "title": "MetaOpenFoam: An LLM‑Based Multi‑Agent Framework for CFD",
+        "venue": "arXiv",
+        "year": 2024,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2407.21320"
+          }
+        ]
+      },
+      {
+        "id": "reading-partner-foamagent-towards-automated-intelligent-cfd-workflows",
+        "title": "FoamAgent: Towards Automated Intelligent CFD Workflows",
+        "venue": "arXiv",
+        "year": 2025,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2505.04997"
+          }
+        ]
+      },
+      {
+        "id": "reading-partner-airesearcher-autonomous-scientific-innovation",
+        "title": "AI‑Researcher: Autonomous Scientific Innovation",
+        "venue": "arXiv",
+        "year": 2025,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2505.18705"
+          }
+        ]
+      },
+      {
+        "id": "reading-partner-jupybara-operationalizing-a-design-space-for-actionable-data-analysis-and-storytelling-with-llms",
+        "title": "Jupybara: Operationalizing a Design Space for Actionable Data Analysis and Storytelling with LLMs",
+        "venue": "arXiv",
+        "year": 2025,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2501.16661"
+          }
+        ]
+      },
+      {
+        "id": "reading-partner-flowagent-achieving-compliance-and-flexibility-for-workflow-agents",
+        "title": "FlowAgent: Achieving Compliance and Flexibility for Workflow Agents",
+        "venue": "arXiv",
+        "year": 2025,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2502.14345"
+          }
+        ]
+      },
+      {
+        "id": "reading-partner-the-ai-scientist-towards-fully-automated-openended-scientific-discovery",
+        "title": "The AI Scientist: Towards Fully Automated Open‑Ended Scientific Discovery",
+        "venue": "arXiv",
+        "year": 2024,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2408.06292"
+          }
+        ]
+      },
+      {
+        "id": "reading-partner-geogpt-understanding-and-processing-geospatial-tasks-through-an-autonomous-gpt",
+        "title": "GeoGPT: Understanding and Processing Geospatial Tasks through an Autonomous GPT",
+        "venue": "arXiv",
+        "year": 2023,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2307.07930"
+          }
+        ]
+      },
+      {
+        "id": "reading-partner-paperqa-retrievalaugmented-generative-agent-for-scientific-research",
+        "title": "PaperQA: Retrieval‑Augmented Generative Agent for Scientific Research",
+        "venue": "arXiv",
+        "year": 2023,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2312.07559"
+          }
+        ]
+      },
+      {
+        "id": "reading-partner-chatcite-llm-agent-with-human-workflow-guidance-for-comparative-literature-summary",
+        "title": "ChatCite: LLM Agent with Human Workflow Guidance for Comparative Literature Summary",
+        "venue": "arXiv",
+        "year": 2024,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2403.02574"
+          }
+        ]
+      },
+      {
+        "id": "reading-partner-piflow-principleaware-scientific-discovery-with-multiagent-collaboration",
+        "title": "PiFlow: Principle‑Aware Scientific Discovery with Multi‑Agent Collaboration",
+        "venue": "arXiv",
+        "year": 2025,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2505.15047"
+          }
+        ]
+      },
+      {
+        "id": "reading-partner-aviary-training-language-agents-on-challenging-scientific-tasks",
+        "title": "Aviary: Training Language Agents on Challenging Scientific Tasks",
+        "venue": "arXiv",
+        "year": 2024,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2412.21154"
+          }
+        ]
+      },
+      {
+        "id": "reading-partner-an-autonomous-laboratory-for-the-accelerated-synthesis-of-novel-materials",
+        "title": "An Autonomous Laboratory for the Accelerated Synthesis of Novel Materials",
+        "venue": "Nature",
+        "year": 2023,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38030721/"
+          }
+        ]
+      },
+      {
+        "id": "reading-partner-construction-of-a-knowledge-graph-for-framework-material-enabled-by-large-language-models-and-its-application",
+        "title": "Construction of a Knowledge Graph for Framework Material Enabled by Large Language Models and Its Application",
+        "venue": "npjCM",
+        "year": 2025,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://www.nature.com/articles/s41524-025-01540-6"
+          }
+        ]
+      },
+      {
+        "id": "reading-partner-multicrossmodal-automated-agent-for-integrating-diverse-materials-science-data",
+        "title": "MultiCrossModal Automated Agent for Integrating Diverse Materials Science Data",
+        "venue": "arXiv",
+        "year": 2025,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2505.15132"
+          }
+        ]
+      },
+      {
+        "id": "reading-partner-llmatdesign-autonomous-materials-discovery-with-large-language-models",
+        "title": "LLMatDesign: Autonomous Materials Discovery with Large Language Models",
+        "venue": "arXiv",
+        "year": 2024,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2406.13163"
+          }
+        ]
+      },
+      {
+        "id": "reading-partner-honeycomb-a-flexible-llmbased-agent-system-for-materials-science",
+        "title": "Honeycomb: A Flexible LLM‑Based Agent System for Materials Science",
+        "venue": "arXiv",
+        "year": 2024,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2409.00135"
+          }
+        ]
+      },
+      {
+        "id": "reading-partner-drugagent-automating-aiaided-drug-discovery-programming-through-llm-multiagent-collaboration",
+        "title": "DrugAgent: Automating AI‑Aided Drug Discovery Programming through LLM Multi‑Agent Collaboration",
+        "venue": "arXiv",
+        "year": 2024,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2411.15692"
+          }
+        ]
+      },
+      {
+        "id": "reading-partner-toward-a-team-of-aimade-scientists-for-scientific-discovery-from-gene-expression-data",
+        "title": "Toward a Team of AI‑Made Scientists for Scientific Discovery from Gene Expression Data",
+        "venue": "arXiv",
+        "year": 2024,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2402.12391"
+          }
+        ]
+      },
+      {
+        "id": "reading-partner-medagents-large-language-models-as-collaborators-for-zeroshot-medical-reasoning",
+        "title": "MedAgents: Large Language Models as Collaborators for Zero‑Shot Medical Reasoning",
+        "venue": "arXiv",
+        "year": 2023,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2311.10537"
+          }
+        ]
+      },
+      {
+        "id": "reading-partner-automation-of-systematic-reviews-with-large-language-models",
+        "title": "Automation of Systematic Reviews with Large Language Models",
+        "venue": "medRxiv",
+        "year": 2025,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://www.medrxiv.org/content/10.1101/2025.06.13.25329541v2"
+          }
+        ]
+      },
+      {
+        "id": "reading-partner-mragent-an-llmbased-automated-agent-for-causal-knowledge-discovery-in-disease-via-mendelian-randomization",
+        "title": "MRAgent: An LLM‑Based Automated Agent for Causal Knowledge Discovery in Disease via Mendelian Randomization",
+        "venue": "BriefBioinf",
+        "year": 2025,
+        "links": [
+          {
+            "kind": "website",
+            "label": "website",
+            "url": "https://academic.oup.com/bib/article/26/2/bbaf140/8107848"
+          }
+        ]
+      },
+      {
+        "id": "reading-partner-genegpt-augmenting-large-language-models-with-domain-tools-for-improved-access-to-biomedical-information",
+        "title": "GeneGPT: Augmenting Large Language Models with Domain Tools for Improved Access to Biomedical Information",
+        "venue": "arXiv",
+        "year": 2023,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2304.09667"
+          }
+        ]
+      }
+    ],
+    "avatar": [
+      {
+        "id": "reading-avatar-cycleresearcher-improving-automated-research-via-automated-review",
+        "title": "CycleResearcher: Improving Automated Research via Automated Review",
+        "venue": "arXiv",
+        "year": 2024,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2411.00816"
+          }
+        ]
+      },
+      {
+        "id": "reading-avatar-the-ai-scientistv2-workshoplevel-automated-scientific-discovery-via-agentic-tree-search",
+        "title": "The AI Scientist‑v2: Workshop‑Level Automated Scientific Discovery via Agentic Tree Search",
+        "venue": "arXiv",
+        "year": 2025,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2504.08066"
+          }
+        ]
+      },
+      {
+        "id": "reading-avatar-agentrxiv-towards-collaborative-autonomous-research",
+        "title": "AgentRxiv: Towards Collaborative Autonomous Research",
+        "venue": "arXiv",
+        "year": 2025,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2503.18102"
+          }
+        ]
+      },
+      {
+        "id": "reading-avatar-agent-laboratory-using-llm-agents-as-research-assistants",
+        "title": "Agent Laboratory: Using LLM Agents as Research Assistants",
+        "venue": "arXiv",
+        "year": 2025,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2501.04227"
+          }
+        ]
+      },
+      {
+        "id": "reading-avatar-biomni-a-generalpurpose-biomedical-ai-agent",
+        "title": "BiOMNI: A General‑Purpose Biomedical AI Agent",
+        "venue": "bioRxiv",
+        "year": 2025,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://www.biorxiv.org/content/10.1101/2025.05.30.656746v1"
+          }
+        ]
+      },
+      {
+        "id": "reading-avatar-origene-a-selfevolving-virtual-disease-biologist-automating-therapeutic-target-discovery",
+        "title": "OriGene: A Self‑Evolving Virtual Disease Biologist Automating Therapeutic Target Discovery",
+        "venue": "bioRxiv",
+        "year": 2025,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://www.biorxiv.org/content/10.1101/2025.06.03.657658v1"
+          }
+        ]
+      },
+      {
+        "id": "reading-avatar-cellvoyager-ai-compbio-agent-generates-new-insights-by-autonomously-analyzing-biological-data",
+        "title": "CellVoyager: AI CompBio Agent Generates New Insights by Autonomously Analyzing Biological Data",
+        "venue": "bioRxiv",
+        "year": 2025,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://www.biorxiv.org/content/10.1101/2025.06.03.657517v1"
+          }
+        ]
+      },
+      {
+        "id": "reading-avatar-sparks-multiagent-artificial-intelligence-model-discovers-protein-design-principles",
+        "title": "Sparks: Multi‑Agent Artificial Intelligence Model Discovers Protein Design Principles",
+        "venue": "arXiv",
+        "year": 2025,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2504.19017"
+          }
+        ]
+      },
+      {
+        "id": "reading-avatar-alphaevolve-a-coding-agent-for-scientific-and-algorithmic-discovery",
+        "title": "AlphaEvolve: A Coding Agent for Scientific and Algorithmic Discovery",
+        "venue": "arXiv",
+        "year": 2025,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2506.13131"
+          }
+        ]
+      },
+      {
+        "id": "reading-avatar-robin-a-multiagent-system-for-automating-scientific-discovery",
+        "title": "Robin: A Multi‑Agent System for Automating Scientific Discovery",
+        "venue": "arXiv",
+        "year": 2025,
+        "links": [
+          {
+            "kind": "paper",
+            "label": "paper",
+            "url": "https://arxiv.org/abs/2505.13400"
+          }
+        ]
+      },
+      {
+        "id": "reading-avatar-scienceone",
+        "title": "ScienceOne",
+        "venue": "Project",
+        "year": 2025,
+        "links": [
+          {
+            "kind": "website",
+            "label": "website",
+            "url": "https://scienceone.ia.ac.cn/"
+          }
+        ]
+      }
+    ]
+  }
+}

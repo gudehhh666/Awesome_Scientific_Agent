@@ -1,0 +1,501 @@
+{
+  "schema_version": 1,
+  "evaluation_angles": [
+    {
+      "id": "scientific-knowledge-and-reasoning",
+      "name": "Scientific knowledge and reasoning",
+      "focus": "BioMaze, SuperGPQA, Humanity's Last Exam, MR-Ben",
+      "use_when": "Whether an agent can reason over expert-level scientific concepts."
+    },
+    {
+      "id": "citation-and-literature-grounding",
+      "name": "Citation and literature grounding",
+      "focus": "CiteBench, ALCE, SurveyForge",
+      "use_when": "Whether outputs are traceable, evidence-aware, and literature-faithful."
+    },
+    {
+      "id": "code-data-and-experiment-execution",
+      "name": "Code, data, and experiment execution",
+      "focus": "MLAgentBench, DSBench, SciCode, PaperBench",
+      "use_when": "Whether an agent can implement, run, debug, and reproduce research workflows."
+    },
+    {
+      "id": "domain-and-embodied-environments",
+      "name": "Domain and embodied environments",
+      "focus": "DiscoveryWorld, AgentClinic, GenoTEX, LLM-SRBench",
+      "use_when": "Whether an agent performs in domain-specific or simulated scientific settings."
+    }
+  ],
+  "items": [
+    {
+      "id": "benchmark-biomaze-benchmarking-and-enhancing-large-language-models-for-biological-pathway-reasoning",
+      "title": "BioMaze: Benchmarking and Enhancing Large Language Models for Biological Pathway Reasoning",
+      "venue": "arXiv",
+      "year": 2025,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2502.16660"
+        },
+        {
+          "kind": "dataset",
+          "label": "dataset",
+          "url": "https://huggingface.co/datasets/haitengzhao/BioMaze"
+        }
+      ],
+      "evaluation_angle": "scientific-knowledge-and-reasoning"
+    },
+    {
+      "id": "benchmark-biokgbench-a-knowledge-graph-checking-benchmark-of-ai-agent-for-biomedical-science",
+      "title": "BioKGBench: A Knowledge Graph Checking Benchmark of AI Agent for Biomedical Science",
+      "venue": "GitHub",
+      "year": 2025,
+      "links": [
+        {
+          "kind": "code",
+          "label": "code",
+          "url": "https://github.com/westlake-autolab/BioKGBench"
+        }
+      ],
+      "evaluation_angle": "code-data-and-experiment-execution"
+    },
+    {
+      "id": "benchmark-surveyforge-on-the-outline-heuristics-memory-driven-generation-and-multi-dimensional-evaluation-for-automated-survey-writing",
+      "title": "SurveyForge: On the Outline Heuristics, Memory-Driven Generation, and Multi-Dimensional Evaluation for Automated Survey Writing",
+      "venue": "arXiv",
+      "year": 2025,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2503.04629"
+        },
+        {
+          "kind": "code",
+          "label": "code",
+          "url": "https://github.com/Alpha-Innovator/SurveyForge"
+        }
+      ],
+      "evaluation_angle": "citation-and-literature-grounding"
+    },
+    {
+      "id": "benchmark-mmlu-pro-a-more-robust-and-challenging-multi-task-language-understanding-benchmark",
+      "title": "MMLU-Pro: A More Robust and Challenging Multi-Task Language Understanding Benchmark",
+      "venue": "NeurIPS",
+      "year": 2024,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://proceedings.neurips.cc/paper/2024"
+        },
+        {
+          "kind": "dataset",
+          "label": "dataset",
+          "url": "https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro"
+        }
+      ],
+      "evaluation_angle": "scientific-knowledge-and-reasoning"
+    },
+    {
+      "id": "benchmark-humanity-s-last-exam-a-hard-benchmark-at-the-frontier-of-human-knowledge",
+      "title": "Humanity's Last Exam: A Hard Benchmark at the Frontier of Human Knowledge",
+      "venue": "arXiv",
+      "year": 2025,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2501.14249"
+        },
+        {
+          "kind": "website",
+          "label": "website",
+          "url": "https://lastexam.ai/"
+        }
+      ],
+      "evaluation_angle": "scientific-knowledge-and-reasoning"
+    },
+    {
+      "id": "benchmark-supergpqa-scaling-llm-evaluation-across-285-graduate-disciplines",
+      "title": "SuperGPQA: Scaling LLM Evaluation Across 285 Graduate Disciplines",
+      "venue": "arXiv",
+      "year": 2025,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2502.14739"
+        },
+        {
+          "kind": "dataset",
+          "label": "dataset",
+          "url": "https://huggingface.co/datasets/m-a-p/SuperGPQA"
+        }
+      ],
+      "evaluation_angle": "scientific-knowledge-and-reasoning"
+    },
+    {
+      "id": "benchmark-citebench-a-benchmark-for-scientific-citation-text-generation",
+      "title": "CiteBench: A Benchmark for Scientific Citation Text Generation",
+      "venue": "arXiv",
+      "year": 2022,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2212.09577"
+        },
+        {
+          "kind": "code",
+          "label": "code",
+          "url": "https://github.com/UKPLab/citebench"
+        }
+      ],
+      "evaluation_angle": "citation-and-literature-grounding"
+    },
+    {
+      "id": "benchmark-alce-enabling-large-language-models-to-generate-text-with-citations",
+      "title": "ALCE: Enabling Large Language Models to Generate Text With Citations",
+      "venue": "arXiv",
+      "year": 2023,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2305.14627"
+        },
+        {
+          "kind": "code",
+          "label": "code",
+          "url": "https://github.com/princeton-nlp/ALCE"
+        }
+      ],
+      "evaluation_angle": "citation-and-literature-grounding"
+    },
+    {
+      "id": "benchmark-tomato-chem-large-language-models-for-rediscovering-unseen-chemistry-scientific-hypotheses",
+      "title": "Tomato-Chem: Large Language Models for Rediscovering Unseen Chemistry Scientific Hypotheses",
+      "venue": "arXiv",
+      "year": 2024,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2410.07076"
+        },
+        {
+          "kind": "code",
+          "label": "code",
+          "url": "https://github.com/ZonglinY/MOOSE-Chem"
+        }
+      ],
+      "evaluation_angle": "code-data-and-experiment-execution"
+    },
+    {
+      "id": "benchmark-reviewer2-optimizing-review-generation-through-prompt-generation",
+      "title": "Reviewer2: Optimizing Review Generation Through Prompt Generation",
+      "venue": "arXiv",
+      "year": 2024,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2402.10886"
+        },
+        {
+          "kind": "code",
+          "label": "code",
+          "url": "https://github.com/ZhaolinGao/Reviewer2"
+        }
+      ],
+      "evaluation_angle": "citation-and-literature-grounding"
+    },
+    {
+      "id": "benchmark-scientists-first-exam-probing-cognitive-abilities-of-mllm-via-perception-understanding-and-reasoning",
+      "title": "Scientists' First Exam: Probing Cognitive Abilities of MLLM via Perception, Understanding, and Reasoning",
+      "venue": "arXiv",
+      "year": 2025,
+      "links": [
+        {
+          "kind": "dataset",
+          "label": "dataset",
+          "url": "https://huggingface.co/datasets/PrismaX/SFE"
+        },
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2506.10521"
+        }
+      ],
+      "evaluation_angle": "scientific-knowledge-and-reasoning"
+    },
+    {
+      "id": "benchmark-mr-ben-a-comprehensive-meta-reasoning-benchmark-for-large-language-models",
+      "title": "MR-Ben: A Comprehensive Meta-Reasoning Benchmark for Large Language Models",
+      "venue": "arXiv",
+      "year": 2024,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2406.13975"
+        },
+        {
+          "kind": "website",
+          "label": "website",
+          "url": "https://randolph-zeng.github.io/Mr-Ben.github.io/"
+        }
+      ],
+      "evaluation_angle": "scientific-knowledge-and-reasoning"
+    },
+    {
+      "id": "benchmark-figureqa-an-annotated-figure-dataset-for-visual-reasoning",
+      "title": "FigureQA: An Annotated Figure Dataset for Visual Reasoning",
+      "venue": "arXiv",
+      "year": 2017,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://arxiv.org/abs/1710.07300"
+        },
+        {
+          "kind": "dataset",
+          "label": "dataset",
+          "url": "https://huggingface.co/datasets/vikhyatk/figureqa"
+        }
+      ],
+      "evaluation_angle": "scientific-knowledge-and-reasoning"
+    },
+    {
+      "id": "benchmark-scieval-a-multi-level-large-language-model-evaluation-benchmark-for-scientific-research",
+      "title": "SciEval: A Multi-Level Large Language Model Evaluation Benchmark for Scientific Research",
+      "venue": "AAAI",
+      "year": 2024,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/30700"
+        },
+        {
+          "kind": "dataset",
+          "label": "dataset",
+          "url": "https://huggingface.co/datasets/OpenDFM/SciEval"
+        }
+      ],
+      "evaluation_angle": "scientific-knowledge-and-reasoning"
+    },
+    {
+      "id": "benchmark-medxpertqa-benchmarking-expert-level-medical-reasoning-and-understanding",
+      "title": "MedXpertQA: Benchmarking Expert-Level Medical Reasoning and Understanding",
+      "venue": "arXiv",
+      "year": 2025,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2501.18362"
+        },
+        {
+          "kind": "dataset",
+          "label": "dataset",
+          "url": "https://huggingface.co/datasets/bigbio/med_qa"
+        }
+      ],
+      "evaluation_angle": "scientific-knowledge-and-reasoning"
+    },
+    {
+      "id": "benchmark-llm-srbench-a-new-benchmark-for-scientific-equation-discovery-with-large-language-models",
+      "title": "LLM-SRBench: A New Benchmark for Scientific Equation Discovery With Large Language Models",
+      "venue": "arXiv",
+      "year": 2025,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2504.10415"
+        },
+        {
+          "kind": "dataset",
+          "label": "dataset",
+          "url": "https://huggingface.co/datasets/nnheui/llm-srbench"
+        }
+      ],
+      "evaluation_angle": "code-data-and-experiment-execution"
+    },
+    {
+      "id": "benchmark-genotex-a-benchmark-for-evaluating-llm-based-exploration-of-gene-expression-data-in-alignment-with-bioinformaticians",
+      "title": "GenoTEX: A Benchmark for Evaluating LLM-Based Exploration of Gene Expression Data in Alignment With Bioinformaticians",
+      "venue": "arXiv",
+      "year": 2024,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2406.15341"
+        },
+        {
+          "kind": "dataset",
+          "label": "dataset",
+          "url": "https://huggingface.co/datasets/Liu-Hy/GenoTEX"
+        }
+      ],
+      "evaluation_angle": "domain-and-embodied-environments"
+    },
+    {
+      "id": "benchmark-mlagentbench-evaluating-language-agents-on-machine-learning-experimentation",
+      "title": "MLAgentBench: Evaluating Language Agents on Machine Learning Experimentation",
+      "venue": "arXiv",
+      "year": 2023,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2310.03302"
+        },
+        {
+          "kind": "code",
+          "label": "code",
+          "url": "https://github.com/snap-stanford/MLAgentBench"
+        }
+      ],
+      "evaluation_angle": "code-data-and-experiment-execution"
+    },
+    {
+      "id": "benchmark-paperbench-evaluating-ai-s-ability-to-replicate-ai-research",
+      "title": "PaperBench: Evaluating AI's Ability to Replicate AI Research",
+      "venue": "arXiv",
+      "year": 2025,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2504.01848"
+        },
+        {
+          "kind": "website",
+          "label": "website",
+          "url": "https://openai.com/research/paperbench"
+        }
+      ],
+      "evaluation_angle": "code-data-and-experiment-execution"
+    },
+    {
+      "id": "benchmark-dscodebench-a-realistic-benchmark-for-data-science-code-generation",
+      "title": "DSCodeBench: A Realistic Benchmark for Data Science Code Generation",
+      "venue": "AAAI",
+      "year": 2026,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2505.15621"
+        },
+        {
+          "kind": "code",
+          "label": "code",
+          "url": "https://github.com/ShuyinOuyang/DSCodeBench"
+        }
+      ],
+      "evaluation_angle": "code-data-and-experiment-execution"
+    },
+    {
+      "id": "benchmark-discoveryworld-a-virtual-environment-for-developing-and-evaluating-automated-scientific-discovery-agents",
+      "title": "DiscoveryWorld: A Virtual Environment for Developing and Evaluating Automated Scientific Discovery Agents",
+      "venue": "arXiv",
+      "year": 2024,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2406.06769"
+        },
+        {
+          "kind": "code",
+          "label": "code",
+          "url": "https://github.com/allenai/discoveryworld"
+        }
+      ],
+      "evaluation_angle": "domain-and-embodied-environments"
+    },
+    {
+      "id": "benchmark-scicode-a-scientist-curated-benchmark-for-scientific-code-generation",
+      "title": "SciCode: A Scientist-Curated Benchmark for Scientific Code Generation",
+      "venue": "arXiv",
+      "year": 2024,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2407.13168"
+        },
+        {
+          "kind": "code",
+          "label": "code",
+          "url": "https://github.com/scicode-bench/SciCode"
+        }
+      ],
+      "evaluation_angle": "code-data-and-experiment-execution"
+    },
+    {
+      "id": "benchmark-agentclinic-a-multimodal-agent-benchmark-to-evaluate-ai-in-simulated-clinical-environments",
+      "title": "AgentClinic: A Multimodal Agent Benchmark to Evaluate AI in Simulated Clinical Environments",
+      "venue": "arXiv",
+      "year": 2024,
+      "links": [
+        {
+          "kind": "code",
+          "label": "code",
+          "url": "https://github.com/SamuelSchmidgall/AgentClinic"
+        },
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2405.07960"
+        }
+      ],
+      "evaluation_angle": "domain-and-embodied-environments"
+    },
+    {
+      "id": "benchmark-sdrbench-scientific-data-reduction-benchmark-for-lossy-compressors",
+      "title": "SDRBench: Scientific Data Reduction Benchmark for Lossy Compressors",
+      "venue": "Website",
+      "year": 2021,
+      "links": [
+        {
+          "kind": "website",
+          "label": "website",
+          "url": "https://sdrbench.github.io/"
+        },
+        {
+          "kind": "website",
+          "label": "website",
+          "url": "https://www.r-ccs.riken.jp/en/"
+        }
+      ],
+      "evaluation_angle": "code-data-and-experiment-execution"
+    },
+    {
+      "id": "benchmark-dsbench-how-far-are-data-science-agents-from-becoming-data-science-experts",
+      "title": "DSBench: How Far Are Data Science Agents from Becoming Data Science Experts?",
+      "venue": "GitHub",
+      "year": 2025,
+      "links": [
+        {
+          "kind": "code",
+          "label": "code",
+          "url": "https://github.com/LiqiangJing/DSBench"
+        },
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2409.07703"
+        }
+      ],
+      "evaluation_angle": "code-data-and-experiment-execution"
+    }
+  ]
+}

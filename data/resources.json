@@ -1,0 +1,646 @@
+{
+  "schema_version": 1,
+  "watchlist": [
+    {
+      "id": "watch-karpathy-nanochat",
+      "repository": "karpathy/nanochat",
+      "scope": "Minimal end-to-end LLM training and chat stack",
+      "rationale": "Tracks Karpathy's compact, hackable path from tokenizer and pretraining to finetuning, evaluation, inference, and chat UI.",
+      "links": [
+        {
+          "kind": "project",
+          "label": "repository",
+          "url": "https://github.com/karpathy/nanochat"
+        }
+      ]
+    },
+    {
+      "id": "watch-karpathy-llm-c",
+      "repository": "karpathy/llm.c",
+      "scope": "LLM training in C/CUDA",
+      "rationale": "Useful for understanding low-level training kernels, performance constraints, and reproducible GPT-style training.",
+      "links": [
+        {
+          "kind": "project",
+          "label": "repository",
+          "url": "https://github.com/karpathy/llm.c"
+        }
+      ]
+    },
+    {
+      "id": "watch-sakanaai-ai-scientist",
+      "repository": "SakanaAI/AI-Scientist",
+      "scope": "Automated idea-to-paper research loop",
+      "rationale": "A reference point for autonomous ideation, coding, experimentation, paper writing, and automated review.",
+      "links": [
+        {
+          "kind": "project",
+          "label": "repository",
+          "url": "https://github.com/SakanaAI/AI-Scientist"
+        }
+      ]
+    },
+    {
+      "id": "watch-sakanaai-ai-scientist-v2",
+      "repository": "SakanaAI/AI-Scientist-v2",
+      "scope": "Agentic tree search for automated discovery",
+      "rationale": "Follows the next iteration of AI Scientist with broader exploration and stronger end-to-end workflow design.",
+      "links": [
+        {
+          "kind": "project",
+          "label": "repository",
+          "url": "https://github.com/SakanaAI/AI-Scientist-v2"
+        }
+      ]
+    },
+    {
+      "id": "watch-samuelschmidgall-agentlaboratory",
+      "repository": "SamuelSchmidgall/AgentLaboratory",
+      "scope": "Human-guided autonomous research assistant",
+      "rationale": "Shows how literature review, experimentation, and report writing can be composed into a full research workflow.",
+      "links": [
+        {
+          "kind": "project",
+          "label": "repository",
+          "url": "https://github.com/SamuelSchmidgall/AgentLaboratory"
+        }
+      ]
+    },
+    {
+      "id": "watch-noviscl-ai-researcher",
+      "repository": "NoviScl/AI-Researcher",
+      "scope": "Research ideation and execution studies",
+      "rationale": "Provides agent pipelines and human-study data for comparing LLM-generated ideas with expert research ideas.",
+      "links": [
+        {
+          "kind": "project",
+          "label": "repository",
+          "url": "https://github.com/NoviScl/AI-Researcher"
+        }
+      ]
+    },
+    {
+      "id": "watch-openhands-openhands",
+      "repository": "OpenHands/OpenHands",
+      "scope": "AI software development agents",
+      "rationale": "A generalist coding-agent platform for editing repositories, using terminals, browsing, and operating in sandboxed environments.",
+      "links": [
+        {
+          "kind": "project",
+          "label": "repository",
+          "url": "https://github.com/OpenHands/OpenHands"
+        }
+      ]
+    },
+    {
+      "id": "watch-swe-agent-swe-agent",
+      "repository": "SWE-agent/SWE-agent",
+      "scope": "GitHub issue fixing and SWE-bench agents",
+      "rationale": "A practical baseline for agentic software engineering, debugging, and repository-level task execution.",
+      "links": [
+        {
+          "kind": "project",
+          "label": "repository",
+          "url": "https://github.com/SWE-agent/SWE-agent"
+        }
+      ]
+    },
+    {
+      "id": "watch-huggingface-smolagents",
+      "repository": "huggingface/smolagents",
+      "scope": "Lightweight code-agent framework",
+      "rationale": "Good for studying minimal abstractions, code-as-action agents, sandboxed execution, and open-model agent workflows.",
+      "links": [
+        {
+          "kind": "project",
+          "label": "repository",
+          "url": "https://github.com/huggingface/smolagents"
+        }
+      ]
+    },
+    {
+      "id": "watch-microsoft-autogen",
+      "repository": "microsoft/autogen",
+      "scope": "Agentic AI programming framework",
+      "rationale": "Useful for multi-agent conversations, orchestration patterns, and prototyping collaborative agent systems.",
+      "links": [
+        {
+          "kind": "project",
+          "label": "repository",
+          "url": "https://github.com/microsoft/autogen"
+        }
+      ]
+    },
+    {
+      "id": "watch-crewaiinc-crewai",
+      "repository": "crewAIInc/crewAI",
+      "scope": "Multi-agent orchestration",
+      "rationale": "Focuses on role-based agents, task delegation, crews, flows, and production-style automation workflows.",
+      "links": [
+        {
+          "kind": "project",
+          "label": "repository",
+          "url": "https://github.com/crewAIInc/crewAI"
+        }
+      ]
+    },
+    {
+      "id": "watch-langchain-ai-langgraph",
+      "repository": "langchain-ai/langgraph",
+      "scope": "Graph-based agent workflows",
+      "rationale": "Useful for durable, stateful, controllable agent graphs and long-running workflow orchestration.",
+      "links": [
+        {
+          "kind": "project",
+          "label": "repository",
+          "url": "https://github.com/langchain-ai/langgraph"
+        }
+      ]
+    },
+    {
+      "id": "watch-foundationagents-metagpt",
+      "repository": "FoundationAgents/MetaGPT",
+      "scope": "Multi-agent software company metaphor",
+      "rationale": "A representative multi-agent framework for decomposing product/software work into role-specialized agents.",
+      "links": [
+        {
+          "kind": "project",
+          "label": "repository",
+          "url": "https://github.com/FoundationAgents/MetaGPT"
+        }
+      ]
+    },
+    {
+      "id": "watch-browser-use-browser-use",
+      "repository": "browser-use/browser-use",
+      "scope": "Browser automation for agents",
+      "rationale": "Tracks web interaction patterns, browser control, and task automation over ordinary websites.",
+      "links": [
+        {
+          "kind": "project",
+          "label": "repository",
+          "url": "https://github.com/browser-use/browser-use"
+        }
+      ]
+    },
+    {
+      "id": "watch-significant-gravitas-autogpt",
+      "repository": "Significant-Gravitas/AutoGPT",
+      "scope": "Early autonomous agent platform",
+      "rationale": "Still useful as historical context for goal-directed agents, autonomous task decomposition, and agent productization.",
+      "links": [
+        {
+          "kind": "project",
+          "label": "repository",
+          "url": "https://github.com/Significant-Gravitas/AutoGPT"
+        }
+      ]
+    }
+  ],
+  "construction": [
+    {
+      "id": "construction-promptagent-strategic-planning-with-language-models-enables-expert-level-prompt-optimization",
+      "title": "PromptAgent: Strategic Planning with Language Models Enables Expert-level Prompt Optimization",
+      "venue": "arXiv",
+      "year": 2023,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2310.16427"
+        }
+      ]
+    },
+    {
+      "id": "construction-context-engineering-a-practical-handbook-for-context-design-orchestration-and-optimization",
+      "title": "Context Engineering: A Practical Handbook for Context Design, Orchestration, and Optimization",
+      "venue": "GitHub",
+      "year": 2025,
+      "links": [
+        {
+          "kind": "code",
+          "label": "code",
+          "url": "https://github.com/davidkimai/Context-Engineering"
+        }
+      ]
+    },
+    {
+      "id": "construction-verl-volcano-engine-reinforcement-learning-for-large-language-models",
+      "title": "Verl: Volcano Engine Reinforcement Learning for Large Language Models",
+      "venue": "GitHub",
+      "year": 2024,
+      "links": [
+        {
+          "kind": "code",
+          "label": "code",
+          "url": "https://github.com/zjunlp/Verl"
+        }
+      ]
+    },
+    {
+      "id": "construction-graphrag-a-modular-graph-based-retrieval-augmented-generation-rag-system",
+      "title": "GraphRAG: A Modular Graph-Based Retrieval-Augmented Generation (RAG) System",
+      "venue": "arXiv",
+      "year": 2023,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2311.06753"
+        }
+      ]
+    },
+    {
+      "id": "construction-chemcrow-augmenting-largelanguage-models-with-chemistry-tools",
+      "title": "ChemCrow: Augmenting Large‑Language Models with Chemistry Tools",
+      "venue": "arXiv",
+      "year": 2023,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2304.05376"
+        }
+      ]
+    },
+    {
+      "id": "construction-virtual-lab-ai-agents-design-new-sars-cov-2-nanobodies-with-experimental-validation",
+      "title": "Virtual Lab: AI Agents Design New SARS-CoV-2 Nanobodies with Experimental Validation",
+      "venue": "arXiv",
+      "year": 2024,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://www.biorxiv.org/content/10.1101/2024.11.11.623004v1"
+        }
+      ]
+    },
+    {
+      "id": "construction-octotools-an-agentic-framework-with-extensible-tools-for-complex-reasoning",
+      "title": "OctoTools: An Agentic Framework with Extensible Tools for Complex Reasoning",
+      "venue": "arXiv",
+      "year": 2025,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2502.11271"
+        }
+      ]
+    },
+    {
+      "id": "construction-foamagent-towards-automated-intelligent-cfd-workflows",
+      "title": "FoamAgent: Towards Automated Intelligent CFD Workflows",
+      "venue": "arXiv",
+      "year": 2025,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2505.04997"
+        }
+      ]
+    },
+    {
+      "id": "construction-metaopenfoam-an-llm-based-multi-agent-framework-for-cfd",
+      "title": "MetaOpenFoam: An LLM-Based Multi-Agent Framework for CFD",
+      "venue": "arXiv",
+      "year": 2024,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2407.21320"
+        }
+      ]
+    },
+    {
+      "id": "construction-autoprompt-eliciting-knowledge-from-language-models-with-automatically-generated-prompts",
+      "title": "AutoPrompt: Eliciting Knowledge from Language Models with Automatically Generated Prompts",
+      "venue": "EMNLP",
+      "year": 2020,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2010.15980"
+        }
+      ]
+    },
+    {
+      "id": "construction-instructbio-instruction-tuning-for-biomedical-llms",
+      "title": "InstructBio: Instruction Tuning for Biomedical LLMs",
+      "venue": "arXiv",
+      "year": 2024,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2310.19975"
+        }
+      ]
+    },
+    {
+      "id": "construction-langchain-building-applications-with-llms-through-composability",
+      "title": "LangChain: Building Applications with LLMs through Composability",
+      "venue": "GitHub",
+      "year": 2022,
+      "links": [
+        {
+          "kind": "code",
+          "label": "code",
+          "url": "https://github.com/langchain-ai/langchain"
+        }
+      ]
+    },
+    {
+      "id": "construction-lightrag-simple-and-fast-retrievalaugmented-generation",
+      "title": "LightRAG: Simple and Fast Retrieval‑Augmented Generation",
+      "venue": "arXiv",
+      "year": 2024,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2410.05779"
+        }
+      ]
+    },
+    {
+      "id": "construction-scitune-aligning-large-language-models-with-scientific-multimodal-instructions",
+      "title": "SciTUNE: Aligning Large Language Models with Scientific Multimodal Instructions",
+      "venue": "arXiv",
+      "year": 2023,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2307.01139"
+        }
+      ]
+    },
+    {
+      "id": "construction-climategpt-towards-ai-synthesizing-interdisciplinary-research-on-climate-change",
+      "title": "ClimateGPT: Towards AI Synthesizing Interdisciplinary Research on Climate Change",
+      "venue": "arXiv",
+      "year": 2024,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2401.09646"
+        }
+      ]
+    },
+    {
+      "id": "construction-scimon-scientific-inspiration-machines-optimized-for-novelty",
+      "title": "SciMON: Scientific Inspiration Machines Optimized for Novelty",
+      "venue": "arXiv",
+      "year": 2023,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2305.14259"
+        }
+      ]
+    },
+    {
+      "id": "construction-tais-gene-expression-agent-with-llms",
+      "title": "TAIS: Gene Expression Agent with LLMs",
+      "venue": "arXiv",
+      "year": 2025,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2503.02973"
+        }
+      ]
+    },
+    {
+      "id": "construction-starwhisper-telescope-agentbased-observation-assistant-system-to-approach-an-ai-astrophysicist",
+      "title": "StarWhisper Telescope: Agent‑Based Observation Assistant System to Approach an AI Astrophysicist",
+      "venue": "arXiv",
+      "year": 2024,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2412.06412"
+        }
+      ]
+    }
+  ],
+  "enhancement": [
+    {
+      "id": "enhancement-memgpt-toward-llms-as-operating-systems",
+      "title": "MemGPT: Toward LLMs as Operating Systems",
+      "venue": "arXiv",
+      "year": 2023,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2310.08560"
+        }
+      ]
+    },
+    {
+      "id": "enhancement-aflow-automating-agentic-workflow-generation",
+      "title": "AFlow: Automating Agentic Workflow Generation",
+      "venue": "arXiv",
+      "year": 2023,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2410.10762"
+        }
+      ]
+    },
+    {
+      "id": "enhancement-chemagent-selfupdating-memories-in-large-language-models-improves-chemical-reasoning",
+      "title": "ChemAgent: Self‑Updating Memories in Large Language Models Improves Chemical Reasoning",
+      "venue": "ICLR",
+      "year": 2025,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2501.06590"
+        }
+      ]
+    },
+    {
+      "id": "enhancement-deepseekproverv2-advancing-formal-mathematical-reasoning",
+      "title": "DeepSeek‑Prover‑V2: Advancing Formal Mathematical Reasoning",
+      "venue": "arXiv",
+      "year": 2025,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2504.21801"
+        }
+      ]
+    },
+    {
+      "id": "enhancement-llmsr-scientific-equation-discovery-via-programming-with-llms",
+      "title": "LLM‑SR: Scientific Equation Discovery via Programming with LLMs",
+      "venue": "ICLR",
+      "year": 2025,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2404.18400"
+        }
+      ]
+    },
+    {
+      "id": "enhancement-sparks-multiagent-artificial-intelligence-model-discovers-protein-design-principles",
+      "title": "Sparks: Multi‑Agent Artificial Intelligence Model Discovers Protein Design Principles",
+      "venue": "arXiv",
+      "year": 2025,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2504.19017"
+        }
+      ]
+    },
+    {
+      "id": "enhancement-ether0-a-scientific-reasoning-model-for-chemistry",
+      "title": "ether0: A Scientific Reasoning Model for Chemistry",
+      "venue": "arXiv",
+      "year": 2025,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2506.17238"
+        }
+      ]
+    },
+    {
+      "id": "enhancement-robin-a-multiagent-system-for-automating-scientific-discovery",
+      "title": "Robin: A Multi‑Agent System for Automating Scientific Discovery",
+      "venue": "arXiv",
+      "year": 2025,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2505.13400"
+        }
+      ]
+    },
+    {
+      "id": "enhancement-agentrxiv-towards-collaborative-autonomous-research",
+      "title": "AgentRxiv: Towards Collaborative Autonomous Research",
+      "venue": "arXiv",
+      "year": 2025,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2503.18102"
+        }
+      ]
+    },
+    {
+      "id": "enhancement-chatgpt-research-group-for-optimizing-the-crystallinity-of-mofs-and-cofs",
+      "title": "ChatGPT Research Group for Optimizing the Crystallinity of MOFs and COFs",
+      "venue": "ACS",
+      "year": 2023,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://doi.org/10.1021/acscentsci.3c00765"
+        }
+      ]
+    },
+    {
+      "id": "enhancement-ai-co-scientist-towards-an-ai-co-scientist",
+      "title": "AI Co-Scientist: Towards an AI Co-Scientist",
+      "venue": "arXiv",
+      "year": 2025,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2502.18864"
+        }
+      ]
+    },
+    {
+      "id": "enhancement-react-synergizing-reasoning-and-acting-in-language-models",
+      "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+      "venue": "arXiv",
+      "year": 2022,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2210.03629"
+        }
+      ]
+    },
+    {
+      "id": "enhancement-reflexion-language-agents-with-verbal-reinforcement-learning",
+      "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+      "venue": "NeurIPS",
+      "year": 2023,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2303.11366"
+        }
+      ]
+    },
+    {
+      "id": "enhancement-selfrefine-iterative-selfimprovement-with-selffeedback",
+      "title": "Self‑Refine: Iterative Self‑Improvement with Self‑Feedback",
+      "venue": "arXiv",
+      "year": 2023,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2306.11382"
+        }
+      ]
+    },
+    {
+      "id": "enhancement-selfconsistency-reliable-decoding-for-complex-reasoning",
+      "title": "Self‑Consistency: Reliable Decoding for Complex Reasoning",
+      "venue": "ICLR",
+      "year": 2023,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2203.11171"
+        }
+      ]
+    },
+    {
+      "id": "enhancement-aquilachat-agent-with-long-context-scratchpad-memory",
+      "title": "AquilaChat: Agent with Long-Context Scratchpad Memory",
+      "venue": "arXiv",
+      "year": 2024,
+      "links": [
+        {
+          "kind": "paper",
+          "label": "paper",
+          "url": "https://arxiv.org/abs/2403.00220"
+        }
+      ]
+    }
+  ]
+}
