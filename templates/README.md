@@ -10,7 +10,7 @@
 [![Watchlist](https://img.shields.io/badge/Watchlist-Agentic%20Repos-8b5cf6)](#auto-research-watchlist)
 [![License](https://img.shields.io/badge/License-Apache--2.0-64748b)](./LICENSE)
 
-[Overview](#overview) • [Taxonomy](#taxonomy) • [Methods](#method-guides) • [Agentic Repos](#auto-research-watchlist) • [Construction](#construction) • [Enhancement](#enhancement) • [Benchmarks](#benchmarks) • [Citation](#citation)
+[Overview](#overview) • [Taxonomy](#taxonomy) • [Methods](#method-guides) • [Agentic Repos](#auto-research-watchlist) • [Construction](#construction) • [Enhancement](#enhancement) • [Benchmarks](#benchmarks) • [Contributing](#contributing) • [Citation](#citation)
 
 </div>
 
@@ -171,6 +171,12 @@ Use this section as an evaluation map rather than a flat benchmark list. The res
 </p>
 
 {{GENERATED_BENCHMARKS}}
+
+<a id="contributing"></a>
+
+## 🤝 Contributing
+
+Catalog tables and lists are generated from structured files in [`data/`](./data/). See [CONTRIBUTING.md](./CONTRIBUTING.md) for the evidence and maintenance workflow, and [the catalog schema](./docs/catalog-schema.md) for field definitions. Edit [`templates/README.md`](./templates/README.md) for narrative content, then regenerate this file with `python3 scripts/render_readme.py`.
 
 <a id="citation"></a>
 
