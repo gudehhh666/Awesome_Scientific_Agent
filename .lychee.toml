@@ -1,0 +1,6 @@
+max_retries = 3
+retry_wait_time = 2
+timeout = 20
+max_concurrency = 16
+accept = [200, 206, 429]
+user_agent = "Mozilla/5.0 (compatible; Awesome-Scientific-Agent-Link-Checker/1.0; +https://github.com/gudehhh666/Awesome_Scientific_Agent)"

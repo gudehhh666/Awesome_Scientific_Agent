@@ -219,6 +219,34 @@ class CatalogApiTests(unittest.TestCase):
             ["guide.md: ./missing.md", "guide.md: ./missing.png"], missing
         )
 
+    def test_validation_workflow_enforces_repository_contract(self) -> None:
+        workflow = (
+            ROOT / ".github" / "workflows" / "validate.yml"
+        ).read_text(encoding="utf-8")
+        lychee_config = (ROOT / ".lychee.toml").read_text(encoding="utf-8")
+
+        for trigger in ("push:", "pull_request:", "workflow_dispatch:", "schedule:"):
+            self.assertIn(trigger, workflow)
+        for command in (
+            "python3 -m unittest discover -s tests -v",
+            "python3 scripts/validate_catalog.py",
+            "python3 scripts/render_readme.py --check",
+        ):
+            self.assertIn(command, workflow)
+        for pinned_action in (
+            "actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+            "actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97",
+            "lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8",
+        ):
+            self.assertIn(pinned_action, workflow)
+        for setting in (
+            "max_retries = 3",
+            "retry_wait_time = 2",
+            "timeout = 20",
+            "accept = [200, 206, 429]",
+        ):
+            self.assertIn(setting, lychee_config)
+
 
 if __name__ == "__main__":
     unittest.main()
