@@ -11,3 +11,4 @@ test.txt
 tmp/
 temp/
 .cache/
+.worktrees/
