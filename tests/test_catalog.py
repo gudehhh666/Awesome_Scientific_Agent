@@ -243,9 +243,33 @@ class CatalogApiTests(unittest.TestCase):
             "max_retries = 3",
             "retry_wait_time = 2",
             "timeout = 20",
-            "accept = [200, 206, 429]",
+            "accept = [200, 203, 206, 429]",
+            "^https://www\\.medrxiv\\.org/content/10\\.1101/2025\\.06\\.13\\.25329541",
         ):
             self.assertIn(setting, lychee_config)
+        self.assertNotIn("templates/README.md", workflow)
+
+    def test_catalog_uses_corrected_canonical_links(self) -> None:
+        catalog_text = "\n".join(
+            (ROOT / "data" / filename).read_text(encoding="utf-8")
+            for filename in ("agents.json", "resources.json", "benchmarks.json")
+        )
+
+        for canonical_url in (
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC11975362/",
+            "https://github.com/verl-project/verl",
+            "https://doi.org/10.1021/acscentsci.3c01087",
+            "https://arxiv.org/abs/2308.13149",
+        ):
+            self.assertIn(canonical_url, catalog_text)
+        for obsolete_url in (
+            "https://academic.oup.com/bib/article/26/2/bbaf140/8107848",
+            "https://github.com/zjunlp/Verl",
+            "https://doi.org/10.1021/acscentsci.3c00765",
+            "https://ojs.aaai.org/index.php/AAAI/article/view/30700",
+            "https://openai.com/research/paperbench",
+        ):
+            self.assertNotIn(obsolete_url, catalog_text)
 
 
 if __name__ == "__main__":

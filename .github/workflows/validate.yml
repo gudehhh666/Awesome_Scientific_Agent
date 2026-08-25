@@ -48,8 +48,6 @@ jobs:
             --root-dir .
             README.md
             CONTRIBUTING.md
-            templates/README.md
             docs
             methods
           fail: true
-

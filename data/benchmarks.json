@@ -278,7 +278,7 @@
         {
           "kind": "paper",
           "label": "paper",
-          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/30700"
+          "url": "https://arxiv.org/abs/2308.13149"
         },
         {
           "kind": "dataset",
@@ -374,11 +374,6 @@
           "kind": "paper",
           "label": "paper",
           "url": "https://arxiv.org/abs/2504.01848"
-        },
-        {
-          "kind": "website",
-          "label": "website",
-          "url": "https://openai.com/research/paperbench"
         }
       ],
       "evaluation_angle": "code-data-and-experiment-execution"
