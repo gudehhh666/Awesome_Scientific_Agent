@@ -434,7 +434,7 @@ Use this section as an evaluation map rather than a flat benchmark list. The res
 
 ## 🤝 Contributing
 
-Catalog tables and lists are generated from structured files in [`data/`](./data/). See [CONTRIBUTING.md](./CONTRIBUTING.md) for the evidence and maintenance workflow, and [the catalog schema](./docs/catalog-schema.md) for field definitions. Edit [`templates/README.md`](./templates/README.md) for narrative content, then regenerate this file with `python3 scripts/render_readme.py`.
+Catalog tables and lists are generated from structured files in [`data/`](./data/). See [CONTRIBUTING.md](./CONTRIBUTING.md) for the evidence and maintenance workflow, and [the catalog schema](./docs/catalog-schema.md) for field definitions. Edit [`templates/README.md`](./templates/README.md) for narrative content, then regenerate this file with `python3 scripts/render_readme.py` and verify it with `python3 scripts/render_readme.py --check`.
 
 <a id="citation"></a>
 
