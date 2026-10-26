@@ -2,6 +2,19 @@
   "schema_version": 1,
   "watchlist": [
     {
+      "id": "watch-agentfem",
+      "repository": "haoming-luo/agentfem",
+      "scope": "Agent-operable finite-element simulation workflows",
+      "rationale": "Provides readable models, a machine-readable CLI, and result verification for human-guided structural and thermal computations with a local numerical solver.",
+      "links": [
+        {
+          "kind": "project",
+          "label": "repository",
+          "url": "https://github.com/haoming-luo/agentfem"
+        }
+      ]
+    },
+    {
       "id": "watch-karpathy-nanochat",
       "repository": "karpathy/nanochat",
       "scope": "Minimal end-to-end LLM training and chat stack",

@@ -287,6 +287,7 @@ Beyond scientific-agent papers, the broader agent ecosystem is moving quickly ac
 
 | Repository | Scope | Why follow it |
 | --- | --- | --- |
+| [haoming-luo/agentfem](https://github.com/haoming-luo/agentfem) | Agent-operable finite-element simulation workflows | Provides readable models, a machine-readable CLI, and result verification for human-guided structural and thermal computations with a local numerical solver. |
 | [karpathy/nanochat](https://github.com/karpathy/nanochat) | Minimal end-to-end LLM training and chat stack | Tracks Karpathy's compact, hackable path from tokenizer and pretraining to finetuning, evaluation, inference, and chat UI. |
 | [karpathy/llm.c](https://github.com/karpathy/llm.c) | LLM training in C/CUDA | Useful for understanding low-level training kernels, performance constraints, and reproducible GPT-style training. |
 | [SakanaAI/AI-Scientist](https://github.com/SakanaAI/AI-Scientist) | Automated idea-to-paper research loop | A reference point for autonomous ideation, coding, experimentation, paper writing, and automated review. |
